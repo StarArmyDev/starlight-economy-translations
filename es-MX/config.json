@@ -1,0 +1,281 @@
+{
+    "add":{
+        "xp": {
+            "xp":"experiencia",
+            "noUser": "El usuario no está en la base de datos",
+            "noCantidad": "No colocaste un número de xp válido.",
+            "correcto": "✅ ${cantidad}xp añadida Correctamenete de: ${miembro}",
+            "error": "Ocurrió un error al intentar añadir el xp al usuario."
+        },
+        "dinero":{
+            "dinero":"dinero",
+            "noModo":"Modo no válido, solamente se acepta <cartera/banco/c/b>",
+            "noUser": "El usuario no está en la base de datos",
+            "noCantidad": "No colocaste un número válido.",
+            "correcto": "✅ ${cantidad} de dinero añadida Correctamente de: ${miembro}",
+            "error": "Ocurrió un error al intentar añadir el dinero al usuario."
+        },
+        "cartera":"cartera",
+        "banco":"banco",
+        "rol":{
+            "rol":"rolnivel",
+            "noBot":"❌ | No tengo permisos para manejar roles en este servidor.",
+            "noRol":"❌ | Rol no encontrado o no existe. Por favor verificalo.",
+            "noNumber":"No colocaste un número de nivel válido.",
+            "noPalabra":"⚠ | Palabra no valida, solamente si o no",
+            "rolMensaje":"¡Has Subido de Nivel y Tienes Un Rol para presumirlo!",
+            "rolTrue":"⚠ | Rol ya asignado",
+            "nivelTrue":"⚠ | Nivel ya asignado",
+            "embedTitle":"✅ Rol Por Nivel Añadido.",
+            "embedFooter":"${guild_name}",
+            "embedField":{
+                "title":"Rol",
+                "descripcion":"[${rolid}] Nivel: ${lvl}\nMensaje: ${rolmensaje}\nQuitar Rol Pasado: ${rolquitar}"
+            },
+            "si":"si",
+            "no":"no",
+            "rolsi":"Si",
+            "rolNo":"No"
+        },
+        "el":{
+            "excludeLogs":"excludelogs",
+            "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+            "title":"Canal Excluído de Registros",
+            "canal":"Agregado:"
+        },
+        "exclude":{
+            "exclude":"excluir",
+            "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+            "title":"Canal Excluido de Comandos",
+            "canal":"Agregado:"
+        },
+        "group":{
+            "group":"grupo",
+            "multi":"múltiple",
+            "solo":"sólo",
+            "noModo":"❌ | Ese modo no existe solamente **sólo** y **múltiple**.",
+            "noMaximo":"❌ | No colocaste un número máximo de roles múltiples o es inválido.",
+            "existe":"❌ | Este grupo ya está creado",
+            "title":"✅ Grupo de Roles Creados",
+            "nombre":"Nombre:",
+            "modo":"Modo:",
+            "maximo":"Roles Máximo:",
+            "multiple":"Múltiple",
+            "embedsolo":"Sólo",
+            "ninguno":"Ninguno"
+        },
+        "autorole":{
+            "autorole":"autorol",
+            "noGrupo":"❌ | Grupo no encontrado. Debes de usar primero el comando `${prefix}addgrupo` para crearlo.",
+            "noRol":"Rol no encontrado o rol no valido. Por favor verifica que exista y que esté por debajo de mi rol más alto.",
+            "existe":"❌ | Este Rol ya se encuentra en el grupo.",
+            "title":"✅ Rol agregado",
+            "grupo":"Grupo al que pertenece:",
+            "rol":"Rol:"
+        },
+        "noMember": "Usuario no encontrado, verificalo.",
+        "error":"❌ Parece que ocurrió un error inesperado, reporta el bug para solucionarlo."
+    },
+    "config":{
+        "default":"*Por Defecto:*",
+        "daily":"Dinero Diario:",
+        "canalEliminado":"*Canal Eliminado o No disponible.*",
+        "noConfig":"*No Configurado.*",
+        "embed":{
+            "author":"Configuración | ${guild_name}",
+            "title3":"Bot",
+            "prefix":"Prefijo:",
+            "exclude":"Canales Excluidos:",
+            "languageS":"Idioma del Servidor:",
+            "languageC":"Idioma en Canales:",
+            "econ":"Economía:"
+        },
+        "econ":{
+            "default":"Por Defecto",
+            "pagoMin":"Pago Mínimo:",
+            "pagoMax":"Pago Máximo:",
+            "multaMin":"Multa Mínima:",
+            "multaMax":"Multa Máxima:",
+            "cooldown":"Cooldown:",
+            "messages":"Dinero por Escribir:",
+            "crime":"Crimen:",
+            "daily":"Dinero Diario:",
+            "rob":"Robar:",
+            "trade":"Trade:",
+            "work":"Trabajo:"
+        }
+    },
+    "delete":{
+        "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+        "noUser":"El usuario no está en la base de datos",
+        "noConfig":"*No Configurado.*",
+        "quitado":"Quitado",
+        "all":"todo",
+        "item":{
+            "noExiste":"❌ | Este artículo no existe.",
+            "cancelado":"❌ | Comando Cancelado.",
+            "confirmar":"¿Desea eliminar realmente el artículo {item} de la tienda? Coloca `si` para confirmar, de o contrario coloque `no` o `cancelar`",
+            "si":"si",
+            "no":"no",
+            "cancel":"cancelar",
+            "noEliminado":"❌ | Artículo no eliminado.",
+            "eliminado":"✅ | Artículo Eliminado correctamente."
+        },
+        "money":{
+            "banco":"banco",
+            "noNumber":"No colocaste un número de dinero válido.",
+            "true":"dinero eliminado Correctamenete de:"
+        },
+        "prefix":{
+            "noConfig":"No tienes configurado ningún prefix",
+            "title":"Prefix Personalizado Quitado"
+        },
+        "lang":{
+            "noIdioma":"No tienes configurado idioma en este servidor.",
+            "noCanales":"No tienes configurado ningún idioma de canales.",
+            "noCanal":"Parece que este canal no está configurado.",
+            "title":"Idioma del Servidor Eliminado",
+            "titleC":"Idioma del Canal Eliminado",
+            "quitado":"Quitado"
+        },
+        "e":{
+            "title":"Canal Excluido Quitado",
+            "noModo":"❌ | Ese modo no existe solamente **#canal**, **todo** o **all**."
+        }
+    },
+    "reseteconomy":{
+        "cancelado":"❌ | Comando Cancelado.",
+        "confirmar":"¿Desea reiniciar realmente la economía del servidor? Coloca `si` para confirmar, de o contrario coloque `no` o `cancelar`",
+        "si":"si",
+        "no":"no",
+        "cancel":"cancelar",
+        "noEliminado":"❌ | Economía no eliminado.",
+        "eliminado":"✅ | Economía Eliminado correctamente."
+    },
+    "set":{
+        "help":"ayuda",
+        "defecto":"defecto",
+        "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+        "canal":"Canal:",
+        "noMember": "Usuario no encontrado, verificalo.",
+        "noNumber":"No colocaste un número válido.",
+        "cooldown":{
+            "noTiempo":"Tiempo no válido.",
+            "tiempoMayor":"Tiempo máximo superado. Máximo 2 días.",
+            "tiempoMenor":"Tiempo mínimo superado. Mínimo 20 segundos.",
+            "messages":"mensajes",
+            "daily":"diario",
+            "crime":"crimen",
+            "rob":"robar",
+            "trade":"comerciar",
+            "work":"trabajo",
+            "title":"Tiempo de reutilización Establecido para",
+            "tiempo":"Tiempo:",
+            "noModo":"❌ | Modo no válido."
+        },
+        "fine":{
+            "noFailMin":"⚠ | Tasa de fracaso muy baja, el mínimo es 5",
+            "noFailMax":"⚠ | Tasa de fracaso muy alta, el máximo es 95",
+            "crime":"crimen",
+            "rob":"robar",
+            "trade":"comerciar",
+            "title":"Multa Establecida de",
+            "min":"Multa Mínima:",
+            "max":"Multa Máxima:",
+            "fail":"Tasa de fracaso:",
+            "noModo":"❌ | Modo no válido."
+        },
+        "lang":{
+            "canal":"canal",
+            "noIdioma":"Este idioma no existe. Usa `${prefix}setidioma help` para conocer los idiomas disponibles.",
+            "noLang":"No colocaste el idioma a establecer para el canal",
+            "title":"Idioma del Servidor Asignado",
+            "titleC":"Idioma del Canal Asignado",
+            "cambio":"Cambiado a"
+        },
+        "money":{
+            "banco":"banco",
+            "noNumber":"No colocaste un número de dinero válido.",
+            "true":"dinero establecido correctamente de",
+            "error":"❌ Ocurrió un error inesperado. Reportalo para que se pueda resolver lo mas pronto posible."
+        },
+        "payout":{
+            "daily":"diario",
+            "messages":"mensajes",
+            "crime":"crimen",
+            "trade":"comerciar",
+            "work":"trabajo",
+            "title":"Ganancia Establecida de",
+            "min":"Pago Mínimo:",
+            "max":"Pago Máximo:",
+            "noModo":"❌ | Modo no válido."
+        },
+        "prefix":{
+            "title":"Prefix Personalizado Asignado",
+            "cambio":"Cambiado a:"
+        },
+        "currency":{
+            "noValido":"⚠ | Emoji inválido o no encontrado.",
+            "title":"Moneda del servidor",
+            "moneda":"Nueva Moneda:"
+        },
+        "noModoDisable":"❌ Modo no válido, solamente categoria y comando."
+    },
+    "createitem":{
+        "title":"Creando Artículo",
+        "seleccion":">> ...",
+        "nombre":"Nombre",
+        "precioC":"Precio Compra",
+        "precioV":"Precio Venta",
+        "descripcion":"Descripción",
+        "emoji":"Emoji",
+        "oculto":"Oculto",
+        "transferible":"Transferible",
+        "basura":"Artículo Basura",
+        "unica":"Única Compra",
+        "tiempo":"Tiempo",
+        "stock":"Stock",
+        "obtiene":"Obtiene",
+        "requiereR":"Requiere Rol",
+        "requiereS":"Requiere Saldo",
+        "removerR":"Remover Rol",
+        "mensaje":"Mensaje",
+        "paso1":":one: Nombre del artículo:\n*Este nombre debe ser único y no debe de tener más de 50 caracteres.*",
+        "paso2":":two: Precio de compra del artículo:\n*No puede ser número negativo. Para que este artículo no se pueda comprar ponga `saltar`*",
+        "paso3":":three: Precio de venta del artículo:\n*No puede ser número negativo. Para que este artículo no se pueda vender ponga `saltar`*",
+        "paso4":":four: Descripción del artículo:\n*No mayor a 1,000 carácteres.*",
+        "paso5":":five: Emoji del artículo:\n*Útil para artículos de inventario. Obligatorio para artícuos basura para los comandos, de lo contrario, puede colocar `saltar`*",
+        "paso6":":six: ¿Se ocultará este artículo del inventario?\n*Coloca `si` o `no`*",
+        "paso7":":seven: ¿Se podrá transferir entre usuarios este artículo?\n*Coloca `si` o `no`*",
+        "paso8":":eight: ¿Es un artículo basura?\n*Coloca `si` o `no`, estos artículos son para los comandos correspondientes.*",
+        "paso9":":nine: ¿Sólo se podrá comprar una única vez por usuario?\n*Coloca `si` o `no`*",
+        "paso10":":one::zero: Tiempo que este artículo permanecerá en la tienda\n*Ejemplo: 4d, 1m, 3m, 7h de lo contrario, coloca `saltar` o `infinito`*",
+        "paso11":":one::one: Stock de este artículo disponibles en la tienda\n*Coloca `saltar`o `infinito` si quieres que sean ilimitados*",
+        "paso12":":one::two: Rol o Canal que se le da al comprar artículo\n*Ejemplo: @RolPremium, canal texto, canal voz. El canal se creará privado para el usuario. Coloca `saltar` si no quieres que se le de nada.*",
+        "paso13":":one::three: Rol que se requiere para comprar este artículo\n*Ejemplo: @RolBronce coloca `saltar` si no se requiere.*",
+        "paso14":":one::four: Dinero que se requiere para comprar este artículo\n*Coloca `saltar`o `infinito` si no se requiere un saldo mínimo.*",
+        "paso15":":one::five: Rol que se elimina al comprar o usar el artículo.\n*Coloca `saltar` si no se requiere un saldo mínimo.*",
+        "paso16":":one::six: Mensaje que se mostrará al usar o comprar el artículo.\n*Máximo 1000 carácteres*",
+        "comprobando":"Comprobando...",
+        "noCreado":"❌ | Artículo no creado. No tiene un emoji siendo un artículo basura.",
+        "creado":"✅ | Artículo creado correctamente.",
+        "si":"si",
+        "no":"no",
+        "saltar":"saltar",
+        "infinito":"infinito",
+        "cancelado":"❌ | Comando Cancelado.",
+        "existe":"❌ | Este item ya existe, elimínalo o edítalo.",
+        "mas50":"⚠ | Mas de 50 carácteres.",
+        "mas1000":"⚠ | Mas de 1000 carácteres.",
+        "menos2":"⚠ | Menos de 2 carácteres.",
+        "menos1":"⚠ | La cantidad mínima es de 1",
+        "noPrecio":"⚠ | Precio no válido.",
+        "noEmoji":"⚠ | Emoji no válido.",
+        "noTiempo":"⚠ | Tiempo inválido.",
+        "noValido":"⚠ | Número inválido. Mínimo 1.",
+        "noCrearCanal":"❌ | No tengo permiso de crear canales en este servidor.",
+        "noRoles":"❌ | No tengo permiso de manejar roles en este servidor.",
+        "noRol":"❌ | Rol no encontrado o rol no valido. Por favor verifica que exista.",
+        "noManejable":"❌ | Parece que no puedo manejar este rol."
+    }
+}

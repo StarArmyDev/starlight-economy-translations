@@ -1,0 +1,15 @@
+{
+    "help":"help",
+    "defecto":"default",
+    "noCanal":"Invalid channel. Check that it is a text channel.",
+    "canal":"Channel:",
+    "noModoDisable":"❌ Invalid mode, only category and command.",
+    "command":{
+        "command":"command",
+        "noCommand":"❌ Command not found.",
+        "commandImport":"⚠ This command belongs to an important category.",
+        "ETitle":"Command Enabled on this Server",
+        "DTitle":"Command Disabled on this Server",
+        "field":"Command:"
+    }
+}

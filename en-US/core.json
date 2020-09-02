@@ -1,0 +1,81 @@
+{
+    "bugreport": {
+        "correcto": "**Your error has been reported correctly.**\nIt will be reviewed so please be patient.\n *For further assistance or help you can go to the support server or write to DM.*",
+        "error": "There was a problem sending the message, you can send me a private message as an alternative."
+    },
+    "donate":{
+        "title":"Supports",
+        "desc":"**Vote!** Support leaving your vote in [top.gg](https://top.gg/bot/517786947171909643 \"Top.gg\") remember that you can vote every 12 hours.\n**Direct donations.** You can donate to our [PayPal](https://www.paypal.me/czemtb) or you will have to contact us on the support server.\n**Promoting the bot.** There is to be known everywhere.\n**Making ...** guides, videos, writing texts, etc. on how to use the bot. StarLight needs everyone's help.\n**Writing Code.** If you know programming, you may want to share code to continue implementing new things."
+    },
+    "help": {
+        "titulo": "Command List",
+        "version": " | Version",
+        "descripcion": "¡Hello, I'm ${client_name}! This is my list of commands you can use.\n\n My Prefix for this server: `${prefix}`\n Ping: `${ping}` ms\n Commands In Total: `${commands}` ",
+        "core": "🌠 Bot",
+        "info": "📃 Information",
+        "util":"🛡 Utilities",
+        "config":"⚙ Configuration",
+        "econ": "💵 Economy",
+        "profile": "👥 Profile",
+        "masInfo":{
+            "title": "More information?",
+            "desc": "Use: `${prefix} <command> help` to get your individual command information and expected parameters."
+        },
+        "links": {
+            "title": "Useful Links",
+            "desc": "[Invite me](${invite} \"Invite me to your server \") | Any questions or problems enter the [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\")"
+        },
+        "private": "✅  **| Check your DMs.**  👌",
+        "noPrivate": "❌ | It seems you have deactivated private messages.",
+        "noUso":"You do not have to add parameters",
+        "embedFooter": "The '[]' refers to what is optional.\nThe '<>' refers to that it is mandatory.\nThe '/' refers to two options: Option1/Option2\n  ***None of these symbols must be placed when executing the command.***",
+        "embedTitle": "Help of: ${command}",
+        "embedDescripcion": "**Description:**",
+        "embedAlias": "Alias",
+        "embedNoAlias": "Without Alias"
+    },
+    "invite":{
+        "title":"My invitation | ${client_name}",
+        "descripcion":"This beautiful bot can help you in the economy of your server as professional as possible, allowing you to configure many aspects of it",
+        "version":"| Version",
+        "invitacion":"🌠 Invitation",
+        "link":"[Invite ${client_name} to your server](${link})",
+        "soporteTitle":"📥 Support Server",
+        "soporte":"[Login to the Server](https://discord.gg/MZN8Yf6 'StarArmy') To get help and be aware of all the information always.",
+        "webTitle":"🖥 Web page",
+        "web":"For more information about the bot as its commands go to the [Official Site](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Start')",
+        "apoyoTitle":"💎 Support us",
+        "apoyo":"Support bot growth by donating what you can through [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+    },
+    "ping":{
+        "footer":"Google Cloud Platform | CE",
+        "espera":"*Calculated...*",
+        "descripcion":"Pong!\n📡 API: **${ping}ms.**\n⏳ Gateway: ${gateway} ms"
+    },
+    "release":{
+        "title":"News from",
+        "descripcion":"Sin Datos",
+        "footer":"These are the changes of the version ${version} any problem you can enter the support server. | Developed by ${dev}."
+    },
+    "stats":{
+        "bot":"🤖 Bot Info",
+        "owner":"👑 Creator",
+        "version":"📊 Version",
+        "libreria":"📚 Library",
+        "discordjs":"Discord 11.5.1 (Js)",
+        "memoria":"🗂 Memory",
+        "tiempo":"🕒 On Time",
+        "servers":"💬 Guilds",
+        "users":"👥 Users",
+        "canales":"#️⃣ Channels",
+        "voz":"🔊 Voice connections",
+        "commands":"📄 Commands",
+        "os":"🖥️ OS",
+        "sistema":"Linux Ubuntu 16.04",
+        "horaServer":"⏳ Server Time"
+    },
+    "vote":{
+        "title":"List of Bots where you can vote",
+        "desc":"You can vote every 12 hours, with a double voting weekend at [Top.gg](https://discordbots.org/bot/696723299459268728/vote)"
+    }
+}

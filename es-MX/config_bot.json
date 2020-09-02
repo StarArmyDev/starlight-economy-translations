@@ -1,0 +1,15 @@
+{
+    "help":"ayuda",
+    "defecto":"defecto",
+    "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
+    "canal":"Canal:",
+    "noModoDisable":"❌ Modo no válido, solamente categoria y comando.",
+    "command":{
+        "command":"comando",
+        "noCommand":"❌ Comando no encontrado.",
+        "commandImport":"⚠ Este comando pertenece a una categoría importante.",
+        "ETitle":"Comando Habilitado en este Servidor",
+        "DTitle":"Comando Deshabilitado en este Servidor",
+        "field":"Comando:"
+    }
+}

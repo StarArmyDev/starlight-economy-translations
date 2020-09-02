@@ -1,0 +1,166 @@
+{
+    "errores":{
+        "title":"❌ You do not have permission to use this command.",
+        "perm":"Permission Required:",
+        "permisos":{
+            "ADMINISTRATOR":"Administrator",
+            "CREATE_INSTANT_INVITE":"Create Invitations",
+            "KICK_MEMBERS":"Kick Members",
+            "BAN_MEMBERS":"Ban Members",
+            "MANAGE_CHANNELS":"Manage Channels",
+            "MANAGE_GUILD":"Manage Guild",
+            "ADD_REACTIONS":"Add Reactions",
+            "VIEW_AUDIT_LOG":"See the Audit Log",
+            "PRIORITY_SPEAKER":"Priority Speaker",
+            "VIEW_CHANNEL":"View Channel",
+            "SEND_MESSAGES":"Send Messages",
+            "SEND_TTS_MESSAGES":"Send Tts Messages",
+            "MANAGE_MESSAGES":"Manage Messages",
+            "EMBED_LINKS":"Send Embed Links",
+            "ATTACH_FILES":"Send Files",
+            "READ_MESSAGE_HISTORY":"Read Message History",
+            "MENTION_EVERYONE":"Mention Everyone",
+            "USE_EXTERNAL_EMOJIS":"Use External Emojis",
+            "CONNECT":"Connect to Voice",
+            "SPEAK":"Speak in voice",
+            "MUTE_MEMBERS":"Mute Voice Members",
+            "DEAFEN_MEMBERS":"Ensorirte Members",
+            "MOVE_MEMBERS":"Move Channel Members",
+            "USE_VAD":"Use Voice Detection",
+            "CHANGE_NICKNAME":"Change Nickname",
+            "MANAGE_NICKNAMES":"Manage Nicknames",
+            "MANAGE_ROLES":"Manage Roles",
+            "MANAGE_WEBHOOKS":"Manage WebHooks",
+            "MANAGE_EMOJIS":"Manage Emojis"
+        }
+    },
+    "afk":{
+        "activo":"is afk for the reason of:",
+        "desactivado":"Welcome back! I have already eliminated your absence status."
+    },
+    "remember":{
+        "title":"Reminder",
+        "footer":"Set"
+    },
+    "contador":"Next Number:",
+    "botMencion":{
+        "help":"help",
+        "prefix":"prefix",
+        "title":"Prefix",
+        "comandHelp":"Help Command",
+        "pregunta":"Do you need to change the prefix?",
+        "comand":"Use @BotMention setprefix sb!"
+    },
+    "setprefix":{
+        "help":"Use `@BotMention prefix <new prefix>`",
+        "title":"Custom Prefix Assigned",
+        "agregado":"Aggregate"
+    },
+    "commandHandling":{
+        "noComand":"❌ Command not found",
+        "talvez":"does not exist. Maybe you wanted to say:",
+        "noPermCanal":"I am not allowed to send messages in:",
+        "noPermComandoCanal":"I am not allowed to send the command `${commandName}` in:",
+        "categoriaDeshabilitado":"*⛔ | Category disabled on this server.*",
+        "comandoDeshabilitado":"*⛔ | Command disabled on this server.*",
+        "comandoApagado":"This command is turned off by some update or temporary suspension.",
+        "noDesarrollador":"Sorry, this command can only be executed by a Developer.",
+        "noUso":"You do not have to add parameters",
+        "simbologia":"The '[]' refers to what is optional.\nThe '<>' means that it is mandatory.\nThe '/' refers to two options: Option1/Option2\n***None of these symbols should be placed when executing the command.***",
+        "ayudade":"Help from:",
+        "descripcion":"**Description:**",
+        "usa":"Use the command as follows:",
+        "alias":"Alias",
+        "noAlias":"No alias",
+        "cooldown":"High! Wait `${time}` to use the command again `${commandName}` be patient.",
+        "error":"❌ There was an error trying to execute the command. You can report it with `${prefix}bugreport` or write me to DM."
+    },
+    "subidaDeNivel":{
+        "levelUp":"You Level Up!",
+        "nivel":"level",
+        "mensaje":"**You have level up *{user_name}***"
+    },
+    "terminamute":"**${usuario} Your time is silenced.**",
+    "welcome":{
+        "autoRolesRazon":"Auto-roles Welcome",
+        "embed":{
+            "mensaje":"New member!",
+            "mensajeEmbed":"Hello welcome",
+            "si":"Yes.",
+            "no":"No.",
+            "bienvenido":"Welcome!",
+            "nombre":"Name:",
+            "bot":"We Have A New Bot!",
+            "id":"Unique identifier:",
+            "esBot":"Bot?",
+            "server":"Guild:",
+            "miembro":"You are the member:",
+            "botMiembro":"I replaced the place:",
+            "creado":"⏳ Bot Created Since"
+        },
+        "imgWelcomeWoman":"Welcome to",
+        "imgWelcomeMan":"Welcome to",
+        "imgWelcomeDefault":"Welcome to",
+        "reTitle":"Security Check",
+        "rePrecaucion":"⚠[CAUTION] ⚠ Newly created account:",
+        "reCreado":"⏳ He created his account ago:",
+        "terminamute":"**${usuario} Your time is silenced.**"
+    },
+    "leave":{
+        "botFuera":"A Bot Was Taken Out:",
+        "fuera":"He went",
+        "id":"Unique identifier:",
+        "creado":"⏳ Bot Created Since:",
+        "leaveImg":"Goodbye..."
+    },
+    "eliminar":{
+        "embed":"Embed Eliminated:",
+        "title":"Message Deleted",
+        "elimino":"**deleted a message**",
+        "decia":"He said:",
+        "continua":"Continuation (Long Message)",
+        "canal":"Source Channel:"
+    },
+    "edit":{
+        "title":"Edited Message:",
+        "edito":"**edited a message:**",
+        "decia":"He said:",
+        "ahoraDice":"Now he says:",
+        "continua":"Continuation (Long Message)",
+        "canal":"Source Channel:"
+    },
+    "ban":{
+        "noAudit":"Without Permission to Read the Audit Log.",
+        "title":"Banned Member",
+        "mensaje":"He was banned from the server.",
+        "razon":"Reason",
+        "noRazon":"Without reason.",
+        "mod":"He was banned by:"
+    },
+    "unban":{
+        "noAudit":"Without Permission to Read the Audit Log.",
+        "title":"Disbanded Member",
+        "mensaje":"It was removed from the server.",
+        "razon":"Reason",
+        "noRazon":"Without reason.",
+        "mod":"It was disbanded by:"
+    },
+    "canal":{
+        "noAudit":"Without Permission to Read the Audit Log.",
+        "desconocido":"Unknown.",
+        "title":"New Channel",
+        "mensaje":"was created.",
+        "razon":"Reason",
+        "noRazon":"Without reason.",
+        "mod":"Was created by:"
+    },
+    "eliminarCanal":{
+        "noAudit":"Without Permission to Read the Audit Log.",
+        "desconocido":"Unknown.",
+        "title":"Channel Deleted",
+        "mensaje":"He was removed.",
+        "razon":"Reason",
+        "noRazon":"Without reason.",
+        "mod":"It was eliminated by:"
+    }
+}
