@@ -1,15 +1,107 @@
 {
-    "help":"ayuda",
-    "defecto":"defecto",
-    "noCanal":"Canal No válido. Revisa que sea un canal de texto.",
-    "canal":"Canal:",
-    "noModoDisable":"❌ Modo no válido, solamente categoria y comando.",
-    "command":{
-        "command":"comando",
-        "noCommand":"❌ Comando no encontrado.",
-        "commandImport":"⚠ Este comando pertenece a una categoría importante.",
-        "ETitle":"Comando Habilitado en este Servidor",
-        "DTitle":"Comando Deshabilitado en este Servidor",
-        "field":"Comando:"
+    "addblacklist": {
+        "noCommand": "❌ | Comando o categoría inválida.",
+        "commandImport": "⚠ Este comando pertenece a una categoría importante.",
+        "noUser": "❌ | Usuario/rol/canal inválido.",
+        "yaCommand": "❌ | Este comando ya está en la lista.",
+        "all": "todo",
+        "title": "✅ | Comando agregado a la lista negra en este Servidor",
+        "fieldCom": "Comando:",
+        "fieldCat": "Comandos de categoría:",
+        "commands": "Comandos:"
+    },
+    "addwhitelist": {
+        "noCommand": "❌ | Comando o categoría inválida.",
+        "commandImport": "⚠ Este comando pertenece a una categoría importante.",
+        "noUser": "❌ | Usuario/rol/canal inválido.",
+        "yaCommand": "❌ | Este comando ya está en la lista.",
+        "all": "todo",
+        "title": "✅ | Comando agregado a la lista blanca en este Servidor",
+        "fieldCom": "Comando:",
+        "fieldCat": "Comandos de categoría:",
+        "commands": "Comandos:"
+    },
+    "config": {
+        "default": "*Por Defecto:*",
+        "daily": "Dinero Diario:",
+        "canalEliminado": "*Canal Eliminado o No disponible.*",
+        "noConfig": "*No Configurado.*",
+        "embed": {
+            "author": "Configuración | {guild_name}",
+            "title3": "Bot",
+            "prefix": "Prefijo:",
+            "languageS": "Idioma del Servidor:",
+            "languageC": "Idioma en Canales:",
+            "econ": "Economía:",
+            "blackList":"Lista Negra:",
+            "whiteList":"Lista Blanca:"
+        },
+        "econ": {
+            "default": "Por Defecto",
+            "pagoMin": "Pago Mínimo:",
+            "pagoMax": "Pago Máximo:",
+            "multaMin": "Multa Mínima:",
+            "multaMax": "Multa Máxima:",
+            "cooldown": "Cooldown:",
+            "messages": "Dinero por Escribir:",
+            "exclude": "Canales Excluidos:",
+            "crime": "Crimen:",
+            "daily": "Dinero Diario:",
+            "rob": "Robar:",
+            "trade": "Trade:",
+            "work": "Trabajo:"
+        }
+    },
+    "deleteblacklist": {
+        "noCommand": "❌ | Comando o categoría inválida.",
+        "commandImport": "⚠ Este comando pertenece a una categoría importante.",
+        "noUser": "❌ | Usuario/rol/canal inválido.",
+        "noList": "❌ | Este comando no está en la lista.",
+        "all": "todo",
+        "title": "✅ | Comando quitado a la lista negra en este Servidor",
+        "fieldAll": "Comandos:",
+        "fieldCat": "Comandos de categoría:",
+        "for": "Para:",
+        "server": "Todo el servidor"
+    },
+    "deletelanguage": {
+        "noLanguage": "❌ | No tienes configurado idioma en este servidor.",
+        "channel": "canal",
+        "noChannel": "❌ | Parece que este canal no está configurado.",
+        "noChannels": "❌ | No tienes configurado ningún idioma de canales.",
+        "title": "✅ | Idioma del Servidor Eliminado",
+        "titleC": "✅ | Idioma del Canal Eliminado",
+        "remove": "Quitado:"
+    },
+    "deleteprefix": {
+        "noConfig": "❌ | No tienes configurado ningún prefix",
+        "title": "✅ | Prefix Personalizado Quitado",
+        "remove": "Quitado:",
+        "default": "Por defecto:"
+    },
+    "deletewhitelist": {
+        "noCommand": "❌ | Comando o categoría inválida.",
+        "commandImport": "⚠ Este comando pertenece a una categoría importante.",
+        "noUser": "❌ | Usuario/rol/canal inválido.",
+        "noList": "❌ | Este comando no está en la lista.",
+        "all": "todo",
+        "title": "✅ | Comando quitado a la lista negra en este Servidor",
+        "fieldAll": "Comandos:",
+        "fieldCat": "Comandos de categoría:",
+        "for": "Para:"
+    },
+    "setlanguage": {
+        "channel": "canal",
+        "noChannel": "❌ | Canal inválido.",
+        "noLanguage": "❌ | Este idioma no existe o es inválido. Usa `{prefix}setidioma help` para conocer los idiomas disponibles.",
+        "noLang": "❌ | No colocaste el idioma a establecer para el canal",
+        "title": "✅ | Idioma del Servidor Asignado",
+        "titleC": "✅ | Idioma del Canal Asignado",
+        "cambio": "Cambiado a"
+    },
+    "setprefix": {
+        "prefixLength": "❌ | Prefix muy largo. no puede superor los 4 carácteres",
+        "title": "✅ | Prefix Personalizado Asignado",
+        "cambio": "Cambiado a:"
     }
 }

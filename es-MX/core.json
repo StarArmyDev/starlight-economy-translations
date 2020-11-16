@@ -1,82 +1,95 @@
 {
-    "bugreport":{
-        "correcto":"**Su error ha sido reportado correctamente.**\nSerá revisado así que por favor sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escríbeme al DM.*",
-        "error":"Ocurrió un problema al enviar el mensaje, puedes enviarme mensaje al privado como alternativa."
+    "botsuggestion": {
+        "ok": "✅ Sugerencia enviada al servidor de soporte.\n*Cualquier abuso de este u otro comando será sancionado.*"
     },
-    "donate":{
-        "title":"Apoya a",
-        "desc":"**¡Vota!** Apoya dejando tu voto en [top.gg](https://top.gg/bot/517786947171909643 \"Top.gg\") recuerda que se puede votar cada 12 horas.\n**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soprte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc de como utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
+    "bugreport": {
+        "correcto": "**Su error ha sido reportado correctamente.**\nSerá revisado así que por favor sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escríbeme al DM.*",
+        "error": "Ocurrió un problema al enviar el mensaje, puedes enviarme mensaje al privado como alternativa."
     },
-    "help":{
-        "titulo":"Lista de Comandos",
-        "version":" | Versión ",
-        "descripcion":"¡Hola Soy ${client_name}! Esta es mi lista de comandos que puedes ocupar.\n\n Mi Prefix para este servidor: `${prefix}`\n Ping: `${ping}` ms\nComandos En Total: `${commands}`",
-        "core":"🌠 Bot",
-        "info":"📃 Información",
-        "util":"🛡 Utilidades",
-        "config":"⚙ Configuración",
-        "econ":"💵 Economía",
-        "profile":"👥 Perfil",
-        "masInfo":{
-            "title":"¿Mas información?",
-            "desc":"Usa: `${prefix}<comando> help` para obtener su información individual del comando y sus parámetros esperados."
+    "donate": {
+        "title": "Apoya a",
+        "desc": "**¡Vota!** Apoya dejando tu voto en [top.gg](https://top.gg/bot/517786947171909643 \"Top.gg\") recuerda que se puede votar cada 12 horas.\n**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soprte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc de como utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
+    },
+    "help": {
+        "si": "Sí",
+        "no": "No",
+        "titulo": "Lista de Comandos",
+        "version": " | Versión ",
+        "descripcion": "Hola, soy {client_name} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{ping}` ms\nCategorías en total: `{categorias}`\nComandos en total: `{commands}`",
+        "core": "🌠 Bot",
+        "config": "⚙ Configuración",
+        "config-bot": "⚙ Configuración Bot",
+        "economia": "💵 Economía",
+        "items": "📦 Artículos",
+        "desarrollador": "👨‍💻 Desarrollador",
+        "manager": "⚙ Administrador del bot",
+        "masInfo": {
+            "title": "¿Más información?",
+            "desc": "Usa: `{prefix}<comando> help` o `{prefix}help <comando>` para obtener la información individual del comando y sus parámetros esperados."
         },
-        "links":{
-            "title":"Links Útiles",
-            "desc":"[Invitame](${invite} \"Invitame a tu servidor\") | Cualquier duda o problema entra al [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\")"
+        "links": {
+            "title": "Links útiles",
+            "desc": "[Invítame]({invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 horas.\")"
         },
-        "private":"✅ **| Revisa tu DMs.** 👌",
-        "noPrivate":"❌ | Parece que tienes desactivado los mensajes privados.",
-        "noUso":"No Tienes que Agregar Parámetros",
-        "embedFooter":"Los '[]' se refiere a que es opcional.\nLos '<>' se refiere a que es obligatorio.\nEl '/' se refiere a dos opciones: Opción1/Opción2\n***Ninguno de estos simbolos se debe de colocar a la hora de ejecutar el comando.***",
-        "embedTitle":"Ayuda de: ${command}",
-        "embedDescripcion":"**Descripción:**",
-        "embedUso":"Usa el comando de la siguente manera:",
-        "embedAlias":"Alias",
-        "embedNoAlias":"Sin Alias"
+        "private": "✅ **| Revisa tu MD.** 👌",
+        "noPrivate": "❌ | Parece que tienes desactivado los mensajes privados.",
+        "noUso": "[No espera parámetros]",
+        "embedHelp": {
+            "title": "Ayuda de: {command}",
+            "descripcion": "**Descripción:**",
+            "uso": "Usa el comando de la siguiente manera:",
+            "alias": "Alias",
+            "noAlias": "Sin alias",
+            "categoria": "Categoría",
+            "permiso": "Permiso",
+            "cooldown": "Tiempo de espera",
+            "args": "Espera argumentos",
+            "apagado": "Apagado global",
+            "sinPermisos": "Sin permisos requeridos"
+        }
     },
-    "invite":{
-        "title":"Mi Invitación | ${client_name}",
-        "descripcion":"Este hermoso bot puede ayudarte en la economía de tu servidor tan profecional como sea posible, permitiendote configurar muchos aspectos del mismo.",
-        "version":"| Versión",
-        "invitacion":"🌠 Invitación",
-        "link":"[Invita a ${client_name} a tu servidor](${link})",
-        "soporteTitle":"📥 Servidor de Soporte",
-        "soporte":"[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obtener ayuda y estar enterado de toda la información siempre.",
-        "webTitle":"🖥 Página Web",
-        "web":"Para mas información acerca del bot como sus comandos entra al [Sitio Oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Inicio')",
-        "apoyoTitle":"💎 Apoyanos",
-        "apoyo":"Apoya en el crecimiento del bot donando lo que puedas a travez de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+    "invite": {
+        "title": "Mi Invitación | {client_name}",
+        "descripcion": "Este hermoso bot puede ayudarte en la economía de tu servidor tan profecional como sea posible, permitiendote configurar muchos aspectos del mismo.",
+        "version": "| Versión",
+        "invitacion": "🌠 Invitación",
+        "link": "[Invita a {client_name} a tu servidor]({link})",
+        "soporteTitle": "📥 Servidor de Soporte",
+        "soporte": "[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obtener ayuda y estar enterado de toda la información siempre.",
+        "webTitle": "🖥 Página Web",
+        "web": "Para mas información acerca del bot como sus comandos entra al [Sitio Oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Inicio')",
+        "apoyoTitle": "💎 Apoyanos",
+        "apoyo": "Apoya en el crecimiento del bot donando lo que puedas a travez de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
-    "ping":{
-        "footer":"Google Cloud Platform | CE",
-        "espera":"*Calculando...*",
-        "descripcion":"Pong!\n📡 API: **${ping}ms.**\n⏳ Puerta de Enlace: ${gateway} ms"
+    "ping": {
+        "footer": "Google Cloud Platform | CE",
+        "espera": "*Calculando...*",
+        "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Puerta de Enlace: {gateway} ms"
     },
-    "release":{
-        "title":"Novedades de",
-        "descripcion":"Sin Datos",
-        "footer":"Estos son los cambios de la versión ${version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por ${dev}."
+    "release": {
+        "title": "Novedades de",
+        "descripcion": "Sin Datos",
+        "footer": "Estos son los cambios de la versión {version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {dev}."
     },
-    "stats":{
-        "bot":"🤖 Bot Info",
-        "owner":"👑 Creador",
-        "version":"📊 Versión",
-        "libreria":"📚 Libreria",
-        "discordjs":"Discord 11.5.1 (Js)",
-        "memoria":"🗂 Memoria",
-        "tiempo":"🕒 Tiempo Encendido",
-        "servers":"💬 Servidores",
-        "users":"👥 Usuarios",
-        "canales":"#️⃣ Canales",
-        "voz":"🔊 Conexiones a voz",
-        "commands":"📄 Comandos",
-        "os":"🖥️ Sistema Operativo",
-        "sistema":"Linux Ubuntu 16.04",
-        "horaServer":"⏳ Hora en el Servidor"
+    "stats": {
+        "bot": "🤖 Bot Info",
+        "owner": "👑 Creador",
+        "version": "📊 Versión",
+        "libreria": "📚 Libreria",
+        "discordjs": "Discord 11.5.1 (Js)",
+        "memoria": "🗂 Memoria",
+        "tiempo": "🕒 Tiempo Encendido",
+        "servers": "💬 Servidores",
+        "users": "👥 Usuarios",
+        "canales": "#️⃣ Canales",
+        "voz": "🔊 Conexiones a voz",
+        "commands": "📄 Comandos",
+        "os": "🖥️ Sistema Operativo",
+        "sistema": "Linux Ubuntu 16.04",
+        "horaServer": "⏳ Hora en el Servidor"
     },
-    "vote":{
-        "title":"Lista de Bots donde puedes votar",
-        "desc":"Puedes votar cada 12 horas, con fin de semana de voto doble en [Top.gg](https://discordbots.org/bot/696723299459268728/vote)"
+    "vote": {
+        "title": "Lista de Bots donde puedes votar",
+        "desc": "Puedes votar cada 12 horas, con fin de semana de voto doble en [Top.gg](https://discordbots.org/bot/696723299459268728/vote)"
     }
 }

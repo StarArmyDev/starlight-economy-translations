@@ -1,130 +1,130 @@
 {
-    "bal":{
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "money":"Dinero de",
-        "bolcillo":"Bolsillo",
-        "banco":"Banco",
-        "total":"Total"
+    "bal": {
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "money": "Dinero de",
+        "bolcillo": "Bolsillo",
+        "banco": "Banco",
+        "total": "Total"
     },
-    "buy":{
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noItem":"El artículo `${item}` no existe. Verifica el nombre.",
-        "noStock":"No existe esa cantidad disponible del artículo en la tienda.",
-        "noItemShop":"Este objeto no se puede comprar.",
-        "noMoney":"No cuentas con el dinero suficiente, te falta `${faltante}` para poder comprar `${cantidad}` de ${item}.",
-        "unico":"Este artículo sólo se puede comprar una vez.",
-        "noRol":"No encontré el rol, puede que ya no exista.",
-        "trueRol":"Ya cuentas con este rol.",
-        "yaComprado":"Parece que ya compraste este artículo antes. No puedes voverlo a comprar.",
-        "nombreCategoria":"Canales Comprados",
-        "title":"Compra de Objetos de ${tienda}",
-        "descripcion":"Has comprado `${cantidad}` de ${emoji} ${nombre} por ${costo}.",
-        "error":"❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
+    "buy": {
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noItem": "El artículo `{item}` no existe. Verifica el nombre.",
+        "noStock": "No existe esa cantidad disponible del artículo en la tienda.",
+        "noItemShop": "Este objeto no se puede comprar.",
+        "noMoney": "No cuentas con el dinero suficiente, te falta `{faltante}` para poder comprar `{cantidad}` de {item}.",
+        "unico": "Este artículo sólo se puede comprar una vez.",
+        "noRol": "No encontré el rol, puede que ya no exista.",
+        "trueRol": "Ya cuentas con este rol.",
+        "yaComprado": "Parece que ya compraste este artículo antes. No puedes voverlo a comprar.",
+        "nombreCategoria": "Canales Comprados",
+        "title": "Compra de Objetos de {tienda}",
+        "descripcion": "Has comprado `{cantidad}` de {emoji} {nombre} por {costo}.",
+        "error": "❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
     },
-    "crime":{
-        "title":"🕵️‍♂️ Crimen",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "crime":"Has Recibido ${crime} por robarle al owner, correeee",
-        "noCrime":"❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron ${money}.",
-        "cooldown":"🛑 | ¡Alto! Espere `${time}` para cometer nuevamente un crimen.",
-        "error":"❌ Lo siento, parece que hubo un error al sumar el dinero. estamos trabajando en repararlo."
+    "crime": {
+        "title": "🕵️‍♂️ Crimen",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "crime": "Has Recibido {crime} por robarle al owner, correeee",
+        "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {money}.",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para cometer nuevamente un crimen.",
+        "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. estamos trabajando en repararlo."
     },
-    "daily":{
-        "dlyUser":"¡Acabas de dar {money} al usuario {miembro}! Vuelve en {tiempo} por tu dinero diario.",
-        "dly":"¡Acabas de recibir {money}! Vuelve en {tiempo} por tu dinero diario.",
-        "h12":"12 hrs",
-        "title":"☀ Dinero Diario",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "cooldown":"🛑 | ¡Alto! Espere `${time}` para obtener nuevamente tu dinero diario.",
-        "error":"❌ Lo siento, parece que hubo un error al sumar el dinero. estamos trabajando en repararlo."
+    "daily": {
+        "dlyUser": "¡Acabas de dar {money} al usuario {miembro}! Vuelve en {tiempo} por tu dinero diario.",
+        "dly": "¡Acabas de recibir {money}! Vuelve en {tiempo} por tu dinero diario.",
+        "h12": "12 hrs",
+        "title": "☀ Dinero Diario",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para obtener nuevamente tu dinero diario.",
+        "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. estamos trabajando en repararlo."
     },
-    "depositar":{
-        "title":"🏛 Depositar",
-        "noCantidad":"Cantidad no válida.",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noMoney":"Parece que no tienes nada que depositar.",
-        "falta":"Usted no tiene monedas suficientes.",
-        "mensaje":"✅ Depositado con éxito ${cantidad} en tu banco.",
-        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+    "depositar": {
+        "title": "🏛 Depositar",
+        "noCantidad": "Cantidad no válida.",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noMoney": "Parece que no tienes nada que depositar.",
+        "falta": "Usted no tiene monedas suficientes.",
+        "mensaje": "✅ Depositado con éxito {cantidad} en tu banco.",
+        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
     },
-    "inventory":{
-        "title":"🗂 Inventario:",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noPerfil":"Usuario ${user} sin inventario. Invitalo a usar mis comandos.",
-        "sinItems":"Sin Items",
-        "noDescripcion":"No tienes ningún ítem en tu inventario.",
-        "piezas":"Piezas:"
+    "inventory": {
+        "title": "🗂 Inventario:",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noPerfil": "Usuario {user} sin inventario. Invitalo a usar mis comandos.",
+        "sinItems": "Sin Items",
+        "noDescripcion": "No tienes ningún ítem en tu inventario.",
+        "piezas": "Piezas:"
     },
-    "rob":{
-        "title":"🕵️‍ Robar",
-        "noUser":"Usuario no válido",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noRobMoney":"¿Cómo le quieres robar si no tiene nada?",
-        "mensaje":"✅ Robo Exitoso Le has robado a ${miembro} el total de ${robado}. Ahora huye mientras puedas.",
-        "noMensaje":"❌ La ley te cayó de sorpresa y te quitó ${money}, además de que le dieron la mitad de eso a ${miembro} por el incidente.",
-        "cooldown":"🛑 | ¡Alto! Espere `${time}` para robarle a alguien mas.",
-        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+    "rob": {
+        "title": "🕵️‍ Robar",
+        "noUser": "Usuario no válido",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noRobMoney": "¿Cómo le quieres robar si no tiene nada?",
+        "mensaje": "✅ Robo Exitoso Le has robado a {miembro} el total de {robado}. Ahora huye mientras puedas.",
+        "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {money}, además de que le dieron la mitad de eso a {miembro} por el incidente.",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para robarle a alguien mas.",
+        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
     },
-    "sell":{
-        "noTienda":"🛑 | Este servidor aún no cuenta con una tienda.",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noItemInv":"No cuentas con el item: `${item}`",
-        "noItemShop":"Este objeto no se puede vender, puede que sea de colección.",
-        "noCantidad":"No cuentas con los items suficientes para vender, solamente cuentas con`${cantidad}`",
-        "title":"Venta de Objetos de ${tienda}",
-        "descripcion":"Has vendido `${cantidad}` de ${emoji} ${nombre} por ${costo}."
+    "sell": {
+        "noTienda": "🛑 | Este servidor aún no cuenta con una tienda.",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noItemInv": "No cuentas con el item: `{item}`",
+        "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
+        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{cantidad}`",
+        "title": "Venta de Objetos de {tienda}",
+        "descripcion": "Has vendido `{cantidad}` de {emoji} {nombre} por {costo}."
     },
-    "shop":{
-        "title":"Tienda de ${tienda}",
-        "descripcion":"Para comprar items tienes que usar `{prefix}buy <item> [cantidad]`.\nPara vender items usa `{prefix}sell <item> [cantidad]`\nSimbología:\n📥Compra\n📤Venta\n📦Cantidad Disponible\n⏳Tiempo Restante En Tienda\n\n**Items**",
-        "noTienda":"🛑 | Este servidor aún no cuenta con una tienda.",
-        "error":"❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
+    "shop": {
+        "title": "Tienda de {tienda}",
+        "descripcion": "Para comprar items tienes que usar `{prefix}buy <item> [cantidad]`.\nPara vender items usa `{prefix}sell <item> [cantidad]`\nSimbología:\n📥Compra\n📤Venta\n📦Cantidad Disponible\n⏳Tiempo Restante En Tienda\n\n**Items**",
+        "noTienda": "🛑 | Este servidor aún no cuenta con una tienda.",
+        "error": "❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
     },
-    "top":{
-        "titleDiner":"TOP DINERO",
-        "desconocido":"Usuario Desconocido",
-        "dinero":"Dinero:",
-        "banco":"Banco:",
-        "tu":"Tu Posición:"
+    "top": {
+        "titleDiner": "TOP DINERO",
+        "desconocido": "Usuario Desconocido",
+        "dinero": "Dinero:",
+        "banco": "Banco:",
+        "tu": "Tu Posición:"
     },
-    "trade":{
-        "title":"💎🏬 Comerciar",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "mensaje":"✅ Has recibido ${money} por hacer comercios peligrosos",
-        "noMensaje":"❌ Parece que la policía te vio y te quitaron ${money}.",
-        "cooldown":"🛑 | ¡Alto! Espere `${time}` para hacer trabajos indecentes nuevamente."
+    "trade": {
+        "title": "💎🏬 Comerciar",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "mensaje": "✅ Has recibido {money} por hacer comercios peligrosos",
+        "noMensaje": "❌ Parece que la policía te vio y te quitaron {money}.",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para hacer trabajos indecentes nuevamente."
     },
-    "trans":{
-        "title":"💱 Transferencia",
-        "noCantidad":"Cantidad no válida.",
-        "noMencion":"Mención no valida. Verifica el usuario.",
-        "automencion":"✅ ${money} transferidos correctamente al banco nacional de StarBot. Gracias por su preferencia.",
-        "mensajeEspera":"Verifica y acepta colocando `${numero}` para transferir ${dinero}. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 10% de comisión por la transferencia.*",
-        "cancel":"✅ Transferencia Cancelada",
-        "noValido":"Número de verificación no válido.",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noMoney":"Parece que no tienes dinero para transferir.",
-        "falta":"Usted no tiene monedas suficientes.",
-        "noSumar":"Parece ser que ${miembro} no tiene perfil. **Tiene que hablar para que se cree**\n*Si consideras que esto es un error, puedes reportarlo con* `bugreport`",
-        "mensaje":"✅ Transferencia exitosa. Se dió a ${miembro} la cantidad de ${cantidad}.",
-        "noTiempo":"⏳ Tiempo Expirado ❌",
-        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+    "trans": {
+        "title": "💱 Transferencia",
+        "noCantidad": "Cantidad no válida.",
+        "noMencion": "Mención no valida. Verifica el usuario.",
+        "automencion": "✅ {money} transferidos correctamente al banco nacional de StarBot. Gracias por su preferencia.",
+        "mensajeEspera": "Verifica y acepta colocando `{numero}` para transferir {dinero}. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 10% de comisión por la transferencia.*",
+        "cancel": "✅ Transferencia Cancelada",
+        "noValido": "Número de verificación no válido.",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noMoney": "Parece que no tienes dinero para transferir.",
+        "falta": "Usted no tiene monedas suficientes.",
+        "noSumar": "Parece ser que {miembro} no tiene perfil. **Tiene que hablar para que se cree**\n*Si consideras que esto es un error, puedes reportarlo con* `bugreport`",
+        "mensaje": "✅ Transferencia exitosa. Se dió a {miembro} la cantidad de {cantidad}.",
+        "noTiempo": "⏳ Tiempo Expirado ❌",
+        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
     },
-    "withdraw":{
-        "title":"💸 Retiro",
-        "noCantidad":"Cantidad no válida.",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noMoney":"Parece que no tienes nada que retirar.",
-        "falta":"Usted no tiene monedas suficientes.",
-        "mensaje":"✅ Retiro con exito ${cantidad} en tu bolsillo, Dejando en tu banco `${banco}`",
-        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+    "withdraw": {
+        "title": "💸 Retiro",
+        "noCantidad": "Cantidad no válida.",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noMoney": "Parece que no tienes nada que retirar.",
+        "falta": "Usted no tiene monedas suficientes.",
+        "mensaje": "✅ Retiro con exito {cantidad} en tu bolsillo, Dejando en tu banco `{banco}`",
+        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
     },
-    "work":{
-        "title":"👷 ‍Trabajo",
-        "mensajeDar":"✅ ¡Acabas de dar ${money} monedas al usuario ${miembro}!",
-        "mensaje":"✅ ¡Acabas de recibir ${money} monedas!",
-        "bloqueado":"Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "cooldown":"🛑 | ¡Alto! Espere `${time}` para trabajar nuevamente.",
-        "error":"❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+    "work": {
+        "title": "👷 ‍Trabajo",
+        "mensajeDar": "✅ ¡Acabas de dar {money} monedas al usuario {miembro}!",
+        "mensaje": "✅ ¡Acabas de recibir {money} monedas!",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para trabajar nuevamente.",
+        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
     }
 }
