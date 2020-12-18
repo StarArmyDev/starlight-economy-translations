@@ -1,0 +1,12 @@
+# Estas son plataformas de modelos de financiación compatibles
+
+github: [] # Reemplazar con hasta 4 nombres de usuario habilitados para patrocinadores de GitHub, p. ej., [usuario1, usuario2]
+patreon: # Reemplazar con un solo nombre de usuario de Patreon
+open_collective: # Reemplazar con un solo nombre de usuario de Open Collective
+ko_fi: # Reemplazar con un solo nombre de usuario Ko-fi
+tidelift: # Reemplazar con un solo nombre de plataforma / nombre de paquete de Tidelift, por ejemplo, npm / babel
+community_bridge: # Reemplazar con un solo nombre de proyecto de Community Bridge, por ejemplo, cloud-foundry
+liberapay: # Reemplazar con un solo nombre de usuario Liberapay
+issuehunt: # Reemplazar con un solo nombre de usuario de IssueHunt
+otechie: # Reemplazar con un solo nombre de usuario de Otechie
+custom: ['https://www.paypal.me/czemtb'] # Reemplazar con hasta 4 URL de patrocinio personalizadas, por ejemplo, ['enlace1', 'enlace2']

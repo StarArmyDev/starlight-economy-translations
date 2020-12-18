@@ -33,8 +33,8 @@
             "languageS": "Guild Language:",
             "languageC": "Language in Channels:",
             "econ": "Economy:",
-            "blackList":"BlackList:",
-            "whiteList":"WhiteList:"
+            "blackList": "BlackList:",
+            "whiteList": "WhiteList:"
         },
         "econ": {
             "default": "Default",
@@ -44,15 +44,19 @@
             "multaMax": "Maximum fine:",
             "cooldown": "Cooldown:",
             "messages": "Money to Write:",
-            "exclude": "Canales Excluidos:",
+            "exclude": "Channels excluded from earning money:",
             "crime": "Crime:",
             "daily": "Daily Money:",
+            "dice": "Dice:",
+            "flicoin": "Flicoin:",
             "rob": "Rob:",
+            "roulette": "Roulette:",
             "trade": "Trade:",
             "work": "Work:"
         }
     },
     "deleteblacklist": {
+        "noConfig": "❌ | You don't have anyone added to the blacklist",
         "noCommand": "❌ | Invalid command or category.",
         "commandImport": "⚠ This command belongs to an important category.",
         "noUser": "❌ | Invalid user / role / channel.",
@@ -80,6 +84,7 @@
         "default": "Default:"
     },
     "deletewhitelist": {
+        "noConfig": "❌ | You don't have anyone added to the whitelist",
         "noCommand": "❌ | Invalid command or category.",
         "commandImport": "⚠ This command belongs to an important category.",
         "noUser": "❌ | Invalid user / role / channel.",

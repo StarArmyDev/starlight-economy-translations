@@ -6,21 +6,6 @@
         "banco": "Banco",
         "total": "Total"
     },
-    "buy": {
-        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noItem": "El artículo `{item}` no existe. Verifica el nombre.",
-        "noStock": "No existe esa cantidad disponible del artículo en la tienda.",
-        "noItemShop": "Este objeto no se puede comprar.",
-        "noMoney": "No cuentas con el dinero suficiente, te falta `{faltante}` para poder comprar `{cantidad}` de {item}.",
-        "unico": "Este artículo sólo se puede comprar una vez.",
-        "noRol": "No encontré el rol, puede que ya no exista.",
-        "trueRol": "Ya cuentas con este rol.",
-        "yaComprado": "Parece que ya compraste este artículo antes. No puedes voverlo a comprar.",
-        "nombreCategoria": "Canales Comprados",
-        "title": "Compra de Objetos de {tienda}",
-        "descripcion": "Has comprado `{cantidad}` de {emoji} {nombre} por {costo}.",
-        "error": "❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
-    },
     "crime": {
         "title": "🕵️‍♂️ Crimen",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
@@ -38,7 +23,7 @@
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para obtener nuevamente tu dinero diario.",
         "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. estamos trabajando en repararlo."
     },
-    "depositar": {
+    "deposite": {
         "title": "🏛 Depositar",
         "noCantidad": "Cantidad no válida.",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
@@ -47,13 +32,21 @@
         "mensaje": "✅ Depositado con éxito {cantidad} en tu banco.",
         "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
     },
-    "inventory": {
-        "title": "🗂 Inventario:",
+    "dice": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noPerfil": "Usuario {user} sin inventario. Invitalo a usar mis comandos.",
-        "sinItems": "Sin Items",
-        "noDescripcion": "No tienes ningún ítem en tu inventario.",
-        "piezas": "Piezas:"
+        "sacaste": "Sacaste:",
+        "ganas": "¡Adiviaste! Ganas {money}",
+        "pierdes": "Perdiste... te quitan {money}",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para tirar el dado."
+    },
+    "flicoin": {
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "cara": "sol",
+        "sello": "águila",
+        "sacaste": "Sacaste:",
+        "ganas": "¡Adiviaste! Ganas {money}",
+        "pierdes": "Perdiste... te quitan {money}",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para tirar la moneda al aire."
     },
     "rob": {
         "title": "🕵️‍ Robar",
@@ -65,27 +58,23 @@
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para robarle a alguien mas.",
         "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
     },
-    "sell": {
-        "noTienda": "🛑 | Este servidor aún no cuenta con una tienda.",
+    "roulette": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "noItemInv": "No cuentas con el item: `{item}`",
-        "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
-        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{cantidad}`",
-        "title": "Venta de Objetos de {tienda}",
-        "descripcion": "Has vendido `{cantidad}` de {emoji} {nombre} por {costo}."
-    },
-    "shop": {
-        "title": "Tienda de {tienda}",
-        "descripcion": "Para comprar items tienes que usar `{prefix}buy <item> [cantidad]`.\nPara vender items usa `{prefix}sell <item> [cantidad]`\nSimbología:\n📥Compra\n📤Venta\n📦Cantidad Disponible\n⏳Tiempo Restante En Tienda\n\n**Items**",
-        "noTienda": "🛑 | Este servidor aún no cuenta con una tienda.",
-        "error": "❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
+        "ganas": "¡Felicidades! Ganaste",
+        "pierdes": "Mala suerte",
+        "premio": "¡Premio!",
+        "derrota": "Perdiste",
+        "mensaje1": "Te llevas {money} de ganancia.",
+        "mensaje2": "Te llevas {money} por sacar dos de tres.",
+        "mensaje3": "Te quitan {money} por no sacar nada.",
+        "cooldown": "🛑 | ¡Alto! Espere `{time}` para tirar la ruleta."
     },
     "top": {
-        "titleDiner": "TOP DINERO",
-        "desconocido": "Usuario Desconocido",
+        "tu": "Tu Posición:",
         "dinero": "Dinero:",
         "banco": "Banco:",
-        "tu": "Tu Posición:"
+        "title": "TOP DINERO  | **{database}**",
+        "paginas": "Página {count} de {countDB}"
     },
     "trade": {
         "title": "💎🏬 Comerciar",

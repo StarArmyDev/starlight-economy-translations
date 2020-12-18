@@ -1,0 +1,16 @@
+{
+    "addchatexclude": {
+        "noCanal": "❌ | Canal inválido, verifique se é um canal ou categoria de texto.",
+        "yaExclude": "❌ | Canal já excluído.",
+        "title": "✅ | Canal excluído de ganhar dinheiro",
+        "field": "✅ | Todos os canais excluídos de ganhar dinheiro",
+        "canal": "Agregar:"
+    },
+    "deletechatexclude": {
+        "noConfig": "*Não configurado.*",
+        "quitado": "Levado embora.",
+        "all": "tudo",
+        "noModo": "❌ | Modo inválido.",
+        "title": "✅ | Canal excluído de ganhar dinheiro removido"
+    }
+}

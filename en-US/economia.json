@@ -6,27 +6,12 @@
         "banco": "Bank",
         "total": "Total"
     },
-    "buy": {
-        "bloqueado": "You have the economy blocked. Contact the server staff to appeal.",
-        "noItem": "Item `{item}` does not exist. Verify the name.",
-        "noStock": "There is no such quantity of the item available in the store.",
-        "noItemShop": "This item cannot be purchased.",
-        "noMoney": "You don't have enough money, you lack `{faltante}` to be able to buy `{cantidad}` from {item}.",
-        "unico": "This item can only be purchased once.",
-        "noRol": "I did not find the role, it may no longer exist.",
-        "trueRol": "You already have this role.",
-        "yaComprado": "It looks like you already bought this item before. You can't buy it again.",
-        "nombreCategoria": "Channels Purchased",
-        "title": "Purchase of Objects of {tienda}",
-        "descripcion": "You have bought `{cantidad}` from {emoji} {nombre} by {costo}.",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
-    },
     "crime": {
         "title": "🕵️‍♂️ Crime",
         "bloqueado": "You have the Economy Locked. Contact the support server to appeal.",
         "crime": "You have received {crime} for stealing from the owner, correeee",
         "noCrime": "❌ It seems you don't know how to quietly enter the places and they took you away {money}.",
-        "cooldown": "🛑 | High! Wait `{time}` to commit a crime again.",
+        "cooldown": "🛑 | Stop! Wait `{time}` to commit a crime again.",
         "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
     },
     "daily": {
@@ -35,10 +20,10 @@
         "h12": "12 hrs",
         "title": "☀ Daily Money",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cooldown": "🛑 | High! Wait `{time}` to get your daily money again.",
+        "cooldown": "🛑 | Stop! Wait `{time}` to get your daily money again.",
         "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
     },
-    "depositar": {
+    "deposite": {
         "title": "🏛 To deposit",
         "noCantidad": "Invalid amount.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
@@ -46,13 +31,21 @@
         "mensaje": "✅ Successfully deposited {cantidad} in your bank",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
-    "inventory": {
-        "title": "🗂 Inventory:",
-        "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "noPerfil": "User {user} without inventory Invite him to use my commands.",
-        "sinItems": "No items",
-        "noDescripcion": "You have no items in your inventory.",
-        "piezas": "Pieces:"
+    "dice": {
+        "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
+        "sacaste": "You got:",
+        "ganas": "You guessed it! You win {money}",
+        "pierdes": "You lost ... they take away {money}",
+        "cooldown": "🛑 | Stop! Wait `{time}` to roll the die."
+    },
+    "flicoin": {
+        "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
+        "cara": "face",
+        "sello": "seal",
+        "sacaste": "You got:",
+        "ganas": "You guessed it! You win {money}",
+        "pierdes": "You lost ... they take away {money}",
+        "cooldown": "🛑 | Stop! Wait `{time}` to flip the coin."
     },
     "rob": {
         "title": "🕵️‍ Steal",
@@ -61,37 +54,33 @@
         "noRobMoney": "How do you want to steal it if it has nothing?",
         "mensaje": "✅ Successful theft You have stolen {miembro} the total of {robado}. Now run away while you can.",
         "noMensaje": "❌ The law struck you by surprise and took you away {money}, besides they gave half of that to {miembro} for the incident.",
-        "cooldown": "🛑 | High! Wait `{time}` to steal from someone else.",
+        "cooldown": "🛑 | Stop! Wait `{time}` to steal from someone else.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
-    "sell": {
-        "noTienda": "🛑 | This server does not have a store yet.",
-        "bloqueado": "You have the economy blocked. Contact the server staff to appeal.",
-        "noItemInv": "You do not have the item: `{item}`",
-        "noItemShop": "This item cannot be sold, it may be collectible.",
-        "noCantidad": "You do not have enough items to sell, you only have `{cantidad}`",
-        "title": "Sale of Objects of {tienda}",
-        "descripcion": "You've sold `{cantidad}` from {emoji} {nombre} by {costo} coins."
-    },
-    "shop": {
-        "title": "Store of {tienda}",
-        "descripcion": "To buy items you have to use `{prefix}buy <item> [quantity]`.\nTo sell items use `{prefix}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale\n📦Quantity Available\n⏳Remaining Time In Store\n\n**Items**",
-        "noTienda": "Store Not Found or Not Available.",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
+    "roulette": {
+        "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
+        "ganas": "Congratulations! Won",
+        "pierdes": "Bad luck",
+        "premio": "Prize!",
+        "derrota": "You lost",
+        "mensaje1": "You take {money} profit.",
+        "mensaje2": "You get {money} for getting two out of three.",
+        "mensaje3": "They take {money} from you for not getting anything.",
+        "cooldown": "🛑 | Stop! Wait `{time}` to spin the wheel."
     },
     "top": {
-        "titleDiner": "MONEY TOP",
-        "desconocido": "Unknown user",
+        "tu": "Your position:",
         "dinero": "Money:",
         "banco": "Bank:",
-        "tu": "Your position:"
+        "title": "MONEY TOP  | **{database}**",
+        "paginas": "Page {count} from {countDB}"
     },
     "trade": {
         "title": "💎🏬 Trade",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "mensaje": "✅ You have received {money} for doing dangerous trades",
         "noMensaje": "❌ It looks like the police saw you and took you away {money}.",
-        "cooldown": "🛑 | High! Wait `{time}` to do indecent work again.",
+        "cooldown": "🛑 | Stop! Wait `{time}` to do indecent work again.",
         "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
     },
     "trans": {
@@ -124,7 +113,7 @@
         "mensajeDar": "✅ You just gave {money} user coins {miembro}!",
         "mensaje": "✅ You just received {money} coins!",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cooldown": "🛑 | High! Wait `{time}` to work again.",
+        "cooldown": "🛑 | Stop! Wait `{time}` to work again.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     }
 }

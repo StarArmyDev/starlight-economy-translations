@@ -1,0 +1,51 @@
+{
+    "buy": {
+        "noShop": "🛑 | Este servidor aún no cuenta con una tienda.",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noItem": "El artículo `{item}` no existe. Verifica el nombre.",
+        "noStock": "No existe esa cantidad disponible del artículo en la tienda.",
+        "noItemShop": "Este objeto no se puede comprar.",
+        "noMoney": "No cuentas con el dinero suficiente, te falta `{faltante}` para poder comprar `{cantidad}` de {item}.",
+        "unico": "Este artículo sólo se puede comprar una vez.",
+        "noRol": "No encontré el rol, puede que ya no exista.",
+        "trueRol": "Ya cuentas con este rol.",
+        "yaComprado": "Parece que ya compraste este artículo antes. No puedes voverlo a comprar.",
+        "nombreCategoria": "Canales Comprados",
+        "title": "Compra de Objetos de {tienda}",
+        "descripcion": "Has comprado `{cantidad}` de {emoji} {nombre} por {costo}.",
+        "error": "❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
+    },
+    "inventory": {
+        "noShop": "🛑 | Este servidor aún no cuenta con una tienda.",
+        "title": "🗂 Inventario:",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noPerfil": "Usuario {user} sin inventario. Invitalo a usar mis comandos.",
+        "sinItems": "Sin Items",
+        "noDescripcion": "No tienes ningún ítem en tu inventario.",
+        "piezas": "Piezas:"
+    },
+    "sell": {
+        "noShop": "🛑 | Este servidor aún no cuenta con una tienda.",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noItemInv": "No cuentas con el item: `{item}`",
+        "noItemShop": "Este objeto no se puede vender, puede que sea de colección.",
+        "noCantidad": "No cuentas con los items suficientes para vender, solamente cuentas con`{cantidad}`",
+        "title": "Venta de Objetos de {tienda}",
+        "descripcion": "Has vendido `{cantidad}` de {emoji} {nombre} por {costo}."
+    },
+    "shop": {
+        "noShop": "🛑 | Este servidor aún no cuenta con una tienda.",
+        "title": "Tienda de {tienda}",
+        "descripcion": "Para comprar items tienes que usar `{prefix}buy <item> [cantidad]`.\nPara vender items usa `{prefix}sell <item> [cantidad]`\nSimbología:\n📥Compra\n📤Venta\n📦Cantidad Disponible\n⏳Tiempo Restante En Tienda\n\n**Items**",
+        "error": "❌ Ocurrió un error inesperado. Reportalo con `bugreport` para solucionarlo rápidamente."
+    },
+    "use": {
+        "noShop": "🛑 | Este servidor aún no cuenta con una tienda.",
+        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noItem": "El artículo `{item}` no existe. Verifica el nombre.",
+        "noUse": "⛔ | Este artículo no se puede usar.",
+        "noRol": "No encontré el rol, puede que ya no exista.",
+        "trueRol": "Ya cuentas con este rol.",
+        "nombreCategoria": "Canales Comprados"
+    }
+}

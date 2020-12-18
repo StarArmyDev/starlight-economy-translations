@@ -33,8 +33,8 @@
             "languageS": "Idioma del Servidor:",
             "languageC": "Idioma en Canales:",
             "econ": "Economía:",
-            "blackList":"Lista Negra:",
-            "whiteList":"Lista Blanca:"
+            "blackList": "Lista Negra:",
+            "whiteList": "Lista Blanca:"
         },
         "econ": {
             "default": "Por Defecto",
@@ -44,15 +44,19 @@
             "multaMax": "Multa Máxima:",
             "cooldown": "Cooldown:",
             "messages": "Dinero por Escribir:",
-            "exclude": "Canales Excluidos:",
+            "exclude": "Canales excluidos de ganancia de dinero:",
             "crime": "Crimen:",
             "daily": "Dinero Diario:",
+            "dice": "Dado:",
+            "flicoin": "Moneda al aire:",
             "rob": "Robar:",
+            "roulette": "Ruleta:",
             "trade": "Trade:",
             "work": "Trabajo:"
         }
     },
     "deleteblacklist": {
+        "noConfig": "❌ | No tienes agregado a nadie a la lista negra",
         "noCommand": "❌ | Comando o categoría inválida.",
         "commandImport": "⚠ Este comando pertenece a una categoría importante.",
         "noUser": "❌ | Usuario/rol/canal inválido.",
@@ -80,6 +84,7 @@
         "default": "Por defecto:"
     },
     "deletewhitelist": {
+        "noConfig": "❌ | No tienes agregado a nadie a la lista blanca",
         "noCommand": "❌ | Comando o categoría inválida.",
         "commandImport": "⚠ Este comando pertenece a una categoría importante.",
         "noUser": "❌ | Usuario/rol/canal inválido.",

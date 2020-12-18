@@ -1,0 +1,51 @@
+{
+    "buy": {
+        "noShop": "🛑 | This server does not have a store yet.",
+        "bloqueado": "You have the economy blocked. Contact the server staff to appeal.",
+        "noItem": "Item `{item}` does not exist. Verify the name.",
+        "noStock": "There is no such quantity of the item available in the store.",
+        "noItemShop": "This item cannot be purchased.",
+        "noMoney": "You don't have enough money, you lack `{faltante}` to be able to buy `{cantidad}` from {item}.",
+        "unico": "This item can only be purchased once.",
+        "noRol": "I did not find the role, it may no longer exist.",
+        "trueRol": "You already have this role.",
+        "yaComprado": "It looks like you already bought this item before. You can't buy it again.",
+        "nombreCategoria": "Channels Purchased",
+        "title": "Purchase of Objects of {tienda}",
+        "descripcion": "You have bought `{cantidad}` from {emoji} {nombre} by {costo}.",
+        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
+    },
+    "inventory": {
+        "noShop": "🛑 | This server does not have a store yet.",
+        "title": "🗂 Inventory:",
+        "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
+        "noPerfil": "User {user} without inventory Invite him to use my commands.",
+        "sinItems": "No items",
+        "noDescripcion": "You have no items in your inventory.",
+        "piezas": "Pieces:"
+    },
+    "sell": {
+        "noShop": "🛑 | This server does not have a store yet.",
+        "bloqueado": "You have the economy blocked. Contact the server staff to appeal.",
+        "noItemInv": "You do not have the item: `{item}`",
+        "noItemShop": "This item cannot be sold, it may be collectible.",
+        "noCantidad": "You do not have enough items to sell, you only have `{cantidad}`",
+        "title": "Sale of Objects of {tienda}",
+        "descripcion": "You've sold `{cantidad}` from {emoji} {nombre} by {costo} coins."
+    },
+    "shop": {
+        "noShop": "🛑 | This server does not have a store yet.",
+        "title": "Store of {tienda}",
+        "descripcion": "To buy items you have to use `{prefix}buy <item> [quantity]`.\nTo sell items use `{prefix}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale\n📦Quantity Available\n⏳Remaining Time In Store\n\n**Items**",
+        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
+    },
+    "use": {
+        "noShop": "🛑 | This server does not have a store yet.",
+        "bloqueado": "You have the economy blocked. Contact the server staff to appeal.",
+        "noUse": "⛔ | Este artículo no se puede usar.",
+        "noItem": "Item `{item}` does not exist. Verify the name.",
+        "noRol": "I did not find the role, it may no longer exist.",
+        "trueRol": "You already have this role.",
+        "nombreCategoria": "Channels Purchased"
+    }
+}

@@ -55,6 +55,7 @@
         },
         "noPermCanal": "No tengo permitido enviar mensajes en:",
         "noPermComandoCanal": "No tengo permitido enviar el comando `{commandName}` en:",
+        "noUserBlackList": "Uhhh no {user} estás en la lista negra global, por la razón: `{reason}`",
         "disable": {
             "miembro": "*⛔ | Este comando lo tienes deshabilitado en este servidor.*",
             "rol": "*⛔ | Comando deshabilitado para tu rol en este servidor.*",

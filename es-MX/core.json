@@ -62,7 +62,7 @@
         "apoyo": "Apoya en el crecimiento del bot donando lo que puedas a travez de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping": {
-        "footer": "Google Cloud Platform | CE",
+        "footer": "Virtual Private Machine",
         "espera": "*Calculando...*",
         "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Puerta de Enlace: {gateway} ms"
     },
@@ -76,16 +76,15 @@
         "owner": "👑 Creador",
         "version": "📊 Versión",
         "libreria": "📚 Libreria",
-        "discordjs": "Discord 11.5.1 (Js)",
         "memoria": "🗂 Memoria",
         "tiempo": "🕒 Tiempo Encendido",
         "servers": "💬 Servidores",
-        "users": "👥 Usuarios",
+        "users": "👥 Usuarios en caché",
         "canales": "#️⃣ Canales",
         "voz": "🔊 Conexiones a voz",
         "commands": "📄 Comandos",
         "os": "🖥️ Sistema Operativo",
-        "sistema": "Linux Ubuntu 16.04",
+        "sistema": "Linux",
         "horaServer": "⏳ Hora en el Servidor"
     },
     "vote": {

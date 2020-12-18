@@ -11,6 +11,14 @@
         "noCantidad": "❌ | You did not enter a valid number.",
         "correcto": "✅ | {cantidad} of money added Correctly from: {miembro}"
     },
+    "clearitems":{
+        "noMember": "❌ | User not found, verify it.",
+        "noItems": "❌ | This user does not have any items.",
+        "noItem": "❌ | Item not found.",
+        "noItemMember": "❌ | User does not have the item.",
+        "correct": "✅ | {items} Item/s removed directly from {user}.",
+        "all": "everyone"
+    },
     "createitem": {
         "title": "Creating Article",
         "seleccion": ">> ...",
@@ -30,6 +38,8 @@
         "requiereS": "Requires Balance",
         "removerR": "Remove Role",
         "mensaje": "Message",
+        "evento": "Event",
+        "noDisponible": "Not available",
         "paso1": ":one: Article name:\n*This name must be unique and must not be more than 50 characters.*",
         "paso2": ":two: Purchase price of the item:\n*It cannot be a negative number. So that this article cannot be bought put `skip`*",
         "paso3": ":three: Sale price of the item:\n*It cannot be a negative number. So that this item cannot be sold, put `skip`*",
@@ -46,6 +56,8 @@
         "paso14": ":one::four: Money required to purchase this item\n*Put `skip` or` infinity` if no minimum balance is required.*",
         "paso15": ":one::five: Role that is removed when purchasing or using the item.\n*Places `skip` if no minimum balance is required.*",
         "paso16": ":one::six: Message to be displayed when using or buying the item.\n*Maximum 1000 characters*",
+        "paso17": ":one::seven: Event this item belongs to?.\n*Maximum 20 characters. Set `skip` or `no` if it does not belong to an event.*",
+        "paso18": ":one::eight: Do you want this item not available to view in store and buy at the moment?\n*Enter `yes` or` no`. You can change its availability at any time by editing the article.*",
         "comprobando": "Checking...",
         "noCreado": "❌ | Article not created. Don't have an emoji being a junk item.",
         "creado": "✅ | Article created successfully.",
@@ -78,7 +90,7 @@
     "deleteitem": {
         "noExiste": "❌ | This item does not exist.",
         "cancelado": "❌ | Command Canceled.",
-        "confirmar": "Do you really want to remove item {item} from the store? Put `yes` to confirm, otherwise put `no` or `cancel`",
+        "confirmar": "Do you really want to remove item {item} from the store?This will also remove it from members' inventories, if you want nothing else to be unavailable in the store, edit the item property \"notavailable\" to `true`.\nPut `yes` to confirm, otherwise put `no` or `cancel`",
         "si": "yes",
         "no": "not",
         "cancel": "cancelled",
@@ -87,10 +99,59 @@
     },
     "deletemoney": {
         "banco": "bank",
+        "noMember": "❌ | User not found, verify it.",
         "noUser": "❌ | The user is not in the database",
         "all": "all",
         "noNumber": "❌ | You did not enter a valid money number.",
         "true": "✅ | `{money}` money properly removed from: {member}"
+    },
+    "edititem": {
+        "noExist": "❌ | This item does not exist.",
+        "noProperty": "❌ | This property does not exist",
+        "max20": "⚠ | You cannot put more than 20 characters or less than 2.",
+        "max50": "⚠ | You cannot put more than 50 characters or less than 2.",
+        "max1000": "⚠ | You cannot put more than 1,000 characters or less than 5.",
+        "noNumbre": "❌ | Invalid number.",
+        "noOption": "❌ | Invalid option.",
+        "yes": "yes",
+        "name": "name",
+        "price": "rate",
+        "description": "depiction",
+        "emoji": "emoji",
+        "hide": "conceal",
+        "transferable": "transferable",
+        "trash": "garbage",
+        "singlepurchase": "uniquepurchase",
+        "time": "time",
+        "stock": "quantity",
+        "get": "obtain",
+        "require": "requires",
+        "remove": "eliminate",
+        "message": "message",
+        "event": "event",
+        "notavailable": "not-available",
+        "noPrice": "Invalid price.",
+        "buy": "purchase",
+        "sell": "sale",
+        "priceHelp": "Place `{prefix}edititem price <buy|sell> <value>`",
+        "noTime": "Invalid time. Set the value as: 30s, 60m, 12h, 3d.",
+        "channel": "canal",
+        "rol": "role",
+        "getHelp": "Use `{prefix}edititem get <channel|rol> <(text|voz)|@role>`",
+        "noCreateChannel": "❌ | I don't have permissions to create channels. Add permission to my role \"Manage Channels\"",
+        "noRoles": "❌ | I do not have permission to handle roles on this server. Add permission to my role \"Manage Roles\"",
+        "noRole": "❌ | Role not found or invalid role. Please verify that it exists.",
+        "noManageable": "❌ | I can't seem to handle this role. Verify that my role is above this role.",
+        "balance": "residue",
+        "requireHelp": "Use `{prefix}edititem require <rol|balance> <@role|number>`",
+        "title": "Edited Item",
+        "property": "Property changed: ",
+        "newValue": "New value:"
+    },
+    "lock":{
+        "noMember": "❌ | User not found, verify it.",
+        "correct": "✅ | User economy successfully locked.",
+        "correctInv": "✅ | User Inventory Locked Successfully."
     },
     "reseteconomy": {
         "cancelado": "❌ | Command Canceled.",
@@ -149,5 +210,10 @@
         "min": "Minimum payment:",
         "max": "Maximum Payment:",
         "noModo": "❌ | Invalid mode."
+    },
+    "unlock":{
+        "noMember": "❌ | User not found, verify it.",
+        "correct": "✅ | User economy successfully unlocked.",
+        "correctInv": "✅ | User Inventory Successfully Unlocked."
     }
 }

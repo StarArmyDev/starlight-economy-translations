@@ -47,36 +47,37 @@
         "title": "Custom Prefix Assigned",
         "agregado": "Aggregate"
     },
-    "commandHandling":{
+    "commandHandling": {
         "noCommand": {
-            "title":"❌ Command not found",
-            "description":"The **{command}** command does not exist",
-            "similitudes":"Similar commands:"
+            "title": "❌ Command not found",
+            "description": "The **{command}** command does not exist",
+            "similitudes": "Similar commands:"
         },
-        "noPermCanal":"I am not allowed to send messages in:",
-        "noPermComandoCanal":"I am not allowed to send the command `{commandName}` in:",
-        "disable":{
-            "miembro":"*⛔ | This command is disabled on this server.*",
-            "rol":"*⛔ | Command disabled for your role on this server.*",
-            "canal":"*⛔ | Command disabled on this channel.*",
-            "server":"*⛔ | Command disabled on this server.*"
+        "noPermCanal": "I am not allowed to send messages in:",
+        "noPermComandoCanal": "I am not allowed to send the command `{commandName}` in:",
+        "noUserBlackList": "{user} you are on the global blacklist, for the reason: `{reason}`",
+        "disable": {
+            "miembro": "*⛔ | This command is disabled on this server.*",
+            "rol": "*⛔ | Command disabled for your role on this server.*",
+            "canal": "*⛔ | Command disabled on this channel.*",
+            "server": "*⛔ | Command disabled on this server.*"
         },
-        "comandoApagado":"This command is turned off by some update or temporary suspension.",
-        "noUso":"You do not have to add parameters",
-        "embedHelp":{
-            "title":"Help from: {command}",
-            "descripcion":"**Descripción:**",
-            "uso":"Use the command as follows:",
-            "alias":"Alias",
-            "noAlias":"No aliases",
-            "categoria":"Category",
+        "comandoApagado": "This command is turned off by some update or temporary suspension.",
+        "noUso": "You do not have to add parameters",
+        "embedHelp": {
+            "title": "Help from: {command}",
+            "descripcion": "**Descripción:**",
+            "uso": "Use the command as follows:",
+            "alias": "Alias",
+            "noAlias": "No aliases",
+            "categoria": "Category",
             "permiso": "Permission",
-            "cooldown":"Cooldown",
-            "args":"Wait for arguments",
-            "apagado":"Global shutdown",
-            "sinPermisos":"No permits required"
+            "cooldown": "Cooldown",
+            "args": "Wait for arguments",
+            "apagado": "Global shutdown",
+            "sinPermisos": "No permits required"
         },
-        "cooldown":"High! Wait `{time}` to use the command again `{commandName}` be patient.",
-        "error":"❌ There was an error trying to execute the command. You can report it with `{prefix}bugreport` or write me to DM."
+        "cooldown": "High! Wait `{time}` to use the command again `{commandName}` be patient.",
+        "error": "❌ There was an error trying to execute the command. You can report it with `{prefix}bugreport` or write me to DM."
     }
 }
