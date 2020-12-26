@@ -8,10 +8,11 @@
     },
     "addmoney": {
         "noMember": "❌ | User not found, verify it.",
+        "bot": "⚠ | This user is a bot.",
         "noCantidad": "❌ | You did not enter a valid number.",
         "correcto": "✅ | {cantidad} of money added Correctly from: {miembro}"
     },
-    "clearitems":{
+    "clearitems": {
         "noMember": "❌ | User not found, verify it.",
         "noItems": "❌ | This user does not have any items.",
         "noItem": "❌ | Item not found.",
@@ -27,7 +28,6 @@
         "precioV": "Sale price",
         "descripcion": "Description",
         "emoji": "Emoji",
-        "oculto": "Hidden",
         "transferible": "Transferable",
         "basura": "Garbage Item",
         "unica": "Single Purchase",
@@ -39,13 +39,13 @@
         "removerR": "Remove Role",
         "mensaje": "Message",
         "evento": "Event",
-        "noDisponible": "Not available",
+        "disponible": "Available",
         "paso1": ":one: Article name:\n*This name must be unique and must not be more than 50 characters.*",
         "paso2": ":two: Purchase price of the item:\n*It cannot be a negative number. So that this article cannot be bought put `skip`*",
         "paso3": ":three: Sale price of the item:\n*It cannot be a negative number. So that this item cannot be sold, put `skip`*",
         "paso4": ":four: Item description:\n*Not greater than 1,000 characters.*",
         "paso5": ":five: Item emoji:\n*Useful for inventory items. Mandatory for junk items for commands, otherwise you can put `skip`*",
-        "paso6": ":six: Was this item hidden from inventory?\n*Put `yes` or `no`*",
+        "paso6": ":six: Do you want to hide this item so it is not displayed in the store and you cannot buy it at the moment?\n*Enter `yes` or` no`. You can change its availability at any time by editing the article.*",
         "paso7": ":seven: Can this article be transferred between users?\n*Place `yes` o `no`*",
         "paso8": ":eight: Is it a junk item?\n*Put `yes` or` no`, these items are for the corresponding commands.*",
         "paso9": ":nine: Can only be purchased once per user?\n*Put `yes` o `no`*",
@@ -57,7 +57,6 @@
         "paso15": ":one::five: Role that is removed when purchasing or using the item.\n*Places `skip` if no minimum balance is required.*",
         "paso16": ":one::six: Message to be displayed when using or buying the item.\n*Maximum 1000 characters*",
         "paso17": ":one::seven: Event this item belongs to?.\n*Maximum 20 characters. Set `skip` or `no` if it does not belong to an event.*",
-        "paso18": ":one::eight: Do you want this item not available to view in store and buy at the moment?\n*Enter `yes` or` no`. You can change its availability at any time by editing the article.*",
         "comprobando": "Checking...",
         "noCreado": "❌ | Article not created. Don't have an emoji being a junk item.",
         "creado": "✅ | Article created successfully.",
@@ -107,7 +106,7 @@
     },
     "edititem": {
         "noExist": "❌ | This item does not exist.",
-        "noProperty": "❌ | This property does not exist",
+        "noProperty": "❌ | This property does not exist. Properys: `name`, `price`, `description`, `emoji`, `transferable`, `trash`, `singlepurchase`, `time`, `stock`, `get`, `require`, `remove`, `message`, `event`, `available`.",
         "max20": "⚠ | You cannot put more than 20 characters or less than 2.",
         "max50": "⚠ | You cannot put more than 50 characters or less than 2.",
         "max1000": "⚠ | You cannot put more than 1,000 characters or less than 5.",
@@ -118,7 +117,6 @@
         "price": "rate",
         "description": "depiction",
         "emoji": "emoji",
-        "hide": "conceal",
         "transferable": "transferable",
         "trash": "garbage",
         "singlepurchase": "uniquepurchase",
@@ -129,7 +127,7 @@
         "remove": "eliminate",
         "message": "message",
         "event": "event",
-        "notavailable": "not-available",
+        "available": "not-available",
         "noPrice": "Invalid price.",
         "buy": "purchase",
         "sell": "sale",
@@ -148,8 +146,9 @@
         "property": "Property changed: ",
         "newValue": "New value:"
     },
-    "lock":{
+    "lock": {
         "noMember": "❌ | User not found, verify it.",
+        "bot": "⚠ | This user is a bot.",
         "correct": "✅ | User economy successfully locked.",
         "correctInv": "✅ | User Inventory Locked Successfully."
     },
@@ -195,6 +194,7 @@
         "noModo": "❌ | Invalid mode."
     },
     "setmoney": {
+        "bot": "⚠ | This user is a bot.",
         "banco": "bank",
         "noNumber": "❌ | You did not put a valid money number.",
         "true": "✅ | {money} money set correctly from: {member}"
@@ -211,7 +211,7 @@
         "max": "Maximum Payment:",
         "noModo": "❌ | Invalid mode."
     },
-    "unlock":{
+    "unlock": {
         "noMember": "❌ | User not found, verify it.",
         "correct": "✅ | User economy successfully unlocked.",
         "correctInv": "✅ | User Inventory Successfully Unlocked."

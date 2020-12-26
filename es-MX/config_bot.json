@@ -1,7 +1,8 @@
 {
     "addblacklist": {
         "noCommand": "❌ | Comando o categoría inválida.",
-        "commandImport": "⚠ Este comando pertenece a una categoría importante.",
+        "commandImport": "⚠ | Este comando pertenece a una categoría importante.",
+        "bot": "⚠ | Este usuario es un bot.",
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "yaCommand": "❌ | Este comando ya está en la lista.",
         "all": "todo",
@@ -13,6 +14,7 @@
     "addwhitelist": {
         "noCommand": "❌ | Comando o categoría inválida.",
         "commandImport": "⚠ Este comando pertenece a una categoría importante.",
+        "bot": "⚠ | Este usuario es un bot.",
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "yaCommand": "❌ | Este comando ya está en la lista.",
         "all": "todo",

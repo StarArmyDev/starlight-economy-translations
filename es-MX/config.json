@@ -8,10 +8,11 @@
     },
     "addmoney": {
         "noMember": "❌ | Usuario no encontrado, verificalo.",
+        "bot": "⚠ | Este usuario es un bot.",
         "noCantidad": "❌ | No colocaste un número válido.",
         "correcto": "✅ | {cantidad} de dinero añadida correctamente a: {miembro}"
     },
-    "clearitems":{
+    "clearitems": {
         "noMember": "❌ | Usuario no encontrado, verificalo.",
         "noItems": "❌ | Este usuario no tiene ningún artículo.",
         "noItem": "❌ | No se encontró el artículo.",
@@ -27,7 +28,6 @@
         "precioV": "Precio Venta",
         "descripcion": "Descripción",
         "emoji": "Emoji",
-        "oculto": "Oculto",
         "transferible": "Transferible",
         "basura": "Artículo Basura",
         "unica": "Única Compra",
@@ -39,13 +39,13 @@
         "removerR": "Remover Rol",
         "mensaje": "Mensaje",
         "evento": "Evento",
-        "noDisponible": "No Disponible",
+        "disponible": "Disponible",
         "paso1": ":one: Nombre del artículo:\n*Este nombre debe ser único y no debe de tener más de 50 caracteres.*",
         "paso2": ":two: Precio de compra del artículo:\n*No puede ser número negativo. Para que este artículo no se pueda comprar ponga `saltar`*",
         "paso3": ":three: Precio de venta del artículo:\n*No puede ser número negativo. Para que este artículo no se pueda vender ponga `saltar`*",
         "paso4": ":four: Descripción del artículo:\n*No mayor a 1,000 carácteres.*",
         "paso5": ":five: Emoji del artículo:\n*Útil para artículos de inventario. Obligatorio para artícuos basura para los comandos, de lo contrario, puede colocar `saltar`*",
-        "paso6": ":six: ¿Se ocultará este artículo del inventario?\n*Coloca `si` o `no`*",
+        "paso6": ":six: ¿Quieres ocultar este artículo para no mostrarse en la tienda y no poder comprarlo por el momento?\n*Coloca `si` o `no`. Puedes cambiar su disponibilidad en cualquier momento editando el artículo.*",
         "paso7": ":seven: ¿Se podrá transferir entre usuarios este artículo?\n*Coloca `si` o `no`*",
         "paso8": ":eight: ¿Es un artículo basura?\n*Coloca `si` o `no`, estos artículos son para los comandos correspondientes.*",
         "paso9": ":nine: ¿Sólo se podrá comprar una única vez por usuario?\n*Coloca `si` o `no`*",
@@ -57,7 +57,6 @@
         "paso15": ":one::five: Rol que se elimina al comprar o usar el artículo.\n*Coloca `saltar` si no se requiere un saldo mínimo.*",
         "paso16": ":one::six: Mensaje que se mostrará al usar o comprar el artículo.\n*Máximo 1000 carácteres.*",
         "paso17": ":one::seven: ¿Evento al que pertenece este artículo?.\n*Máximo 20 carácteres. Coloca `saltar`o `no` si no pertenece a un evento.*",
-        "paso18": ":one::eight: ¿Quieres que este artículo no esté disponible para ver en tienda y comprar por el momento?\n*Coloca `si`o `no`. Puedes cambiar su disponibilidad en cualquier momento editando el artículo.*",
         "comprobando": "Comprobando...",
         "noCreado": "❌ | Artículo no creado. No tiene un emoji siendo un artículo basura.",
         "creado": "✅ | Artículo creado correctamente.",
@@ -107,7 +106,7 @@
     },
     "edititem": {
         "noExist": "❌ | Este artículo no existe.",
-        "noProperty": "❌ | Esta propiedad no existe",
+        "noProperty": "❌ | Esta propiedad no existe. Propiedas: `nombre`, `precio`, `descripcion`, `emoji`, `transferible`, `basura`, `compraunica`, `tiempo`, `cantidad`, `obtiene`, `requiere`, `eliminar`, `mensaje`, `evento`, `disponible`.",
         "max20": "⚠ | No puedes poner mas de 20 carácteres o menos de 2.",
         "max50": "⚠ | No puedes poner mas de 50 carácteres o menos de 2.",
         "max1000": "⚠ | No puedes poner mas de 1,000 carácteres o menos de 5.",
@@ -118,7 +117,6 @@
         "price": "precio",
         "description": "descripción",
         "emoji": "emoji",
-        "hide": "ocultar",
         "transferable": "transferible",
         "trash": "basura",
         "singlepurchase": "compraúnica",
@@ -129,7 +127,7 @@
         "remove": "eliminar",
         "message": "mensaje",
         "event": "evento",
-        "notavailable": "nodisponible",
+        "available": "disponible",
         "noPrice": "Precio no válido.",
         "buy": "compra",
         "sell": "venta",
@@ -148,8 +146,9 @@
         "property": "Propiedad cambiada: ",
         "newValue": "Nuevo valor:"
     },
-    "lock":{
+    "lock": {
         "noMember": "❌ | Usuario no encontrado, verificalo.",
+        "bot": "⚠ | Este usuario es un bot.",
         "correct": "✅ | Economía del usuario bloqueado correctamente.",
         "correctInv": "✅ | Inventario del usuario bloqueado correctamente."
     },
@@ -195,6 +194,7 @@
         "noModo": "❌ | Modo no válido."
     },
     "setmoney": {
+        "bot": "⚠ | Este usuario es un bot.",
         "banco": "banco",
         "noNumber": "❌ | No colocaste un número de dinero válido.",
         "true": "✅ | {money} dinero establecido correctamente de: {member}"
@@ -211,7 +211,7 @@
         "max": "Pago Máximo:",
         "noModo": "❌ | Modo no válido."
     },
-    "unlock":{
+    "unlock": {
         "noMember": "❌ | Usuario no encontrado, verificalo.",
         "correct": "✅ | Economía del usuario desbloqueado correctamente.",
         "correctInv": "✅ | Inventario del usuario desbloqueado correctamente."

@@ -2,6 +2,7 @@
     "addblacklist": {
         "noCommand": "❌ | Invalid command or category.",
         "commandImport": "⚠ This command belongs to an important category.",
+        "bot": "⚠ | This user is a bot.",
         "noUser": "❌ | Invalid user / role / channel.",
         "yaCommand": "❌ | This command is already in the list.",
         "all": "everything",
@@ -13,6 +14,7 @@
     "addwhitelist": {
         "noCommand": "❌ | Invalid command or category.",
         "commandImport": "⚠ This command belongs to an important category.",
+        "bot": "⚠ | This user is a bot.",
         "noUser": "❌ | Invalid user / role / channel.",
         "yaCommand": "❌ | This command is already in the list.",
         "all": "everything",

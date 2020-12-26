@@ -27,6 +27,7 @@
         "title": "🏛 To deposit",
         "noCantidad": "Invalid amount.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
+        "noMoney": "It seems you have nothing to deposit.",
         "falta": "You do not have enough coins.",
         "mensaje": "✅ Successfully deposited {cantidad} in your bank",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
@@ -50,7 +51,10 @@
     "rob": {
         "title": "🕵️‍ Steal",
         "noUser": "Usuario no válido",
+        "bot": "⚠ | This user is a bot.",
+        "noProfile": "This user does not have a profile, he has not sent any message to register it.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
+        "automencion": "You cannot steal yourself..",
         "noRobMoney": "How do you want to steal it if it has nothing?",
         "mensaje": "✅ Successful theft You have stolen {miembro} the total of {robado}. Now run away while you can.",
         "noMensaje": "❌ The law struck you by surprise and took you away {money}, besides they gave half of that to {miembro} for the incident.",
@@ -80,13 +84,13 @@
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "mensaje": "✅ You have received {money} for doing dangerous trades",
         "noMensaje": "❌ It looks like the police saw you and took you away {money}.",
-        "cooldown": "🛑 | Stop! Wait `{time}` to do indecent work again.",
-        "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
+        "cooldown": "🛑 | Stop! Wait `{time}` to do indecent work again."
     },
     "trans": {
         "title": "💱 Transfer",
         "noCantidad": "Invalid amount.",
         "noMencion": "Mention not valid. Verify the user.",
+        "bot": "⚠ | This user is a bot.",
         "automencion": "✅ {money} coins successfully transferred to the national bank of StarLight. Thanks for your preference.",
         "mensajeEspera": "Verify and accept by placing `{numero}` to transfer {dinero} coins. Set `cancel` not to transfer money.\n*You have a 10% commission for the transfer.*",
         "cancel": "Transfer Canceled",
