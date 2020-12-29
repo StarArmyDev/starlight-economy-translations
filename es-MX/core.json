@@ -68,7 +68,7 @@
     },
     "release": {
         "title": "Novedades de",
-        "descripcion": "Sin Datos",
+        "descripcion": "**__Nuevo__**\n- SetLanguage: Se agregó el español España `es-ES` y una traducción mínima del portugués Brasil `pt-BR` *Categorías: Core - 100%, Config - 3.2%* Aún por terminar y mejorar.\n\n**__Cambios__**\n- FlipCoin: Se arregló el nombre de `flicoin` a `flipcoin` y se agregó como apodo `caracruz`.\n\n**__Arreglos__**\n- CreateItem: Se arregló un problema que causaba que no se ejecutara el comando.\n- Dice: Se arregló que salía el mensaje embed a pesar de estar en cooldown.\n- FlipCoin: Se arregló que salía el mensaje embed a pesar de estar en cooldown.\n- Roulette: Se arregló un problema que causaba que no se ejecutara el comando.",
         "footer": "Estos son los cambios de la versión {version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {dev}."
     },
     "stats": {

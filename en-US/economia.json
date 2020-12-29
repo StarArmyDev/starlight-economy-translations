@@ -39,7 +39,7 @@
         "pierdes": "You lost ... they take away {money}",
         "cooldown": "🛑 | Stop! Wait `{time}` to roll the die."
     },
-    "flicoin": {
+    "flipcoin": {
         "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
         "cara": "face",
         "sello": "seal",

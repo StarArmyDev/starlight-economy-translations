@@ -68,7 +68,7 @@
     },
     "release": {
         "title": "News from",
-        "descripcion": "Sin Datos",
+        "descripcion": "**__New__**\n- SetLanguage: Added Spanish Spain `es-ES` and a minimal translation from Portuguese Brazil `pt-BR` *Categories: Core - 100%, Config - 3.2%* Still to be finished and improved.\n\n**__Changes__**\n- FlipCoin: Fixed the name of `flicoin` to` flipcoin` and added as nickname `caracruz`.\n\n**__Fixes__**\n- CreateItem: Fixed a problem that caused the command not to be executed.\n- Dice: Fixed embed message getting out despite cooldown.\n- FlipCoin: Fixed embed message getting out despite cooldown.\n- Roulette : Fixed an issue that caused the command not to run.",
         "footer": "These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
     },
     "stats": {

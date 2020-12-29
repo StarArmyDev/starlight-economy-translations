@@ -9,10 +9,10 @@
     "crime": {
         "title": "🕵️‍♂️ Crimen",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "crime": "Has Recibido {crime} por robarle al owner, correeee",
+        "crime": "Has Recibido {crime} por robarle al owner, corre!!",
         "noCrime": "❌ Parece que no sabes entrar silenciosamente a los lugares y te quitaron {money}.",
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para cometer nuevamente un crimen.",
-        "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. estamos trabajando en repararlo."
+        "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. Estamos trabajando en repararlo."
     },
     "daily": {
         "dlyUser": "¡Acabas de dar {money} al usuario {miembro}! Vuelve en {tiempo} por tu dinero diario.",
@@ -21,7 +21,7 @@
         "title": "☀ Dinero Diario",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para obtener nuevamente tu dinero diario.",
-        "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. estamos trabajando en repararlo."
+        "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. Estamos trabajando en repararlo."
     },
     "deposite": {
         "title": "🏛 Depositar",
@@ -30,21 +30,21 @@
         "noMoney": "Parece que no tienes nada que depositar.",
         "falta": "Usted no tiene monedas suficientes.",
         "mensaje": "✅ Depositado con éxito {cantidad} en tu banco.",
-        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "dice": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
         "sacaste": "Sacaste:",
-        "ganas": "¡Adiviaste! Ganas {money}",
+        "ganas": "¡Adivinaste! Ganas {money}",
         "pierdes": "Perdiste... te quitan {money}",
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para tirar el dado."
     },
-    "flicoin": {
+    "flipcoin": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
-        "cara": "sol",
-        "sello": "águila",
+        "cara": "sol (cara)",
+        "sello": "águila (cruz)",
         "sacaste": "Sacaste:",
-        "ganas": "¡Adiviaste! Ganas {money}",
+        "ganas": "¡Adivinaste! Ganas {money}",
         "pierdes": "Perdiste... te quitan {money}",
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para tirar la moneda al aire."
     },
@@ -59,7 +59,7 @@
         "mensaje": "✅ Robo Exitoso Le has robado a {miembro} el total de {robado}. Ahora huye mientras puedas.",
         "noMensaje": "❌ La ley te cayó de sorpresa y te quitó {money}, además de que le dieron la mitad de eso a {miembro} por el incidente.",
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para robarle a alguien mas.",
-        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "roulette": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
@@ -76,7 +76,7 @@
         "tu": "Tu Posición:",
         "dinero": "Dinero:",
         "banco": "Banco:",
-        "title": "TOP DINERO  | **{database}**",
+        "title": "TOP DINERO | **{database}**",
         "paginas": "Página {count} de {countDB}"
     },
     "trade": {
@@ -91,7 +91,7 @@
         "noCantidad": "Cantidad no válida.",
         "noMencion": "Mención no valida. Verifica el usuario.",
         "bot": "⚠ | Este usuario es un bot.",
-        "automencion": "✅ {money} transferidos correctamente al banco nacional de StarBot. Gracias por su preferencia.",
+        "automencion": "✅ {money} transferidos correctamente al banco nacional de StarLight. Gracias por su preferencia.",
         "mensajeEspera": "Verifica y acepta colocando `{numero}` para transferir {dinero}. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 10% de comisión por la transferencia.*",
         "cancel": "✅ Transferencia Cancelada",
         "noValido": "Número de verificación no válido.",
@@ -99,9 +99,9 @@
         "noMoney": "Parece que no tienes dinero para transferir.",
         "falta": "Usted no tiene monedas suficientes.",
         "noSumar": "Parece ser que {miembro} no tiene perfil. **Tiene que hablar para que se cree**\n*Si consideras que esto es un error, puedes reportarlo con* `bugreport`",
-        "mensaje": "✅ Transferencia exitosa. Se dió a {miembro} la cantidad de {cantidad}.",
+        "mensaje": "✅ Transferencia éxitosa. Se dió a {miembro} la cantidad de {cantidad}.",
         "noTiempo": "⏳ Tiempo Expirado ❌",
-        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "withdraw": {
         "title": "💸 Retiro",
@@ -109,8 +109,8 @@
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
         "noMoney": "Parece que no tienes nada que retirar.",
         "falta": "Usted no tiene monedas suficientes.",
-        "mensaje": "✅ Retiro con exito {cantidad} en tu bolsillo, Dejando en tu banco `{banco}`",
-        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+        "mensaje": "✅ Retiro con éxito {cantidad} en tu bolsillo, Dejando en tu banco `{banco}`",
+        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "work": {
         "title": "👷 ‍Trabajo",
@@ -118,6 +118,6 @@
         "mensaje": "✅ ¡Acabas de recibir {money} monedas!",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para trabajar nuevamente.",
-        "error": "❌ Lo siento, parece que hubo un error. estamos trabajando en repararlo."
+        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     }
 }
