@@ -28,6 +28,7 @@
         "daily": "Dinero Diario:",
         "canalEliminado": "*Canal Eliminado o No disponible.*",
         "noConfig": "*No Configurado.*",
+        "noCanal": "*(Canal Desconocido)*",
         "embed": {
             "author": "Configuración | {guild_name}",
             "title3": "Bot",
@@ -50,9 +51,10 @@
             "crime": "Crimen:",
             "daily": "Dinero Diario:",
             "dice": "Dado:",
-            "flicoin": "Moneda al aire:",
+            "flipcoin": "Moneda al aire:",
             "rob": "Robar:",
             "roulette": "Ruleta:",
+            "slotmachine": "Tragamonedas:",
             "trade": "Comerciar:",
             "work": "Trabajo:"
         }

@@ -34,6 +34,7 @@
     },
     "dice": {
         "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
+        "noMoney": "❌ | You don't have enough money. You lack `{quantity}`",
         "sacaste": "You got:",
         "ganas": "You guessed it! You win {money}",
         "pierdes": "You lost ... they take away {money}",
@@ -61,7 +62,7 @@
         "cooldown": "🛑 | Stop! Wait `{time}` to steal from someone else.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
-    "roulette": {
+    "slotmachine": {
         "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
         "ganas": "Congratulations! Won",
         "pierdes": "Bad luck",

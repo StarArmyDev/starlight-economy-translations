@@ -34,6 +34,7 @@
     },
     "dice": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "noMoney": "❌ | No cuentas con el dinero suficiente. Te falta `{quantity}`",
         "sacaste": "Sacaste:",
         "ganas": "¡Adivinaste! Ganas {money}",
         "pierdes": "Perdiste... te quitan {money}",
@@ -61,7 +62,7 @@
         "cooldown": "🛑 | ¡Alto! Espere `{time}` para robarle a alguien mas.",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
-    "roulette": {
+    "slotmachine": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
         "ganas": "¡Felicidades! Ganaste",
         "pierdes": "Mala suerte",

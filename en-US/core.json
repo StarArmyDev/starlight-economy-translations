@@ -68,7 +68,7 @@
     },
     "release": {
         "title": "News from",
-        "descripcion": "**__New__**\n- SetLanguage: Added Spanish Spain `es-ES` and a minimal translation from Portuguese Brazil `pt-BR` *Categories: Core - 100%, Config - 3.2%* Still to be finished and improved.\n\n**__Changes__**\n- FlipCoin: Fixed the name of `flicoin` to` flipcoin` and added as nickname `caracruz`.\n\n**__Fixes__**\n- CreateItem: Fixed a problem that caused the command not to be executed.\n- Dice: Fixed embed message getting out despite cooldown.\n- FlipCoin: Fixed embed message getting out despite cooldown.\n- Roulette : Fixed an issue that caused the command not to run.",
+        "descripcion": "**__New__**\n- It says: Now you can optionally bet and if they win they take x2 of the money bet.\n- Flipcoin: Now you can optionally bet and if they win they take x1.5 of the money bet.\n\n**__Changes__**\n- SlotMachine: Renamed from **roulette** to **slotmachine** as it had the wrong name for its function.\n- Roulette: The command was turned off to work on it and be able to bet like a casino roulette.\n- Flicoin: The property of flicoin was changed to **flipcoin** in the `setcooldown`, `setfineamount` and `setpayout` commands due to a misspelling.\n\n** __ Arrays __ **\n- Says: Fixed cooldown.\n- Flipcoin: Fixed cooldown.\n- SlotMachine: Fixed cooldown.",
         "footer": "These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
     },
     "stats": {

@@ -68,7 +68,7 @@
     },
     "release": {
         "title": "Notícias de",
-        "descripcion": "**__Novo__**\n- SetLanguage: Adicionado espanhol Espanha `es-ES` e uma tradução mínima do português Brasil `pt-BR` *Categorias: Core - 100%, Config - 3,2%* Ainda a ser concluído e melhorado.\n\n**__Alterações__**\n- FlipCoin: corrigido o nome de `flicoin` para `flipcoin` e adicionado como apelido `caracruz`.\n\n**__Correções__**\n- CreateItem: Corrigido um problema que fazia com que o comando não fosse executado.\n- Diz: Corrigida mensagem embed recebendo saída apesar de estar em resfriamento.\n- FlipCoin: Corrigida saída de mensagem embed apesar de estar em resfriamento.\n- Roleta: corrigido um problema que fazia com que o comando não fosse executado.",
+        "descripcion": "--",
         "footer": "Estas são as mudanças de versão {version} qualquer problema que você pode entrar no servidor de suporte. | Desenvolvido por {dev}."
     },
     "stats": {
