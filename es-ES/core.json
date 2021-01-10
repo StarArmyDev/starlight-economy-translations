@@ -68,7 +68,7 @@
     },
     "release": {
         "title": "Novedades de",
-        "descripcion": "**__Nuevo__**\n- Dice: Ahora se puede apostar opcionalmente y si ganan se llevan x2 del dinero apostado.\n- Flipcoin: Ahora se puede apostar opcionalmente y si ganan se llevan x1.5 del dinero apostado.\n\n**__Cambios__**\n- SlotMachine: Se cambió el nombre de **roulette** a **SlotMachine** ya que tenía el nombre erroneo para su función.\n- Roulette: Se apagó el comando para trabajar en él y poder apostar como una ruleta de casino.\n- Flicoin: Se cambió la propiedad de flicoin a **flipcoin** en los comandos `setcooldown`, `setfineamount` y `setpayout` por ser error ortográfico.\n\n**__Arreglos__**\n- Dice: Se arregló el cooldown.\n- Flipcoin: Se arregló el cooldown.\n- SlotMachine: Se arregló el cooldown.",
+        "descripcion": "**__Nuevo__**\n- Dice: Ahora se puede apostar opcionalmente y si ganan se llevan x2 del dinero apostado.\n- Flipcoin: Ahora se puede apostar opcionalmente y si ganan se llevan x1.5 del dinero apostado.\n\n**__Cambios__**\n- SlotMachine: Se cambió el nombre de **roulette** a **SlotMachine** ya que tenía el nombre erróneo para su función.\n- Roulette: Se apagó el comando para trabajar en él y poder apostar como una ruleta de casino.\n- Flicoin: Se cambió la propiedad de flicoin a **flipcoin** en los comandos `setcooldown`, `setfineamount` y `setpayout` por ser error ortográfico.\n\n**__Arreglos__**\n- Dice: Se arregló el cooldown.\n- Flipcoin: Se arregló el cooldown.\n- SlotMachine: Se arregló el cooldown.",
         "footer": "Estos son los cambios de la versión {version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {dev}."
     },
     "stats": {

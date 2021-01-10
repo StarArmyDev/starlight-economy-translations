@@ -4,9 +4,9 @@
         "commandImport": "⚠ | Este comando pertenece a una categoría importante.",
         "bot": "⚠ | Este usuario es un bot.",
         "noUser": "❌ | Usuario/rol/canal no válido.",
-        "yaCommand": "❌ | Este comando ya está en la lista.",
+        "yaCommand": "❌ | Este comando ya está deshabilitado.",
         "all": "todo",
-        "title": "✅ | Comando agregado a la lista negra en este Servidor",
+        "title": "✅ | Comando deshabilitado en este Servidor",
         "fieldCom": "Comando:",
         "fieldCat": "Comandos de categoría:",
         "commands": "Comandos:"
@@ -16,9 +16,9 @@
         "commandImport": "⚠ Este comando pertenece a una categoría importante.",
         "bot": "⚠ | Este usuario es un bot.",
         "noUser": "❌ | Usuario/rol/canal no válido.",
-        "yaCommand": "❌ | Este comando ya está en la lista.",
+        "yaCommand": "❌ | Este comando ya está habilitado.",
         "all": "todo",
-        "title": "✅ | Comando agregado a la lista blanca en este Servidor",
+        "title": "✅ | Comando habilitado en este Servidor",
         "fieldCom": "Comando:",
         "fieldCat": "Comandos de categoría:",
         "commands": "Comandos:"
@@ -36,8 +36,8 @@
             "languageS": "Idioma del Servidor:",
             "languageC": "Idioma en Canales:",
             "econ": "Economía:",
-            "blackList": "Lista Negra:",
-            "whiteList": "Lista Blanca:"
+            "blackList": "Deshabilitado:",
+            "whiteList": "Habilitado:"
         },
         "econ": {
             "default": "Por Defecto",
@@ -54,7 +54,7 @@
             "flipcoin": "Moneda al aire:",
             "rob": "Robar:",
             "roulette": "Ruleta:",
-            "slotmachine": "Tragamonedas:",
+            "slotmachine": "Tragaperras:",
             "trade": "Comerciar:",
             "work": "Trabajo:"
         }
@@ -66,7 +66,7 @@
         "noUser": "❌ | Usuario/rol/canal no válido.",
         "noList": "❌ | Este comando no está en la lista.",
         "all": "todo",
-        "title": "✅ | Comando eliminado de la lista negra en este Servidor",
+        "title": "✅ | Se ha vuelto a habilitar el comando en este Servidor",
         "fieldAll": "Comandos:",
         "fieldCat": "Comandos de categoría:",
         "for": "Para:",
@@ -94,7 +94,7 @@
         "noUser": "❌ | Usuario/rol/canal no válido.",
         "noList": "❌ | Este comando no está en la lista.",
         "all": "todo",
-        "title": "✅ | Comando eliminado a la lista negra en este Servidor",
+        "title": "✅ | Se ha vuelto a deshabilitar el comando en este Servidor",
         "fieldAll": "Comandos:",
         "fieldCat": "Comandos de categoría:",
         "for": "Para:"
@@ -104,8 +104,8 @@
         "noChannel": "❌ | Canal no válido.",
         "noLanguage": "❌ | Este idioma no existe o es no válido. Usa `{prefix}setidioma help` para conocer los idiomas disponibles.",
         "noLang": "❌ | No colocaste el idioma a establecer para el canal",
-        "title": "✅ | Idioma del Servidor Asignado",
-        "titleC": "✅ | Idioma del Canal Asignado",
+        "title": "✅ | Idioma del Servidor Establecido",
+        "titleC": "✅ | Idioma del Canal Establecido",
         "cambio": "Cambiado a"
     },
     "setprefix": {
