@@ -10,7 +10,7 @@
         "noMember": "❌ | Usuario no encontrado, verifícalo.",
         "bot": "⚠ | Este usuario es un bot.",
         "noCantidad": "❌ | No colocaste un número válido.",
-        "correcto": "✅ | {cantidad} de dinero añadida correctamente a: {miembro}"
+        "correcto": "✅ | {cantidad} añadido correctamente a: {miembro}"
     },
     "clearitems": {
         "noMember": "❌ | Usuario no encontrado, verifícalo.",
