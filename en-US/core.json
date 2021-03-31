@@ -3,8 +3,8 @@
         "ok": "✅ Suggestion sent to support server.\n*Any abuse of this or any other command will be penalized.*"
     },
     "bugreport": {
-        "correcto": "**Your error has been reported correctly.**\nIt will be reviewed so please be patient.\n *For further assistance or help you can go to the support server or write to DM.*",
-        "error": "There was a problem sending the message, you can send me a private message as an alternative."
+        "correcto": "**Your error has been reported correctly.**\nIt will be reviewed so please be patient.\n *For further assistance or help you can go to the support server.*",
+        "error": "There was a problem sending the message, You can enter the support server to report this error."
     },
     "donate": {
         "title": "Supports",
@@ -55,16 +55,16 @@
         "invitacion": "🌠 Invitation",
         "link": "[Invite {client_name} to your server]({link})",
         "soporteTitle": "📥 Support Server",
-        "soporte": "[Login to the Server](https://discord.gg/MZN8Yf6 'StarArmy') To get help and be aware of all the information always.",
+        "soporte": "[Login to the Server](https://discord.gg/MZN8Yf6 'StarArmy Support') To get help and be aware of all the information always.",
         "webTitle": "🖥 Web page",
-        "web": "For more information about the bot as its commands go to the [Official Site](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Start')",
+        "web": "For more information about the bot as its commands go to the [Official Site](https://starlight-economy.live/ 'StarLight Economy - Home')",
         "apoyoTitle": "💎 Support us",
         "apoyo": "Support bot growth by donating what you can through [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping": {
-        "footer": "Google Cloud Platform | CE",
-        "espera": "*Calculated...*",
-        "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Gateway: {gateway} ms"
+        "footer": "Virtual Private Machine",
+        "description": "Pong!\n📡 API: {ping}.\n🗃 Database: {db}.",
+        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Database: {db}.\n⏳ Gateway: {gateway}."
     },
     "release": {
         "title": "News from",
@@ -89,6 +89,6 @@
     },
     "vote": {
         "title": "List of Bots where you can vote",
-        "desc": "You can vote every 12 hours, with a double voting weekend at [Top.gg](https://discordbots.org/bot/696723299459268728/vote)"
+        "desc": "You can vote every 12 hours, with a double voting weekend at\n- [Top.gg](https://discordbots.org/bot/696723299459268728/vote)\n- \n- [MadKing](https://madking.us/bot/696723299459268728)"
     }
 }

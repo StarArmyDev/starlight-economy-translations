@@ -48,6 +48,7 @@
         "agregado": "Aggregate"
     },
     "commandHandling": {
+        "noGuild": "*`⛔|` This command can only be used on a server.*",
         "noCommand": {
             "title": "❌ Command not found",
             "description": "The **{command}** command does not exist",
@@ -78,6 +79,6 @@
             "sinPermisos": "No permits required"
         },
         "cooldown": "High! Wait `{time}` to use the command again `{commandName}` be patient.",
-        "error": "❌ There was an error trying to execute the command. You can report it with `{prefix}bugreport` or write me to DM."
+        "error": "❌ There was an error trying to execute the command. You can report it with `{prefix}bugreport`"
     }
 }

@@ -3,8 +3,8 @@
         "ok": "✅ Sugerencia enviada al servidor de soporte.\n*Cualquier abuso de este u otro comando será sancionado.*"
     },
     "bugreport": {
-        "correcto": "**Su error ha sido reportado correctamente.**\nSerá revisado así que por favor sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte o escríbeme al DM.*",
-        "error": "Ocurrió un problema al enviar el mensaje, puedes enviarme mensaje al privado como alternativa."
+        "correcto": "**Su error ha sido reportado correctamente.**\nSerá revisado así que por favor sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte.*",
+        "error": "Ocurrió un problema al enviar el mensaje, puedes entrar al servidor de soporte para reportar este error."
     },
     "donate": {
         "title": "Apoya a",
@@ -55,16 +55,16 @@
         "invitacion": "🌠 Invitación",
         "link": "[Invita a {client_name} a tu servidor]({link})",
         "soporteTitle": "📥 Servidor de Soporte",
-        "soporte": "[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obtener ayuda y estar enterado de toda la información siempre.",
+        "soporte": "[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy Soporte') Para obtener ayuda y estar enterado de toda la información siempre.",
         "webTitle": "🖥 Página Web",
-        "web": "Para mas información acerca del bot como sus comandos entra al [Sitio Oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Inicio')",
+        "web": "Para mas información acerca del bot como sus comandos entra al [Sitio Oficial](https://starlight-economy.live/ 'StarLight Economy - Inicio')",
         "apoyoTitle": "💎 Apóyanos",
         "apoyo": "Apoya en el crecimiento del bot donando lo que puedas a través de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping": {
         "footer": "Virtual Private Machine",
-        "espera": "*Calculando...*",
-        "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Puerta de Enlace: {gateway} ms"
+        "description": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.",
+        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.\n⏳ Puerta de Enlace: {gateway}."
     },
     "release": {
         "title": "Novedades de",
@@ -89,6 +89,6 @@
     },
     "vote": {
         "title": "Lista de Bots donde puedes votar",
-        "desc": "Puedes votar cada 12 horas, con fin de semana de voto doble en [Top.gg](https://discordbots.org/bot/696723299459268728/vote)"
+        "desc": "Puedes votar cada 12 horas, con fin de semana de voto doble en\n- [Top.gg](https://discordbots.org/bot/696723299459268728/vote)\n- [MadKing](https://madking.us/bot/696723299459268728)"
     }
 }

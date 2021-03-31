@@ -3,8 +3,8 @@
         "ok": "✅ Sugestão enviada ao servidor de suporte.\n*Qualquer abuso deste ou de qualquer outro comando será penalizado.*"
     },
     "bugreport": {
-        "correcto": "**Seu bug foi relatado com sucesso.**\nEle será revisado, portanto, seja paciente.\n*Para obter mais assistência ou ajuda, você pode entrar no servidor de suporte ou escrever para mim em DM.*",
-        "error": "Ocorreu um problema ao enviar a mensagem, você pode me enviar uma mensagem privada como alternativa."
+        "correcto": "**Seu bug foi relatado com sucesso.**\nEle será revisado, portanto, seja paciente.\n*Para obter mais assistência ou ajuda, você pode entrar no servidor de suporte.*",
+        "error": "Ocorreu um problema ao enviar a mensagem, Você pode inserir o servidor de suporte para relatar esse erro."
     },
     "donate": {
         "title": "Apoia",
@@ -55,16 +55,17 @@
         "invitacion": "🌠 Convite",
         "link": "[Convide {client_name} para o seu servidor]({link})",
         "soporteTitle": "📥 Servidor de suporte",
-        "soporte": "[Entrar no servidor](https://discord.gg/MZN8Yf6 'StarArmy') Para obter ajuda e estar ciente de todas as informações sempre.",
+        "soporte": "[Entrar no servidor](https://discord.gg/MZN8Yf6 'StarArmy Soporte') Para obter ajuda e estar ciente de todas as informações sempre.",
         "webTitle": "🖥 Pagina web",
-        "web": "Para obter mais informações sobre o bot e seus comandos, vá para [Site Oficial](https://starbot-oficial.herokuapp.com/ 'StarBot Discord - Página inicial')",
+        "web": "Para obter mais informações sobre o bot e seus comandos, vá para [Site Oficial](https://starlight-economy.live/ 'StarLight Economy')",
         "apoyoTitle": "💎 Apoie-nos",
         "apoyo": "Apoie o crescimento do bot doando o que puder através do [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping": {
         "footer": "Virtual Private Machine",
         "espera": "*Calculado...*",
-        "descripcion": "Pong!\n📡 API: **{ping}ms.**\n⏳ Porta de ligação: {gateway} ms"
+        "description": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.",
+        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.\n⏳ Porta de ligação: {gateway}."
     },
     "release": {
         "title": "Notícias de",
@@ -89,6 +90,6 @@
     },
     "vote": {
         "title": "Lista de bots onde você pode votar",
-        "desc": "Você pode votar a cada 12 horas, com votação dupla no fim de semana em [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n\nEstas são outras listas onde você encontrará o bot, mas eles ainda não sistema de votação.\n1- [Discord Bots](https://discord.bots.gg/bots/517786947171909643) 2- [Bots On Discord](https://bots.ondiscord.xyz/bots/517786947171909643) 3- [Lista MyBot](https://portalmybot.com/mybotlist/bot/517786947171909643)"
+        "desc": "Você pode votar a cada 12 horas, com votação dupla no fim de semana em\n- [Top.gg](https://discordbots.org/bot/517786947171909643/vote)\n- [MadKing](https://madking.us/bot/696723299459268728)"
     }
 }

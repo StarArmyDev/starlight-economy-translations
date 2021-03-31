@@ -48,21 +48,21 @@
         "agregado": "Agregado"
     },
     "commandHandling": {
+        "noGuild": "*`⛔|` Este comando solo se puede usar en un servidor.*",
         "noCommand": {
-            "title": "❌ No se ha encontrado el comando",
+            "title": "❌| No se ha encontrado el comando",
             "description": "El comando **{command}** no existe",
             "similitudes": "Comandos similares:"
         },
-        "noPermCanal": "No tengo permitido enviar mensajes en:",
-        "noPermComandoCanal": "No tengo permitido enviar el comando `{commandName}` en:",
-        "noUserBlackList": "Uhhh no {user} estás en la lista negra global, por la razón: `{reason}`",
+        "noPermCanal": "`⛔|` No tengo permitido enviar mensajes en:",
+        "noPermComandoCanal": "`⛔|` No tengo permitido enviar el comando `{commandName}` en:",
         "disable": {
             "miembro": "*⛔ | Este comando lo tienes deshabilitado en este servidor.*",
             "rol": "*⛔ | Comando deshabilitado para tu rol en este servidor.*",
             "canal": "*⛔ | Comando deshabilitado en este canal.*",
             "server": "*⛔ | Comando deshabilitado en este servidor.*"
         },
-        "comandoApagado": "Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
+        "comandoApagado": "`⛔|` Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
         "noUso": "No tienes que agregar parámetros.",
         "embedHelp": {
             "title": "Ayuda de: {command}",
@@ -77,7 +77,7 @@
             "apagado": "Apagado global",
             "sinPermisos": "Sin permisos requeridos"
         },
-        "cooldown": "¡Alto! Espere `{time}` para usar nuevamente el comando `{commandName}`. Sea paciente.",
-        "error": "❌ Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{prefix}bugreport` o escríbele por MD al creador."
+        "cooldown": "⚠ | ¡Alto! Espere `{time}` para usar nuevamente el comando `{commandName}`. Sea paciente.",
+        "error": "`❌|` Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{prefix}BugReport`."
     }
 }
