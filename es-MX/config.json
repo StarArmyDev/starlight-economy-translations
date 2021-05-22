@@ -152,7 +152,7 @@
         "correct": "✅ | Economía del usuario bloqueado correctamente.",
         "correctInv": "✅ | Inventario del usuario bloqueado correctamente."
     },
-    "reseteconomy": {
+    "restareconomy": {
         "cancelado": "❌ | Comando Cancelado.",
         "confirmar": "¿Desea reiniciar realmente la economía del servidor? Coloca `si` para confirmar, de o contrario coloque `no` o `cancelar`",
         "si": "si",
@@ -184,7 +184,7 @@
         "title": "Moneda del servidor",
         "moneda": "Nueva Moneda:"
     },
-    "setfine": {
+    "setfineamount": {
         "noNumber": "No colocaste un número válido.",
         "noFailMin": "⚠ | Tasa de fracaso muy baja, el mínimo es 5",
         "noFailMax": "⚠ | Tasa de fracaso muy alta, el máximo es 95",

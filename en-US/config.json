@@ -152,7 +152,7 @@
         "correct": "✅ | User economy successfully locked.",
         "correctInv": "✅ | User Inventory Locked Successfully."
     },
-    "reseteconomy": {
+    "restareconomy": {
         "cancelado": "❌ | Command Canceled.",
         "confirmar": "Do you really want to restart the server economy? Place `yes` to confirm, otherwise put `no` or `cancel`",
         "si": "yes",
@@ -184,7 +184,7 @@
         "title": "Server currency",
         "moneda": "New Currency:"
     },
-    "setfine": {
+    "setfineamount": {
         "noNumber": "You did not put a valid number.",
         "noFailMin": "⚠ | Very low failure rate, minimum is 5",
         "noFailMax": "⚠ | Very high failure rate, maximum is 95",
