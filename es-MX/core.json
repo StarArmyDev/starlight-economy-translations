@@ -68,7 +68,7 @@
     },
     "release": {
         "title": "Novedades de",
-        "descripcion": "**__Nuevo__**\n- Dice: Ahora se puede apostar opcionalmente y si ganan se llevan x2 del dinero apostado.\n- Flipcoin: Ahora se puede apostar opcionalmente y si ganan se llevan x1.5 del dinero apostado.\n\n**__Cambios__**\n- SlotMachine: Se cambió el nombre de **roulette** a **SlotMachine** ya que tenía el nombre erroneo para su función.\n- Roulette: Se apagó el comando para trabajar en él y poder apostar como una ruleta de casino.\n- Flicoin: Se cambió la propiedad de flicoin a **flipcoin** en los comandos `setcooldown`, `setfineamount` y `setpayout` por ser error ortográfico.\n\n**__Arreglos__**\n- Dice: Se arregló el cooldown.\n- Flipcoin: Se arregló el cooldown.\n- SlotMachine: Se arregló el cooldown.",
+        "descripcion": "**__Cambios__**\n- Cambio de librería: Se ha decidido usar discord.js-light para mejorar el rendimiento del bot, estaremos viendo como se desempeña en producción pero se espera un menor consumo de recursos y mejoras en el ping.\n\n**__Arreglos__**\n- Stats: No se mostraba la librería usada correctamente.\n- SetFineamount: No dejaba establecer la multa de los comandos.\n- AddMoney: No permitía añadir dinero al banco del usuario directamente mas que al bolsillo.\n- SlotMachine: Los mensajes de ganancia y perdida no estaban bien representados.\n- CreateItem: Al crear el item no lo coloca como disponible, por error de gramática los usuarios seleccionan la opción equivocada.\n- Estado de juego: Se mostraba en ocasiones un prefix erróneo en el estado en vez del global.\n- Prefix, idioma y color: En ocasiones el bot responde a un prefijo personalizado no establecido en los servidores, en ves del por defecto, al igual con los valores de color e idioma _(aunque este último nunca se recibió reporte de que pasara lo mismo)._ Se movió algunas cosas para solucionarlo y veremos si se corrigió el error.",
         "footer": "Estos son los cambios de la versión {version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {dev}."
     },
     "stats": {
@@ -76,6 +76,7 @@
         "owner": "👑 Creador",
         "version": "📊 Versión",
         "libreria": "📚 Libreria",
+        "discordjs": "Discord.js-Light v3.5.11\nDiscord.js v12.5.3",
         "memoria": "🗂 Memoria",
         "tiempo": "🕒 Tiempo Encendido",
         "servers": "💬 Servidores",

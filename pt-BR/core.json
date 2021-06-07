@@ -67,16 +67,12 @@
         "description": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.",
         "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.\n⏳ Porta de ligação: {gateway}."
     },
-    "release": {
-        "title": "Notícias de",
-        "descripcion": "--",
-        "footer": "Estas são as mudanças de versão {version} qualquer problema que você pode entrar no servidor de suporte. | Desenvolvido por {dev}."
-    },
     "stats": {
         "bot": "🤖 Informação do bot",
         "owner": "👑 Criador",
         "version": "📊 Versão",
         "libreria": "📚 Livraria",
+        "discordjs": "Discord.js-Light v3.5.11\nDiscord.js v12.5.3",
         "memoria": "🗂 Memória",
         "tiempo": "🕒 Na hora",
         "servers": "💬 Servidores",

@@ -68,7 +68,7 @@
     },
     "release": {
         "title": "News from",
-        "descripcion": "**__New__**\n- It says: Now you can optionally bet and if they win they take x2 of the money bet.\n- Flipcoin: Now you can optionally bet and if they win they take x1.5 of the money bet.\n\n**__Changes__**\n- SlotMachine: Renamed from **roulette** to **slotmachine** as it had the wrong name for its function.\n- Roulette: The command was turned off to work on it and be able to bet like a casino roulette.\n- Flicoin: The property of flicoin was changed to **flipcoin** in the `setcooldown`, `setfineamount` and `setpayout` commands due to a misspelling.\n\n** __ Arrays __ **\n- Says: Fixed cooldown.\n- Flipcoin: Fixed cooldown.\n- SlotMachine: Fixed cooldown.",
+        "descripcion": "**__Changes__**\n- Library change: It has been decided to use discord.js-light to improve the performance of the bot, we will be seeing how it performs in production but a lower consumption of resources and improvements in ping are expected.\n\n** __ Arrangements __ **\n- Stats: The library used was not shown correctly.\n- SetFineamount: It did not allow to set the fine of the commands.\n- AddMoney: It did not allow to add money to the user's bank directly more than to the pocket.\n- SlotMachine: The win and loss messages were not well represented.\n- CreateItem: When creating the item, it does not make it available, due to a grammar error, users select the wrong option.\n- Game state: Sometimes a wrong prefix was shown in the state instead of the global one.\n- Prefix, language and color: Sometimes the bot responds to a custom prefix not established in the servers, instead of the default, as with the color and language values ​​_ (although the latter never received a report that the same) ._ Moved a few things to fix it and we'll see if the bug was fixed.",
         "footer": "These are the changes of the version {version} any problem you can enter the support server. | Developed by {dev}."
     },
     "stats": {
@@ -76,6 +76,7 @@
         "owner": "👑 Creator",
         "version": "📊 Version",
         "libreria": "📚 Library",
+        "discordjs": "Discord.js-Light v3.5.11\nDiscord.js v12.5.3",
         "memoria": "🗂 Memory",
         "tiempo": "🕒 On Time",
         "servers": "💬 Guilds",
