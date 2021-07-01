@@ -30,7 +30,7 @@
         "noConfig": "*No Configurado.*",
         "noCanal": "*(Canal Desconocido)*",
         "embed": {
-            "author": "Configuración | {guild_name}",
+            "author": "Configuración | {{guild_name}}",
             "title3": "Bot",
             "prefix": "Prefijo:",
             "languageS": "Idioma del Servidor:",
@@ -70,10 +70,11 @@
         "fieldAll": "Comandos:",
         "fieldCat": "Comandos de categoría:",
         "for": "Para:",
-        "server": "Todo el servidor"
+        "server": "Todo el servidor",
+        "fieldCom": "Comando:"
     },
     "deletelanguage": {
-        "noLanguage": "❌ | No tienes configurado idioma en este servidor.",
+        "noConfig": "❌ | No tienes configurado ningún idioma",
         "channel": "canal",
         "noChannel": "❌ | Parece que este canal no está configurado.",
         "noChannels": "❌ | No tienes configurado ningún idioma de canales.",
@@ -97,12 +98,13 @@
         "title": "✅ | Se ha vuelto a deshabilitar el comando en este Servidor",
         "fieldAll": "Comandos:",
         "fieldCat": "Comandos de categoría:",
-        "for": "Para:"
+        "for": "Para:",
+        "fieldCom": "Comando:"
     },
     "setlanguage": {
         "channel": "canal",
         "noChannel": "❌ | Canal no válido.",
-        "noLanguage": "❌ | Este idioma no existe o es no válido. Usa `{prefix}setidioma help` para conocer los idiomas disponibles.",
+        "noLanguage": "❌ | Este idioma no existe o es no válido. Usa `{{prefix}}setidioma help` para conocer los idiomas disponibles.",
         "noLang": "❌ | No colocaste el idioma a establecer para el canal",
         "title": "✅ | Idioma del Servidor Establecido",
         "titleC": "✅ | Idioma del Canal Establecido",

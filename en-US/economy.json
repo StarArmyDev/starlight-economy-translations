@@ -9,18 +9,18 @@
     "crime": {
         "title": "🕵️‍♂️ Crime",
         "bloqueado": "You have the Economy Locked. Contact the support server to appeal.",
-        "crime": "You have received {crime} for stealing from the owner, correeee",
-        "noCrime": "❌ It seems you don't know how to quietly enter the places and they took you away {money}.",
-        "cooldown": "🛑 | Stop! Wait `{time}` to commit a crime again.",
+        "crime": "You have received {{crime}} for stealing from the owner, correeee",
+        "noCrime": "❌ It seems you don't know how to quietly enter the places and they took you away {{money}}.",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to commit a crime again.",
         "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
     },
     "daily": {
-        "dlyUser": "You just gave {money} to user {miembro}! Come back in {tiempo} for your daily money.",
-        "dly": "You just received {money}! Come back in {tiempo} for your daily money.",
+        "dlyUser": "You just gave {{money}} to user {{miembro}}! Come back in {{tiempo}} for your daily money.",
+        "dly": "You just received {{money}}! Come back in {{tiempo}} for your daily money.",
         "h12": "12 hrs",
         "title": "☀ Daily Money",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cooldown": "🛑 | Stop! Wait `{time}` to get your daily money again.",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to get your daily money again.",
         "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
     },
     "deposite": {
@@ -29,25 +29,26 @@
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "noMoney": "It seems you have nothing to deposit.",
         "falta": "You do not have enough coins.",
-        "mensaje": "✅ Successfully deposited {cantidad} in your bank",
+        "mensaje": "✅ Successfully deposited {{cantidad}} in your bank",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
     "dice": {
         "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
-        "noMoney": "❌ | You don't have enough money. You lack `{quantity}`",
+        "noMoney": "❌ | You don't have enough money. You lack `{{quantity}}`",
         "sacaste": "You got:",
-        "ganas": "You guessed it! You win {money}",
-        "pierdes": "You lost ... they take away {money}",
-        "cooldown": "🛑 | Stop! Wait `{time}` to roll the die."
+        "ganas": "You guessed it! You win {{money}}",
+        "pierdes": "You lost ... they take away {{money}}",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to roll the die."
     },
     "flipcoin": {
         "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
         "cara": "face",
         "sello": "seal",
         "sacaste": "You got:",
-        "ganas": "You guessed it! You win {money}",
-        "pierdes": "You lost ... they take away {money}",
-        "cooldown": "🛑 | Stop! Wait `{time}` to flip the coin."
+        "ganas": "You guessed it! You win {{money}}",
+        "pierdes": "You lost ... they take away {{money}}",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to flip the coin.",
+        "noMoney": "❌ | You don't have enough money. You are missing `{{quantity}}`"
     },
     "rob": {
         "title": "🕵️‍ Steal",
@@ -57,9 +58,9 @@
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "automencion": "You cannot steal yourself..",
         "noRobMoney": "How do you want to steal it if it has nothing?",
-        "mensaje": "✅ Successful theft You have stolen {miembro} the total of {robado}. Now run away while you can.",
-        "noMensaje": "❌ The law struck you by surprise and took you away {money}, besides they gave half of that to {miembro} for the incident.",
-        "cooldown": "🛑 | Stop! Wait `{time}` to steal from someone else.",
+        "mensaje": "✅ Successful theft You have stolen {{miembro}} the total of {{robado}}. Now run away while you can.",
+        "noMensaje": "❌ The law struck you by surprise and took you away {{money}}, besides they gave half of that to {{miembro}} for the incident.",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to steal from someone else.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
     "slotmachine": {
@@ -68,39 +69,39 @@
         "pierdes": "Bad luck",
         "premio": "Prize!",
         "derrota": "You lost",
-        "mensaje1": "You take {money} profit.",
-        "mensaje2": "You get {money} for getting two out of three.",
-        "mensaje3": "They take {money} from you for not getting anything.",
-        "cooldown": "🛑 | Stop! Wait `{time}` to spin the wheel."
+        "mensaje1": "You take {{money}} profit.",
+        "mensaje2": "You get {{money}} for getting two out of three.",
+        "mensaje3": "They take {{money}} from you for not getting anything.",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to spin the wheel."
     },
     "top": {
         "tu": "Your position:",
         "dinero": "Money:",
         "banco": "Bank:",
-        "title": "MONEY TOP  | **{database}**",
-        "paginas": "Page {count} from {countDB}"
+        "title": "MONEY TOP  | **{{database}}**",
+        "paginas": "Page {{count}} from {{countDB}}"
     },
     "trade": {
         "title": "💎🏬 Trade",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "mensaje": "✅ You have received {money} for doing dangerous trades",
-        "noMensaje": "❌ It looks like the police saw you and took you away {money}.",
-        "cooldown": "🛑 | Stop! Wait `{time}` to do indecent work again."
+        "mensaje": "✅ You have received {{money}} for doing dangerous trades",
+        "noMensaje": "❌ It looks like the police saw you and took you away {{money}}.",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to do indecent work again."
     },
     "trans": {
         "title": "💱 Transfer",
         "noCantidad": "Invalid amount.",
         "noMencion": "Mention not valid. Verify the user.",
         "bot": "⚠ | This user is a bot.",
-        "automencion": "✅ {money} coins successfully transferred to the national bank of StarLight. Thanks for your preference.",
-        "mensajeEspera": "Verify and accept by placing `{numero}` to transfer {dinero} coins. Set `cancel` not to transfer money.\n*You have a 10% commission for the transfer.*",
+        "automencion": "✅ {{money}} coins successfully transferred to the national bank of StarLight. Thanks for your preference.",
+        "mensajeEspera": "Verify and accept by placing `{{numero}}` to transfer {{dinero}} coins. Set `cancel` not to transfer money.\n*You have a 10% commission for the transfer.*",
         "cancel": "Transfer Canceled",
         "noValido": "Invalid Verification Number.",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "noMoney": "It seems you have no money to transfer.",
         "falta": "You do not have enough coins.",
-        "noSumar": "It seems that {miembro} It has no profile. **He has to talk to be believed**\n*If you think this is a mistake, you can report it with* `bugreport`",
-        "mensaje": "✅ Successful transfer It was given to {miembro} the amount of {cantidad}",
+        "noSumar": "It seems that {{miembro}} It has no profile. **He has to talk to be believed**\n*If you think this is a mistake, you can report it with* `bugreport`",
+        "mensaje": "✅ Successful transfer It was given to {{miembro}} the amount of {{cantidad}}",
         "noTiempo": "⏳ Expired Time ❌",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
@@ -110,15 +111,15 @@
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "noMoney": "It seems you have nothing to withdraw.",
         "falta": "You do not have enough coins.",
-        "mensaje": "✅ Successful withdrawal {cantidad} in your pocket, leaving in your bank `{banco}`",
+        "mensaje": "✅ Successful withdrawal {{cantidad}} in your pocket, leaving in your bank `{{banco}}`",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
     "work": {
         "title": "👷 ‍Work",
-        "mensajeDar": "✅ You just gave {money} user coins {miembro}!",
-        "mensaje": "✅ You just received {money} coins!",
+        "mensajeDar": "✅ You just gave {{money}} user coins {{miembro}}!",
+        "mensaje": "✅ You just received {{money}} coins!",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cooldown": "🛑 | Stop! Wait `{time}` to work again.",
+        "cooldown": "🛑 | Stop! Wait `{{time}}` to work again.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     }
 }

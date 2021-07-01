@@ -10,14 +10,14 @@
         "noMember": "❌ | Usuario no encontrado, verificalo.",
         "bot": "⚠ | Este usuario es un bot.",
         "noCantidad": "❌ | No colocaste un número válido.",
-        "correcto": "✅ | {cantidad} de dinero añadida correctamente a: {miembro}"
+        "correcto": "✅ | {{cantidad}} de dinero añadida correctamente a: {{miembro}}"
     },
     "clearitems": {
         "noMember": "❌ | Usuario no encontrado, verificalo.",
         "noItems": "❌ | Este usuario no tiene ningún artículo.",
         "noItem": "❌ | No se encontró el artículo.",
         "noItemMember": "❌ | El usuario no tiene el artículo.",
-        "correct": "✅ | {items} Artículo/s eliminado/s correctamente de {user}.",
+        "correct": "✅ | {{items}} Artículo/s eliminado/s correctamente de {{user}}.",
         "all": "todos"
     },
     "createitem": {
@@ -79,6 +79,10 @@
         "noRol": "❌ | Rol no encontrado o rol no valido. Por favor verifica que exista.",
         "noManejable": "❌ | Parece que no puedo manejar este rol."
     },
+    "deleteauditlogs": {
+        "noConfig": "`❌ |` No tienes configurado los registros",
+        "delete": "`✅ |` Canal de registros eliminado con éxito"
+    },
     "deletechatexclude": {
         "noConfig": "*No Configurado.*",
         "quitado": "Quitado",
@@ -89,7 +93,7 @@
     "deleteitem": {
         "noExiste": "❌ | Este artículo no existe.",
         "cancelado": "❌ | Comando Cancelado.",
-        "confirmar": "¿Desea eliminar realmente el artículo {item} de la tienda? Esto también lo eliminará de los inventarios de los miembros, si nada mas quieres que no esté disponible en la tienda, edita la propiedad del item \"nodisponible\" a `true`.\nColoca `si` para confirmar, de o contrario coloque `no` o `cancelar`",
+        "confirmar": "¿Desea eliminar realmente el artículo {{item}} de la tienda? Esto también lo eliminará de los inventarios de los miembros, si nada mas quieres que no esté disponible en la tienda, edita la propiedad del item \"nodisponible\" a `true`.\nColoca `si` para confirmar, de o contrario coloque `no` o `cancelar`",
         "si": "si",
         "no": "no",
         "cancel": "cancelar",
@@ -102,7 +106,7 @@
         "noUser": "❌ | El usuario no está en la base de datos",
         "all": "todo",
         "noNumber": "❌ | No colocaste un número de dinero válido.",
-        "true": "✅ | `{money}` dinero eliminado correctamenete de: {member}"
+        "true": "✅ | `{{money}}` dinero eliminado correctamenete de: {{member}}"
     },
     "edititem": {
         "noExist": "❌ | Este artículo no existe.",
@@ -133,17 +137,17 @@
         "noPrice": "Precio no válido.",
         "buy": "compra",
         "sell": "venta",
-        "priceHelp": "Coloca `{prefix}edititem precio <compra|venta> <valor>`",
+        "priceHelp": "Coloca `{{prefix}}edititem precio <compra|venta> <valor>`",
         "noTime": "Tiempo no válido. Coloca el valor como: 30s, 60m, 12h, 3d.",
         "channel": "canal",
         "rol": "papel",
-        "getHelp": "Usa `{prefix}edititem obtiene <canal|rol> <(text|voz)|@rol>`",
+        "getHelp": "Usa `{{prefix}}edititem obtiene <canal|rol> <(text|voz)|@rol>`",
         "noCreateChannel": "❌ | No tengo permisos para crear canales. Agrega a mi rol el permiso \"Gestionar Canales\"",
         "noRoles": "❌ | No tengo permiso de manejar roles en este servidor. Agrega a mi rol el permiso \"Gestionar Roles\"",
         "noRole": "❌ | Rol no encontrado o rol no valido. Por favor verifica que exista.",
         "noManageable": "❌ | Parece que no puedo manejar este rol. Verifica que mi rol esté por encima de este rol.",
         "balance": "saldo",
-        "requireHelp": "Usa `{prefix}edititem requiere <rol|saldo> <@rol|numero>`",
+        "requireHelp": "Usa `{{prefix}}edititem requiere <rol|saldo> <@rol|numero>`",
         "title": "Artículo Editado",
         "property": "Propiedad cambiada: ",
         "newValue": "Nuevo valor:"
@@ -162,6 +166,11 @@
         "cancel": "cancelar",
         "noEliminado": "❌ | Economía no eliminado.",
         "eliminado": "✅ | Economía Eliminado correctamente."
+    },
+    "setauditlogs": {
+        "noChannel": "`❌ |` Canal no encontrado",
+        "confirm": "`✅ |` Canal de registros habilitado",
+        "only": "como sólo importantes."
     },
     "setcooldown": {
         "noTiempo": "Tiempo no válido.",
@@ -206,7 +215,7 @@
         "bot": "⚠ | Este usuario es un bot.",
         "banco": "banco",
         "noNumber": "❌ | No colocaste un número de dinero válido.",
-        "true": "✅ | {money} dinero establecido correctamente de: {member}"
+        "true": "✅ | {{money}} dinero establecido correctamente de: {{member}}"
     },
     "setpayout": {
         "noNumber": "❌ | No colocaste un número válido.",

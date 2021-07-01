@@ -15,7 +15,7 @@
         "no": "Näo",
         "titulo": "Lista de comandos",
         "version": " | versão ",
-        "descripcion": "Olá, sou {client_name} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{ping}`ms\nCategorias no total: `{categorias}`\nComandos no total: `{comandos}`",
+        "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{{ping}}`ms\nCategorias no total: `{{categorias}}`\nComandos no total: `{{comandos}}`",
         "core": "🌠 Bot",
         "config": "⚙ Configuração",
         "config-bot": "⚙ Configuração bot",
@@ -25,17 +25,17 @@
         "manager": "⚙ Administrador del bot",
         "masInfo": {
             "title": "Mais informação?",
-            "desc": "Use: `{prefix}<command> help` para obter suas informações de comando individual e seus parâmetros esperados."
+            "desc": "Use: `{{prefix}}<command> help` para obter suas informações de comando individual e seus parâmetros esperados."
         },
         "links": {
             "title": "Links úteis",
-            "desc": "[Convide-me]({invite}\"Convide-me para o seu servidor\") | [Servidor de suporte](https://discord.gg/MZN8Yf6\"StarArmy Support\") | [Apoie com seu voto](https://top.gg/bot/517786947171909643\"Vote no Top.gg a cada 12 horas.\")"
+            "desc": "[Convide-me]({{invite}}\"Convide-me para o seu servidor\") | [Servidor de suporte](https://discord.gg/MZN8Yf6\"StarArmy Support\") | [Apoie com seu voto](https://top.gg/bot/517786947171909643\"Vote no Top.gg a cada 12 horas.\")"
         },
         "private": "✅ **| Verifique suas mensagens privadas.** 👌",
         "noPrivate": "❌ | Parece que você desativou as mensagens privadas.",
         "noUso": "Você não precisa adicionar parâmetros",
         "embedHelp": {
-            "title": "Ajuda de: {command}",
+            "title": "Ajuda de: {{command}}",
             "descripcion": "**Descrição:**",
             "uso": "Use o comando da seguinte maneira:",
             "alias": "Alias",
@@ -49,11 +49,11 @@
         }
     },
     "invite": {
-        "title": "Meu convite | {client_name}",
+        "title": "Meu convite | {{client_name}}",
         "descripcion": "Este lindo bot pode te ajudar muito no seu servidor, ele tem uma grande variedade de comandos para administradores ou usuários normais. Mas garanto que você vai se divertir e te ajudar em tudo que você precisa.",
         "version": "| Versão",
         "invitacion": "🌠 Convite",
-        "link": "[Convide {client_name} para o seu servidor]({link})",
+        "link": "[Convide {{client_name}} para o seu servidor]({{link}})",
         "soporteTitle": "📥 Servidor de suporte",
         "soporte": "[Entrar no servidor](https://discord.gg/MZN8Yf6 'StarArmy Soporte') Para obter ajuda e estar ciente de todas as informações sempre.",
         "webTitle": "🖥 Pagina web",
@@ -63,9 +63,8 @@
     },
     "ping": {
         "footer": "Virtual Private Machine",
-        "espera": "*Calculado...*",
-        "description": "Pong!\n📡 API: {ping}.\n🗃 Base de dados: {db}.",
-        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.\n⏳ Porta de ligação: {gateway}."
+        "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de dados: {{db}}.",
+        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Porta de ligação: {{gateway}}."
     },
     "stats": {
         "bot": "🤖 Informação do bot",

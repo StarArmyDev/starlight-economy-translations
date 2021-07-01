@@ -30,7 +30,7 @@
         "noConfig": "*Not Configured*",
         "noCanal": "*(Unknown Channel)*",
         "embed": {
-            "author": "Setting | {guild_name}",
+            "author": "Setting | {{guild_name}}",
             "title3": "Bot",
             "prefix": "Prefix:",
             "languageS": "Guild Language:",
@@ -70,21 +70,22 @@
         "fieldAll": "Commands:",
         "fieldCat": "Category commands:",
         "for": "For:",
-        "server": "Server All"
+        "server": "Server All",
+        "fieldCom": "Command:"
     },
     "deletelanguage": {
-        "noLanguage": "❌ | No tienes configurado idioma en este servidor.",
+        "noConfig": "❌ | You do not have any language configured",
         "channel": "channel",
-        "noChannel": "❌ | Parece que este canal no está configurado.",
-        "noChannels": "❌ | No tienes configurado ningún idioma de canales.",
-        "title": "✅ | Idioma del Servidor Eliminado",
-        "titleC": "✅ | Idioma del Canal Eliminado",
-        "remove": "Quitado:"
+        "noChannel": "❌ | It seems that this channel is not configured.",
+        "noChannels": "❌ | You do not have any channel language configured.",
+        "title": "✅ | Server language deleted",
+        "titleC": "✅ | Language of the eliminated channel",
+        "remove": "Remove:"
     },
     "deleteprefix": {
-        "noConfig": "❌ | No tienes configurado ningún prefix",
-        "title": "✅ | Prefix Personalizado Quitado",
-        "remove": "Quitado:",
+        "noConfig": "❌ | You do not have any prefix configured",
+        "title": "✅ | Prefix personalized removed.",
+        "remove": "Remove:",
         "default": "Default:"
     },
     "deletewhitelist": {
@@ -97,12 +98,13 @@
         "title": "✅ | Comando quitado a la lista negra en este Servidor",
         "fieldAll": "Commands:",
         "fieldCat": "Category commands:",
-        "for": "For:"
+        "for": "For:",
+        "fieldCom": "Command:"
     },
     "setlanguage": {
         "channel": "canal",
         "noChannel": "❌ | Canal inválido.",
-        "noLanguage": "❌ | Este idioma no existe o es inválido. Usa `{prefix}setidioma help` para conocer los idiomas disponibles.",
+        "noLanguage": "❌ | Este idioma no existe o es inválido. Usa `{{prefix}}setidioma help` para conocer los idiomas disponibles.",
         "noLang": "❌ | No colocaste el idioma a establecer para el canal",
         "title": "✅ | Idioma del Servidor Asignado",
         "titleC": "✅ | Idioma del Canal Asignado",

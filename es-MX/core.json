@@ -15,7 +15,7 @@
         "no": "No",
         "titulo": "Lista de Comandos",
         "version": " | Versión ",
-        "descripcion": "Hola, soy {client_name} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{ping}` ms\nCategorías en total: `{categorias}`\nComandos en total: `{commands}`",
+        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
         "core": "🌠 Bot",
         "config": "⚙ Configuración",
         "config-bot": "⚙ Configuración Bot",
@@ -25,17 +25,17 @@
         "manager": "⚙ Administrador del bot",
         "masInfo": {
             "title": "¿Más información?",
-            "desc": "Usa: `{prefix}<comando> help` o `{prefix}help <comando>` para obtener la información individual del comando y sus parámetros esperados."
+            "desc": "Usa: `{{prefix}}<comando> help` o `{{prefix}}help <comando>` para obtener la información individual del comando y sus parámetros esperados."
         },
         "links": {
             "title": "Links útiles",
-            "desc": "[Invítame]({invite} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 horas.\")"
+            "desc": "[Invítame]({{invite}} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 horas.\")"
         },
         "private": "✅ **| Revisa tu MD.** 👌",
         "noPrivate": "❌ | Parece que tienes desactivado los mensajes privados.",
         "noUso": "[No espera parámetros]",
         "embedHelp": {
-            "title": "Ayuda de: {command}",
+            "title": "Ayuda de: {{command}}",
             "descripcion": "**Descripción:**",
             "uso": "Usa el comando de la siguiente manera:",
             "alias": "Alias",
@@ -49,11 +49,11 @@
         }
     },
     "invite": {
-        "title": "Mi Invitación | {client_name}",
+        "title": "Mi Invitación | {{client_name}}",
         "descripcion": "Este hermoso bot puede ayudarte en la economía de tu servidor tan profecional como sea posible, permitiendote configurar muchos aspectos del mismo.",
         "version": "| Versión",
         "invitacion": "🌠 Invitación",
-        "link": "[Invita a {client_name} a tu servidor]({link})",
+        "link": "[Invita a {{client_name}} a tu servidor]({{link}})",
         "soporteTitle": "📥 Servidor de Soporte",
         "soporte": "[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy Soporte') Para obtener ayuda y estar enterado de toda la información siempre.",
         "webTitle": "🖥 Página Web",
@@ -63,13 +63,13 @@
     },
     "ping": {
         "footer": "Virtual Private Machine",
-        "description": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.",
-        "descriptionGateway": "Pong!\n📡 API: {ping}.\n🗃 Base de datos: {db}.\n⏳ Puerta de Enlace: {gateway}."
+        "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.",
+        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}."
     },
     "release": {
         "title": "Novedades de",
         "descripcion": "**__Cambios__**\n- Cambio de librería: Se ha decidido usar discord.js-light para mejorar el rendimiento del bot, estaremos viendo como se desempeña en producción pero se espera un menor consumo de recursos y mejoras en el ping.\n\n**__Arreglos__**\n- Stats: No se mostraba la librería usada correctamente.\n- SetFineamount: No dejaba establecer la multa de los comandos.\n- AddMoney: No permitía añadir dinero al banco del usuario directamente mas que al bolsillo.\n- SlotMachine: Los mensajes de ganancia y perdida no estaban bien representados.\n- CreateItem: Al crear el item no lo coloca como disponible, por error de gramática los usuarios seleccionan la opción equivocada.\n- Estado de juego: Se mostraba en ocasiones un prefix erróneo en el estado en vez del global.\n- Prefix, idioma y color: En ocasiones el bot responde a un prefijo personalizado no establecido en los servidores, en ves del por defecto, al igual con los valores de color e idioma _(aunque este último nunca se recibió reporte de que pasara lo mismo)._ Se movió algunas cosas para solucionarlo y veremos si se corrigió el error.",
-        "footer": "Estos son los cambios de la versión {version} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {dev}."
+        "footer": "Estos son los cambios de la versión {{version}} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {{dev}}."
     },
     "stats": {
         "bot": "🤖 Bot Info",

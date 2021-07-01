@@ -10,14 +10,14 @@
         "noMember": "❌ | User not found, verify it.",
         "bot": "⚠ | This user is a bot.",
         "noCantidad": "❌ | You did not enter a valid number.",
-        "correcto": "✅ | {cantidad} of money added Correctly from: {miembro}"
+        "correcto": "✅ | {{cantidad}} of money added Correctly from: {{miembro}}"
     },
     "clearitems": {
         "noMember": "❌ | User not found, verify it.",
         "noItems": "❌ | This user does not have any items.",
         "noItem": "❌ | Item not found.",
         "noItemMember": "❌ | User does not have the item.",
-        "correct": "✅ | {items} Item/s removed directly from {user}.",
+        "correct": "✅ | {{items}} Item/s removed directly from {{user}}.",
         "all": "everyone"
     },
     "createitem": {
@@ -79,6 +79,10 @@
         "noRol": "❌ | Role not found or invalid role. Please verify that it exists.",
         "noManejable": "❌ | I can't seem to handle this role."
     },
+    "deleteauditlogs": {
+        "noConfig": "`❌ |` You do not have the logs configured",
+        "delete": "`✅ |` Logs channel removed successfully"
+    },
     "deletechatexclude": {
         "noConfig": "*Not Configured*",
         "quitado": "Taken away",
@@ -89,7 +93,7 @@
     "deleteitem": {
         "noExiste": "❌ | This item does not exist.",
         "cancelado": "❌ | Command Canceled.",
-        "confirmar": "Do you really want to remove item {item} from the store?This will also remove it from members' inventories, if you want nothing else to be unavailable in the store, edit the item property \"notavailable\" to `true`.\nPut `yes` to confirm, otherwise put `no` or `cancel`",
+        "confirmar": "Do you really want to remove item {{item}} from the store?This will also remove it from members' inventories, if you want nothing else to be unavailable in the store, edit the item property \"notavailable\" to `true`.\nPut `yes` to confirm, otherwise put `no` or `cancel`",
         "si": "yes",
         "no": "not",
         "cancel": "cancelled",
@@ -102,7 +106,7 @@
         "noUser": "❌ | The user is not in the database",
         "all": "all",
         "noNumber": "❌ | You did not enter a valid money number.",
-        "true": "✅ | `{money}` money properly removed from: {member}"
+        "true": "✅ | `{{money}}` money properly removed from: {{member}}"
     },
     "edititem": {
         "noExist": "❌ | This item does not exist.",
@@ -133,17 +137,17 @@
         "noPrice": "Invalid price.",
         "buy": "purchase",
         "sell": "sale",
-        "priceHelp": "Place `{prefix}edititem price <buy|sell> <value>`",
+        "priceHelp": "Place `{{prefix}}edititem price <buy|sell> <value>`",
         "noTime": "Invalid time. Set the value as: 30s, 60m, 12h, 3d.",
         "channel": "canal",
         "rol": "role",
-        "getHelp": "Use `{prefix}edititem get <channel|rol> <(text|voz)|@role>`",
+        "getHelp": "Use `{{prefix}}edititem get <channel|rol> <(text|voz)|@role>`",
         "noCreateChannel": "❌ | I don't have permissions to create channels. Add permission to my role \"Manage Channels\"",
         "noRoles": "❌ | I do not have permission to handle roles on this server. Add permission to my role \"Manage Roles\"",
         "noRole": "❌ | Role not found or invalid role. Please verify that it exists.",
         "noManageable": "❌ | I can't seem to handle this role. Verify that my role is above this role.",
         "balance": "residue",
-        "requireHelp": "Use `{prefix}edititem require <rol|balance> <@role|number>`",
+        "requireHelp": "Use `{{prefix}}edititem require <rol|balance> <@role|number>`",
         "title": "Edited Item",
         "property": "Property changed: ",
         "newValue": "New value:"
@@ -162,6 +166,11 @@
         "cancel": "cancel",
         "noEliminado": "❌ | Economy not removed.",
         "eliminado": "✅ | Economy Correctly removed."
+    },
+    "setauditlogs": {
+        "noChannel": "`❌ |` Canal not found",
+        "confirm": "`✅ |` Channel of records enabled",
+        "only": "as only important."
     },
     "setcooldown": {
         "noTiempo": "Invalid time.",
@@ -206,7 +215,7 @@
         "bot": "⚠ | This user is a bot.",
         "banco": "bank",
         "noNumber": "❌ | You did not put a valid money number.",
-        "true": "✅ | {money} money set correctly from: {member}"
+        "true": "✅ | {{money}} money set correctly from: {{member}}"
     },
     "setpayout": {
         "noNumber": "❌ | You did not put a valid number.",

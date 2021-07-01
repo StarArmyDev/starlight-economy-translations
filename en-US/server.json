@@ -53,12 +53,11 @@
         "noGuild": "*`⛔|` This command can only be used on a server.*",
         "noCommand": {
             "title": "❌ Command not found",
-            "description": "The **{command}** command does not exist",
+            "description": "The **{{command}}** command does not exist",
             "similitudes": "Similar commands:"
         },
         "noPermCanal": "I am not allowed to send messages in:",
-        "noPermComandoCanal": "I am not allowed to send the command `{commandName}` in:",
-        "noUserBlackList": "{user} you are on the global blacklist, for the reason: `{reason}`",
+        "noPermComandoCanal": "I am not allowed to send the command `{{commandName}}` in:",
         "disable": {
             "miembro": "*⛔ | This command is disabled on this server.*",
             "rol": "*⛔ | Command disabled for your role on this server.*",
@@ -68,7 +67,7 @@
         "comandoApagado": "This command is turned off by some update or temporary suspension.",
         "noUso": "You do not have to add parameters",
         "embedHelp": {
-            "title": "Help from: {command}",
+            "title": "Help from: {{command}}",
             "descripcion": "**Descripción:**",
             "uso": "Use the command as follows:",
             "alias": "Alias",
@@ -80,7 +79,7 @@
             "apagado": "Global shutdown",
             "sinPermisos": "No permits required"
         },
-        "cooldown": "High! Wait `{time}` to use the command again `{commandName}` be patient.",
-        "error": "❌ There was an error trying to execute the command. You can report it with `{prefix}bugreport`"
+        "cooldown": "High! Wait `{{time}}` to use the command again `{{commandName}}` be patient.",
+        "error": "❌ There was an error trying to execute the command. You can report it with `{{prefix}}bugreport`"
     }
 }

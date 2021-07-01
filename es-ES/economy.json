@@ -9,18 +9,18 @@
     "crime": {
         "title": "🕵️‍♂️ Crimen",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
-        "crime": "Le has robado al ADMIN {crime} .  ¡¡¡ Disimula antes de que te pille !!!",
-        "noCrime": "❌ La policía se ha percatado de lo que ibas a hacer y has tenido que pagar una multa de {money}.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{time}` para cometer nuevamente un crimen.",
+        "crime": "Le has robado al ADMIN {{crime}} .  ¡¡¡ Disimula antes de que te pille !!!",
+        "noCrime": "❌ La policía se ha percatado de lo que ibas a hacer y has tenido que pagar una multa de {{money}}.",
+        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para cometer nuevamente un crimen.",
         "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. Estamos trabajando en repararlo."
     },
     "daily": {
-        "dlyUser": "¡Acabas de dar {money} al usuario {miembro}! Vuelve en {tiempo} por tu recompensa diaria.",
-        "dly": "¡Acabas de recibir {money}! Vuelve en {tiempo} por tu recompensa diaria.",
+        "dlyUser": "¡Acabas de dar {{money}} al usuario {{miembro}}! Vuelve en {{tiempo}} por tu recompensa diaria.",
+        "dly": "¡Acabas de recibir {{money}}! Vuelve en {{tiempo}} por tu recompensa diaria.",
         "h12": "12 hrs",
         "title": "☀ Dinero Diario",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{time}` para obtener nuevamente tu recompensa diaria.",
+        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para obtener nuevamente tu recompensa diaria.",
         "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. Estamos trabajando en repararlo."
     },
     "deposite": {
@@ -29,25 +29,26 @@
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
         "noMoney": "Si no tienes dinero en la cartera, no puedes ingresar dinero en el banco.",
         "falta": "No tienes el dinero suficiente.",
-        "mensaje": "✅ Ingresado {cantidad} con éxito en tu banco.",
+        "mensaje": "✅ Ingresado {{cantidad}} con éxito en tu banco.",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "dice": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
-        "noMoney": "❌ | No cuentas con el dinero suficiente. Te falta `{quantity}`",
+        "noMoney": "❌ | No cuentas con el dinero suficiente. Te falta `{{quantity}}`",
         "sacaste": "Sacaste:",
-        "ganas": "¡Adivinaste! Ganas {money}",
-        "pierdes": "Perdiste... te quitan {money}",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{time}` para tirar de nuevo el dado."
+        "ganas": "¡Adivinaste! Ganas {{money}}",
+        "pierdes": "Perdiste... te quitan {{money}}",
+        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para tirar de nuevo el dado."
     },
     "flipcoin": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
         "cara": "cara",
         "sello": "cruz",
         "sacaste": "Sacaste:",
-        "ganas": "¡Adivinaste! Ganas {money}",
-        "pierdes": "Perdiste... te quitan {money}",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{time}` para tirar de nuevo la moneda."
+        "ganas": "¡Adivinaste! Ganas {{money}}",
+        "pierdes": "Perdiste... te quitan {{money}}",
+        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para tirar de nuevo la moneda.",
+        "noMoney": "❌ | No cuentas con el dinero suficiente. Te falta `{{quantity}}`"
     },
     "rob": {
         "title": "🕵️‍ Robar",
@@ -57,9 +58,9 @@
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
         "automencion": "Es imposible robarte a ti mismo. Pero no te preocupes, pide a alguien más que te robe.",
         "noRobMoney": "El usuario no tiene dinero, ¿cómo le quieres robar?",
-        "mensaje": "✅ Le has conseguido robar {robado} a {miembro}. ¡¡¡ Disimula para que no se de cuenta !!!",
-        "noMensaje": "❌ La policía te ha visto intentando robar a {miembro} y has tenido que pagar una multa de {money}, además le dieron la mitad a {miembro} por el incidente.",
-        "cooldown": "🛑 | ¡Para! debes esperar `{time}` para robarle a alguien mas.",
+        "mensaje": "✅ Le has conseguido robar {{robado}} a {{miembro}}. ¡¡¡ Disimula para que no se de cuenta !!!",
+        "noMensaje": "❌ La policía te ha visto intentando robar a {{miembro}} y has tenido que pagar una multa de {{money}}, además le dieron la mitad a {{miembro}} por el incidente.",
+        "cooldown": "🛑 | ¡Para! debes esperar `{{time}}` para robarle a alguien mas.",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "slotmachine": {
@@ -68,39 +69,39 @@
         "pierdes": "Mala suerte",
         "premio": "¡Premio!",
         "derrota": "Perdiste",
-        "mensaje1": "Te llevas {money} de ganancia.",
-        "mensaje2": "Te llevas {money} por sacar dos de tres.",
-        "mensaje3": "Te quitan {money} por no sacar nada.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{time}` para tirar la ruleta de nuevo."
+        "mensaje1": "Te llevas {{money}} de ganancia.",
+        "mensaje2": "Te llevas {{money}} por sacar dos de tres.",
+        "mensaje3": "Te quitan {{money}} por no sacar nada.",
+        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para tirar la ruleta de nuevo."
     },
     "top": {
         "tu": "Tu Posición:",
         "dinero": "Cartera:",
         "banco": "Banco:",
-        "title": "TOP DINERO | **{database}**",
-        "paginas": "Página {count} de {countDB}"
+        "title": "TOP DINERO | **{{database}}**",
+        "paginas": "Página {{count}} de {{countDB}}"
     },
     "trade": {
         "title": "💎🏬 Comerciar",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
-        "mensaje": "✅ Has recibido {money} por hacer comercios peligrosos.",
-        "noMensaje": "❌ La policía pilló haciendo comercios peligrosos y has tenido que pagar una multa de {money}.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{time}` para hacer trabajos peligrosos nuevamente."
+        "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos.",
+        "noMensaje": "❌ La policía pilló haciendo comercios peligrosos y has tenido que pagar una multa de {{money}}.",
+        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para hacer trabajos peligrosos nuevamente."
     },
     "trans": {
         "title": "💱 Transferencia",
         "noCantidad": "Cantidad no válida.",
         "noMencion": "Mención no valida. Verifica el usuario.",
         "bot": "⚠ | Este usuario es un bot.",
-        "automencion": "✅ {money} transferidos correctamente al banco nacional de StarLight. Gracias por su preferencia.",
-        "mensajeEspera": "Verifica y acepta colocando `{numero}` para transferir {dinero}. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 10% de comisión por la transferencia.*",
+        "automencion": "✅ {{money}} transferidos correctamente al banco nacional de StarLight. Gracias por su preferencia.",
+        "mensajeEspera": "Verifica y acepta colocando `{{numero}}` para transferir {{dinero}}. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 10% de comisión por la transferencia.*",
         "cancel": "✅ Transferencia Cancelada",
         "noValido": "Número de verificación no válido.",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
         "noMoney": "Parece que no tienes dinero para transferir.",
         "falta": "No tienes dinero suficiente.",
-        "noSumar": "Parece ser que {miembro} no tiene perfil. **Tiene que hablar para que se cree**\n*Si consideras que esto es un error, puedes reportarlo con* `bugreport`",
-        "mensaje": "✅ Transferencia realizada con éxito. Se le entrego {cantidad} a {miembro}.",
+        "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree**\n*Si consideras que esto es un error, puedes reportarlo con* `bugreport`",
+        "mensaje": "✅ Transferencia realizada con éxito. Se le entrego {{cantidad}} a {{miembro}}.",
         "noTiempo": "⏳ Tiempo Agotado ❌",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
@@ -110,15 +111,15 @@
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
         "noMoney": "Parece que no tienes dinero en el banco.",
         "falta": "No tienes suficiente en el banco.",
-        "mensaje": "✅ Has retirado con éxito {cantidad} del banco, dejando `{banco}` en el banco.",
+        "mensaje": "✅ Has retirado con éxito {{cantidad}} del banco, dejando `{{banco}}` en el banco.",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "work": {
         "title": "👷 ‍Trabajo",
-        "mensajeDar": "✅ ¡Acabas de dar {money} a {miembro} por haber hecho un trabajo!",
-        "mensaje": "✅ ¡Recibes {money} por trabajar!",
+        "mensajeDar": "✅ ¡Acabas de dar {{money}} a {{miembro}} por haber hecho un trabajo!",
+        "mensaje": "✅ ¡Recibes {{money}} por trabajar!",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{time}` para trabajar nuevamente.",
+        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para trabajar nuevamente.",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     }
 }
