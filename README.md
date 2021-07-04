@@ -11,7 +11,7 @@ Los idiomas serán añadidos conforme existan traductores, a lo que actualmente 
 
 EL orden que se sigue es `<idioma>/<categoría>.json` siendo cada categoría la del bot con cada propiedad que corresponde al comando de la misma.
 
-# Contribuidores
+## Contribuidores
 
--   **DavichoStar** [GitHub](https://github.com/DavichoStar)
--   **XtoMHA96** [GitHub](https://github.com/XtoMHA96)
+- **DavichoStar** [GitHub](https://github.com/DavichoStar)
+- **XtoMHA96** [GitHub](https://github.com/XtoMHA96)
