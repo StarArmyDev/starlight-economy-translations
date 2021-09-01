@@ -1,0 +1,95 @@
+{
+    "botsuggestion": {
+        "ok": "✅ Sugerencia enviada al servidor de soporte.\n*Cualquier abuso de este u otro comando será sancionado.*"
+    },
+    "bugreport": {
+        "correcto": "**Su error ha sido reportado correctamente.**\nSerá revisado así que por favor sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte.*",
+        "error": "Ocurrió un problema al enviar el mensaje, puedes entrar al servidor de soporte para reportar este error."
+    },
+    "donate": {
+        "title": "Apoya a",
+        "desc": "**¡Vota!** Apoya dejando tu voto en [top.gg](https://top.gg/bot/517786947171909643 \"Top.gg\") recuerda que se puede votar cada 12 horas.\n**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soprte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc de como utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
+    },
+    "help": {
+        "si": "Sí",
+        "no": "No",
+        "titulo": "Lista de Comandos",
+        "version": " | Versión ",
+        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
+        "core": "🌠 Bot",
+        "config": "⚙ Configuración",
+        "config-bot": "⚙ Configuración Bot",
+        "economia": "💵 Economía",
+        "items": "📦 Artículos",
+        "desarrollador": "👨‍💻 Desarrollador",
+        "manager": "⚙ Administrador del bot",
+        "masInfo": {
+            "title": "¿Más información?",
+            "desc": "Usa: `{{prefix}}<comando> help` o `{{prefix}}help <comando>` para obtener la información individual del comando y sus parámetros esperados."
+        },
+        "links": {
+            "title": "Links útiles",
+            "desc": "[Invítame]({{invite}} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 horas.\")"
+        },
+        "private": "✅ **| Revisa tu MD.** 👌",
+        "noPrivate": "❌ | Parece que tienes desactivado los mensajes privados.",
+        "noUso": "[No espera parámetros]",
+        "embedHelp": {
+            "title": "Ayuda de: {{command}}",
+            "descripcion": "**Descripción:**",
+            "uso": "Usa el comando de la siguiente manera:",
+            "alias": "Alias",
+            "noAlias": "Sin alias",
+            "categoria": "Categoría",
+            "permiso": "Permiso",
+            "cooldown": "Tiempo de espera",
+            "args": "Espera argumentos",
+            "apagado": "Apagado global",
+            "sinPermisos": "Sin permisos requeridos"
+        }
+    },
+    "invite": {
+        "title": "Mi Invitación | {{client_name}}",
+        "descripcion": "Este hermoso bot puede ayudarte en la economía de tu servidor tan profecional como sea posible, permitiendote configurar muchos aspectos del mismo.",
+        "version": "| Versión",
+        "invitacion": "🌠 Invitación",
+        "link": "[Invita a {{client_name}} a tu servidor]({{link}})",
+        "soporteTitle": "📥 Servidor de Soporte",
+        "soporte": "[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy Soporte') Para obtener ayuda y estar enterado de toda la información siempre.",
+        "webTitle": "🖥 Página Web",
+        "web": "Para mas información acerca del bot como sus comandos entra al [Sitio Oficial](https://starlight-economy.live/ 'StarLight Economy - Inicio')",
+        "apoyoTitle": "💎 Apoyanos",
+        "apoyo": "Apoya en el crecimiento del bot donando lo que puedas a travez de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+    },
+    "ping": {
+        "footer": "Virtual Private Machine",
+        "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.",
+        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}."
+    },
+    "release": {
+        "title": "Novedades de",
+        "descripcion": ":sparkles:  **__Nuevo__**\n**- AuditLogs:** Se crearon los registros con dos modos, sólo importante y normal. En el primero se registrará lo siguiente:\n    `-` Cuando es eliminado el perfil de un usuario.\n    `-` Cuando se resetea la economía de alguien o todos.\n    `-` Cuando se elimina o agrega dinero con `addmoney`, `deletemoney` o `setmoney`\n    `-` Se crea o elimina un item.\n    `-` Se bloquea o desbloquea a un usuario.\n    `-` Se eliminan items del inventario de alguien o de todos.\n    `-` Cuando compran un item\n    `-` Cuando transfieren dinero o un item a otro usuario.\nEn el segundo se registrarán todo lo anterior mas lo siguiente:\n    `-` Cuando se edita un item\n    `-` Se gana un item con el comando `loot`\n    `-` Se vende o usa un item.\n    `-` Cuando se gana o pierde dinero con `crime`, `daily`, `dice`, `flipcoin`, `rob`, `slotmachine`, `trade` y `work`.\n**- SetAuditlogs:** Establece el canal donde se mandarán los registro, usa `--onlyImportant` para mandar sólo lo importante.\n**- DeleteAuditLogs:** Elimina la configuración y webhoock de los registros.\n**- AutoDelete:** Elimina el perfil de un usuario cuando se banea del servidor.\n**- EditItem:** Ahora se puede editar la posición de los items con la propiedad **changeposition** seguido de la posición deseada.\n\n:recycle: **__Cambios__**\n**- EditItem:** Ahora al editar un item, este no cambiará de posición por cambiar otros valores que no son *changeposition*.\n**- Código:** Se cambió de versión de DJS, de sistema de idiomas y SlashCommands.\n\n:bug: **__Arreglos__**\n**- Top:** No se mostraba el top, decía *undefined* en tops menores a 11 usuarios.\n**- ItemInfo:** No se mostraba el comando al usarlo.\n**- Buy:** En ocasiones, no dejaba comprar items.\n**- ResetEconomy:** No mostraba el mensaje de confirmación.\n**- Dice:** No funcionaba el comando sin configurarse correctamente.\n**- SloMachine:** No funcionaba el comando en varias ocasiones.",
+        "footer": "Estos son los cambios de la versión {{version}} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {{dev}}."
+    },
+    "stats": {
+        "bot": "🤖 Bot Info",
+        "owner": "👑 Creador",
+        "version": "📊 Versión",
+        "libreria": "📚 Libreria",
+        "discordjs": "Discord.js-Light v4.0.0-dev\nDiscord.js v13.0.0-dev",
+        "memoria": "🗂 Memoria",
+        "tiempo": "🕒 Tiempo Encendido",
+        "servers": "💬 Servidores",
+        "users": "👥 Usuarios en caché",
+        "canales": "#️⃣ Canales",
+        "voz": "🔊 Conexiones a voz",
+        "commands": "📄 Comandos",
+        "os": "🖥️ Sistema Operativo",
+        "sistema": "Linux",
+        "horaServer": "⏳ Hora en el Servidor"
+    },
+    "vote": {
+        "title": "Lista de Bots donde puedes votar",
+        "desc": "Puedes votar cada 12 horas, con fin de semana de voto doble en \n- [Top.gg](https://discordbots.org/bot/696723299459268728/vote)\n- [MadKing](https://madking.us/bot/696723299459268728)"
+    }
+}

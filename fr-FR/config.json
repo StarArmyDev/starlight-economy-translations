@@ -1,10 +1,10 @@
 {
     "addchatexclude": {
-        "noCanal": "❌ | Canal inválido, verifique se é um canal ou categoria de texto.",
-        "yaExclude": "❌ | Canal já excluído.",
-        "title": "✅ | Canal excluído de ganhar dinheiro",
-        "field": "✅ | Todos os canais excluídos de ganhar dinheiro",
-        "canal": "Agregar:"
+        "noCanal": "❌ | Canal No válido. Revisa que sea un canal de texto.",
+        "yaExclude": "❌ | Este canal ya está excluido",
+        "title": "✅ | Canal excluido de ganancia de dinero",
+        "field": "✅ | Todos los canal excluido de ganancia de dinero",
+        "canal": "Agregado:"
     },
     "addmoney": {
         "noMember": "❌ | Usuario no encontrado, verificalo.",
@@ -84,11 +84,11 @@
         "delete": "`✅ |` Canal de registros eliminado con éxito"
     },
     "deletechatexclude": {
-        "noConfig": "*Não configurado.*",
-        "quitado": "Levado embora.",
-        "all": "tudo",
-        "noModo": "❌ | Modo inválido.",
-        "title": "✅ | Canal excluído de ganhar dinheiro removido"
+        "noConfig": "*No Configurado.*",
+        "quitado": "Quitado",
+        "all": "todo",
+        "noModo": "❌ | Modo no válido.",
+        "title": "✅ | Canal excluido de ganancia de dinero eliminado"
     },
     "deleteitem": {
         "noExiste": "❌ | Este artículo no existe.",

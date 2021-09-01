@@ -64,7 +64,7 @@
             "canal": "*⛔ | Comando deshabilitado en este canal.*",
             "server": "*⛔ | Comando deshabilitado en este servidor.*"
         },
-        "comandoApagado": "`⛔|` Este comando se encuentra deshabilitado por alguna actualización o suspensión temporal.",
+        "comandoApagado": "`⛔|` Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
         "noUso": "No tienes que agregar parámetros.",
         "embedHelp": {
             "title": "Ayuda de: {{command}}",
@@ -74,12 +74,12 @@
             "noAlias": "Sin alias",
             "categoria": "Categoría",
             "permiso": "Permiso",
-            "cooldown": "Cooldown",
+            "cooldown": "Tiempo de espera",
             "args": "Espera argumentos",
             "apagado": "Apagado global",
             "sinPermisos": "Sin permisos requeridos"
         },
-        "cooldown": "⚠ | ¡Pare! Espere `{{time}}` para usar nuevamente el comando `{{commandName}}`. Sea paciente.",
+        "cooldown": "⚠ | ¡Alto! Espere `{{time}}` para usar nuevamente el comando `{{commandName}}`. Sea paciente.",
         "error": "`❌|` Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{{prefix}}BugReport`."
     }
 }
