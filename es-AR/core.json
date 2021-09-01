@@ -1,21 +1,21 @@
 {
     "botsuggestion": {
-        "ok": "✅ Sugerencia enviada al servidor de soporte.\n*Cualquier abuso de este u otro comando será sancionado.*"
+        "ok": "✅ Sugerencia mandada al servidor de soporte.\n*Cualquier abuso de este u otro comando va a ser sancionado.*"
     },
     "bugreport": {
-        "correcto": "**Su error ha sido reportado correctamente.**\nSerá revisado así que por favor sea paciente.\n*Para mayor asistencia o ayuda puedes entrar al servidor de soporte.*",
-        "error": "Ocurrió un problema al enviar el mensaje, puedes entrar al servidor de soporte para reportar este error."
+        "correcto": "**Tu error fue reportado correctamente.**\nVa a ser revisado, así que, por favor, sé paciente.\n*Para mayor asistencia o ayuda, podés entrar al servidor de soporte.*",
+        "error": "Hubo un problema al mandar el mensaje. Podés entrar al servidor de soporte para reportar este error."
     },
     "donate": {
-        "title": "Apoya a",
-        "desc": "**¡Vota!** Apoya dejando tu voto en [top.gg](https://top.gg/bot/517786947171909643 \"Top.gg\") recuerda que se puede votar cada 12 horas.\n**Donaciones directas.** Puede donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tendrá que ponerse en contacto con nosotros en el servidor de soprte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Realizando...** guías, vídeos, redactando textos, etc de como utilizar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabes de programación, tal vez te interese compartir código para seguir implementando cosas nuevas."
+        "title": "Apoyá a",
+        "desc": "**¡Votá!** Apoyá dejando tu voto en [top.gg](https://top.gg/bot/517786947171909643 \"Top.gg\"). Acordate que se puede votar cada 12 horas.\n**Donaciones directas.** Podés donar a nuestro [PayPal](https://www.paypal.me/czemtb) o tenés que ponerte en contacto con nosotros en el servidor de soprte.\n**Promocionando al bot.**  Hay que darnos a conocer por todas partes.\n**Haciendo...** guías, vídeos, redactando textos, etc. de cómo usar el bot. StarLight necesita ayuda de todos.\n**Escribiendo Código.** Si sabés de programación, capaz que te interese compartir código para seguir implementando cosas nuevas."
     },
     "help": {
         "si": "Sí",
         "no": "No",
         "titulo": "Lista de Comandos",
         "version": " | Versión ",
-        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que puedes ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
+        "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que podés ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
         "core": "🌠 Bot",
         "config": "⚙ Configuración",
         "config-bot": "⚙ Configuración Bot",
@@ -25,46 +25,46 @@
         "manager": "⚙ Administrador del bot",
         "masInfo": {
             "title": "¿Más información?",
-            "desc": "Usa: `{{prefix}}<comando> help` o `{{prefix}}help <comando>` para obtener la información individual del comando y sus parámetros esperados."
+            "desc": "Usá: `{{prefix}}<comando> help` o `{{prefix}}help <comando>` para tener la información individual del comando y sus parámetros esperados."
         },
         "links": {
             "title": "Links útiles",
-            "desc": "[Invítame]({{invite}} \"Invítame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apóyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Vota en Top.gg cada 12 horas.\")"
+            "desc": "[Invitame]({{invite}} \"Invitame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apoyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Votá en Top.gg cada 12 horas.\")"
         },
-        "private": "✅ **| Revisa tu MD.** 👌",
-        "noPrivate": "❌ | Parece que tienes desactivado los mensajes privados.",
+        "private": "✅ **| Revisá tu MD.** 👌",
+        "noPrivate": "❌ | Parece que tenés desactivados los mensajes privados.",
         "noUso": "[No espera parámetros]",
         "embedHelp": {
             "title": "Ayuda de: {{command}}",
             "descripcion": "**Descripción:**",
-            "uso": "Usa el comando de la siguiente manera:",
+            "uso": "Usá el comando de esta manera:",
             "alias": "Alias",
             "noAlias": "Sin alias",
             "categoria": "Categoría",
             "permiso": "Permiso",
             "cooldown": "Tiempo de espera",
-            "args": "Espera argumentos",
+            "args": "Esperá argumentos",
             "apagado": "Apagado global",
             "sinPermisos": "Sin permisos requeridos"
         }
     },
     "invite": {
         "title": "Mi Invitación | {{client_name}}",
-        "descripcion": "Este hermoso bot puede ayudarte en la economía de tu servidor tan profecional como sea posible, permitiendote configurar muchos aspectos del mismo.",
+        "descripcion": "Este hermoso bot puede ayudarte en la economía de tu servidor tan profecional como sea posible, dejándote configurar muchos aspectos del mismo.",
         "version": "| Versión",
         "invitacion": "🌠 Invitación",
-        "link": "[Invita a {{client_name}} a tu servidor]({{link}})",
+        "link": "[Invitá a {{client_name}} a tu servidor]({{link}})",
         "soporteTitle": "📥 Servidor de Soporte",
-        "soporte": "[Entra Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy Soporte') Para obtener ayuda y estar enterado de toda la información siempre.",
+        "soporte": "[Entrá Al Servidor](https://discord.gg/MZN8Yf6 'StarArmy Soporte') Para tener ayuda y estar enterado de toda la información siempre.",
         "webTitle": "🖥 Página Web",
-        "web": "Para mas información acerca del bot como sus comandos entra al [Sitio Oficial](https://starlight-economy.live/ 'StarLight Economy - Inicio')",
+        "web": "Para más información sobre del bot, como sus comandos, entrá al [Sitio Oficial](https://starlight-economy.live/ 'StarLight Economy - Inicio')",
         "apoyoTitle": "💎 Apoyanos",
-        "apoyo": "Apoya en el crecimiento del bot donando lo que puedas a travez de [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
+        "apoyo": "Apoyá en el crecimiento del bot donando lo que puedas por [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping": {
         "footer": "Virtual Private Machine",
         "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.",
-        "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}."
+        "descriptionGateway": "¡Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Puerta de Enlace: {{gateway}}."
     },
     "release": {
         "title": "Novedades de",
