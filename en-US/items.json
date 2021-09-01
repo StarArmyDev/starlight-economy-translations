@@ -103,8 +103,8 @@
     "use": {
         "noShop": "🛑 | This server does not have a store yet.",
         "bloqueado": "❌ | You have the economy blocked. Contact the server staff to appeal.",
-        "noUse": "⛔ | Este artículo no se puede usar.",
         "noItem": "Item `{{item}}` does not exist. Verify the name.",
+        "noUse": "⛔ | Este artículo no se puede usar.",
         "noRol": "I did not find the role, it may no longer exist.",
         "trueRol": "You already have this role.",
         "nombreCategoria": "Channels Purchased"
