@@ -1,6 +1,6 @@
 {
     "errores": {
-        "title": "❌ No tienes permiso para usar este comando.",
+        "title": "❌ No tenés permiso para usar este comando.",
         "perm": "Permiso requerido:",
         "permisos": {
             "ADMINISTRATOR": "Administrador",
@@ -41,45 +41,45 @@
         "prefix": "prefijo",
         "title": "Prefijo",
         "comandHelp": "Comando de Ayuda",
-        "pregunta": "¿Necesitas cambiar el prefijo?",
-        "comand": "Usa @BotMención setprefix sb!"
+        "pregunta": "¿Necesitás cambiar el prefijo?",
+        "comand": "Usá @BotMención setprefix sb!"
     },
     "setprefix": {
-        "help": "Use `@MenciónBot prefix <nuevo prefijo>`",
+        "help": "Usá `@MenciónBot prefix <nuevo prefijo>`",
         "title": "Prefix Personalizado Asignado",
         "agregado": "Agregado"
     },
     "commandHandling": {
         "noGuild": "*`⛔|` Este comando solo se puede usar en un servidor.*",
         "noCommand": {
-            "title": "❌| No se ha encontrado el comando",
+            "title": "❌| No se encontró el comando",
             "description": "El comando **{{command}}** no existe",
             "similitudes": "Comandos similares:"
         },
-        "noPermCanal": "`⛔|` No tengo permitido enviar mensajes en:",
-        "noPermComandoCanal": "`⛔|` No tengo permitido enviar el comando `{{commandName}}` en:",
+        "noPermCanal": "`⛔|` No puedo mandar mensajes en:",
+        "noPermComandoCanal": "`⛔|` No puedo mandar el comando `{{commandName}}` en:",
         "disable": {
-            "miembro": "*⛔ | Este comando lo tienes deshabilitado en este servidor.*",
+            "miembro": "*⛔ | Este comando lo tenés deshabilitado en este servidor.*",
             "rol": "*⛔ | Comando deshabilitado para tu rol en este servidor.*",
             "canal": "*⛔ | Comando deshabilitado en este canal.*",
             "server": "*⛔ | Comando deshabilitado en este servidor.*"
         },
-        "comandoApagado": "`⛔|` Este comando se encuentra apagado por alguna actualización o suspensión temporal.",
-        "noUso": "No tienes que agregar parámetros.",
+        "comandoApagado": "`⛔|` Este comando está apagado por alguna actualización o suspensión temporal.",
+        "noUso": "No tenés que agregar parámetros.",
         "embedHelp": {
             "title": "Ayuda de: {{command}}",
             "descripcion": "**Descripción:**",
-            "uso": "Usa el comando de la siguiente manera:",
+            "uso": "Usá el comando de esta manera:",
             "alias": "Alias",
             "noAlias": "Sin alias",
             "categoria": "Categoría",
             "permiso": "Permiso",
             "cooldown": "Tiempo de espera",
-            "args": "Espera argumentos",
+            "args": "Esperá argumentos",
             "apagado": "Apagado global",
             "sinPermisos": "Sin permisos requeridos"
         },
-        "cooldown": "⚠ | ¡Alto! Espere `{{time}}` para usar nuevamente el comando `{{commandName}}`. Sea paciente.",
-        "error": "`❌|` Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{{prefix}}BugReport`."
+        "cooldown": "⚠ | ¡Pará! Esperá `{{time}}` para usar de vuelta el comando `{{commandName}}`. Sé paciente.",
+        "error": "`❌|` Hubo un error al intentar ejecutar el comando. Podés reportarlo con `{{prefix}}BugReport`."
     }
 }

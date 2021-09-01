@@ -6,7 +6,7 @@
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "yaCommand": "❌ | Este comando ya está en la lista.",
         "all": "todo",
-        "title": "✅ | Comando agregado a la lista negra en este Servidor",
+        "title": "✅ | Comando agregado a la lista negra en este servidor",
         "fieldCom": "Comando:",
         "fieldCat": "Comandos de categoría:",
         "commands": "Comandos:"
@@ -18,7 +18,7 @@
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "yaCommand": "❌ | Este comando ya está en la lista.",
         "all": "todo",
-        "title": "✅ | Comando agregado a la lista blanca en este Servidor",
+        "title": "✅ | Comando agregado a la lista blanca en este servidor",
         "fieldCom": "Comando:",
         "fieldCat": "Comandos de categoría:",
         "commands": "Comandos:"
@@ -26,7 +26,7 @@
     "config": {
         "default": "*Por Defecto:*",
         "daily": "Dinero Diario:",
-        "canalEliminado": "*Canal Eliminado o No disponible.*",
+        "canalEliminado": "*Canal Borrado o No disponible.*",
         "noConfig": "*No Configurado.*",
         "noCanal": "*(Canal Desconocido)*",
         "embed": {
@@ -52,7 +52,7 @@
             "daily": "Dinero Diario:",
             "dice": "Dado:",
             "flipcoin": "Moneda al aire:",
-            "slotmachine": "Maquina de casino",
+            "slotmachine": "Máquina de casino",
             "rob": "Robar:",
             "roulette": "Ruleta:",
             "trade": "Trade:",
