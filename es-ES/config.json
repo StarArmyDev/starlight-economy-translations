@@ -144,7 +144,7 @@
         "getHelp": "Usa `{{prefix}}edititem obtiene <canal|rol> <(text|voz)|@rol>`",
         "noCreateChannel": "❌ | No tengo permisos para crear canales. Agrega a mi rol el permiso \"Gestionar Canales\"",
         "noRoles": "❌ | No tengo permiso de gestionar roles en este servidor. Agrega a mi rol el permiso \"Gestionar Roles\"",
-        "noRole": "❌ | Rol no encontrado o rol no valido. Por favor verifica que exista.",
+        "noRole": "❌ | Rol no encontrado o rol no válido. Por favor verifica que exista.",
         "noManageable": "❌ | Parece que no puedo gestionar este rol. Verifica que mi rol esté por encima de este rol.",
         "balance": "saldo",
         "requireHelp": "Usa `{{prefix}}edititem requiere <rol|saldo> <@rol|numero>`",
