@@ -32,7 +32,7 @@
         "noData": "*No Data*",
         "noRole": "Unknown Role",
         "yes": "Yes",
-        "no": "No",
+        "no": "Not",
         "infinity": "*Infinite*",
         "id": "🆔",
         "emoji": "Emoji",
@@ -78,7 +78,7 @@
         "outOfTime": "Out Of Time",
         "disponible": "Available:",
         "yes": "Yes",
-        "no": "No",
+        "no": "Not",
         "title": "Store of {{tienda}}",
         "descripcion": "To buy items you have to use `{{prefix}}buy <item> [quantity]`.\nTo sell items use `{{prefix}}sell <item> [quantity]`\nSymbology:\n📥Purchase\n📤Sale\n📦Quantity Available\n⏳Remaining Time In Store\n\n**Items**",
         "error": "❌ An unexpected error occurred. Report it with `bugreport` to fix it quickly."
