@@ -5,7 +5,7 @@
         "bot": "⚠ | Este usuario es un bot.",
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "yaCommand": "❌ | Este comando ya está en la lista.",
-        "all": "todo",
+        "all": "tudo",
         "title": "✅ | Comando agregado a la lista negra en este Servidor",
         "fieldCom": "Comando:",
         "fieldCat": "Comandos de categoría:",
@@ -17,7 +17,7 @@
         "bot": "⚠ | Este usuario es un bot.",
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "yaCommand": "❌ | Este comando ya está en la lista.",
-        "all": "todo",
+        "all": "tudo",
         "title": "✅ | Comando agregado a la lista blanca en este Servidor",
         "fieldCom": "Comando:",
         "fieldCat": "Comandos de categoría:",
@@ -27,7 +27,7 @@
         "default": "*Por Defecto:*",
         "daily": "Dinero Diario:",
         "canalEliminado": "*Canal Eliminado o No disponible.*",
-        "noConfig": "*No Configurado.*",
+        "noConfig": "*Não configurado.*",
         "noCanal": "*(Canal Desconocido)*",
         "embed": {
             "author": "Configuración | {{guild_name}}",
@@ -35,7 +35,7 @@
             "prefix": "Prefijo:",
             "languageS": "Idioma del Servidor:",
             "languageC": "Idioma en Canales:",
-            "econ": "Economía:",
+            "econ": "Economia:",
             "blackList": "Lista Negra:",
             "whiteList": "Lista Blanca:"
         },
@@ -65,7 +65,7 @@
         "commandImport": "⚠ Este comando pertenece a una categoría importante.",
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "noList": "❌ | Este comando no está en la lista.",
-        "all": "todo",
+        "all": "tudo",
         "title": "✅ | Comando quitado a la lista negra en este Servidor",
         "fieldAll": "Comandos:",
         "fieldCat": "Comandos de categoría:",
@@ -80,12 +80,12 @@
         "noChannels": "❌ | No tienes configurado ningún idioma de canales.",
         "title": "✅ | Idioma del Servidor Eliminado",
         "titleC": "✅ | Idioma del Canal Eliminado",
-        "remove": "Quitado:"
+        "remove": "Levado embora:"
     },
     "deleteprefix": {
         "noConfig": "❌ | No tienes configurado ningún prefix",
         "title": "✅ | Prefix Personalizado Quitado",
-        "remove": "Quitado:",
+        "remove": "Levado embora:",
         "default": "Por defecto:"
     },
     "deletewhitelist": {
@@ -94,7 +94,7 @@
         "commandImport": "⚠ Este comando pertenece a una categoría importante.",
         "noUser": "❌ | Usuario/rol/canal inválido.",
         "noList": "❌ | Este comando no está en la lista.",
-        "all": "todo",
+        "all": "tudo",
         "title": "✅ | Comando quitado a la lista negra en este Servidor",
         "fieldAll": "Comandos:",
         "fieldCat": "Comandos de categoría:",
@@ -108,11 +108,11 @@
         "noLang": "❌ | No colocaste el idioma a establecer para el canal",
         "title": "✅ | Idioma del Servidor Asignado",
         "titleC": "✅ | Idioma del Canal Asignado",
-        "cambio": "Cambiado a"
+        "cambio": "Transferido para"
     },
     "setprefix": {
         "prefixLength": "❌ | Prefix muy largo. no puede superor los 4 carácteres",
         "title": "✅ | Prefix Personalizado Asignado",
-        "cambio": "Cambiado a:"
+        "cambio": "Transferido para:"
     }
 }
