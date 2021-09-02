@@ -22,7 +22,7 @@
         "economia": "💵 Economia",
         "items": "📦 Artigos",
         "desarrollador": "👨‍💻 Desenvolvedor",
-        "manager": "⚙ Administrador del bot",
+        "manager": "⚙ Gerente do bot",
         "masInfo": {
             "title": "Mais informação?",
             "desc": "Use: `{{prefix}}<command> help` para obter suas informações de comando individual e seus parâmetros esperados."
@@ -38,7 +38,7 @@
             "title": "Ajuda de: {{command}}",
             "descripcion": "**Descrição:**",
             "uso": "Use o comando da seguinte maneira:",
-            "alias": "Alias",
+            "alias": "Apelido",
             "noAlias": "Sem aliases",
             "categoria": "Categoria",
             "permiso": "Com licença",
@@ -62,12 +62,12 @@
         "apoyo": "Apoie o crescimento do bot doando o que puder através do [PayPal](https://www.paypal.me/czemtb 'CZEMTB')"
     },
     "ping": {
-        "footer": "Virtual Private Machine",
+        "footer": "Máquina Virtual Privada",
         "description": "Pong!\n📡 API: {{ping}}.\n🗃 Base de dados: {{db}}.",
         "descriptionGateway": "Pong!\n📡 API: {{ping}}.\n🗃 Base de datos: {{db}}.\n⏳ Porta de ligação: {{gateway}}."
     },
     "release": {
-        "title": "Novedades de",
+        "title": "Novidades de",
         "descripcion": ":sparkles:  **__Nuevo__**\n**- AuditLogs:** Se crearon los registros con dos modos, sólo importante y normal. En el primero se registrará lo siguiente:\n    `-` Cuando es eliminado el perfil de un usuario.\n    `-` Cuando se resetea la economía de alguien o todos.\n    `-` Cuando se elimina o agrega dinero con `addmoney`, `deletemoney` o `setmoney`\n    `-` Se crea o elimina un item.\n    `-` Se bloquea o desbloquea a un usuario.\n    `-` Se eliminan items del inventario de alguien o de todos.\n    `-` Cuando compran un item\n    `-` Cuando transfieren dinero o un item a otro usuario.\nEn el segundo se registrarán todo lo anterior mas lo siguiente:\n    `-` Cuando se edita un item\n    `-` Se gana un item con el comando `loot`\n    `-` Se vende o usa un item.\n    `-` Cuando se gana o pierde dinero con `crime`, `daily`, `dice`, `flipcoin`, `rob`, `slotmachine`, `trade` y `work`.\n**- SetAuditlogs:** Establece el canal donde se mandarán los registro, usa `--onlyImportant` para mandar sólo lo importante.\n**- DeleteAuditLogs:** Elimina la configuración y webhoock de los registros.\n**- AutoDelete:** Elimina el perfil de un usuario cuando se banea del servidor.\n**- EditItem:** Ahora se puede editar la posición de los items con la propiedad **changeposition** seguido de la posición deseada.\n\n:recycle: **__Cambios__**\n**- EditItem:** Ahora al editar un item, este no cambiará de posición por cambiar otros valores que no son *changeposition*.\n**- Código:** Se cambió de versión de DJS, de sistema de idiomas y SlashCommands.\n\n:bug: **__Arreglos__**\n**- Top:** No se mostraba el top, decía *undefined* en tops menores a 11 usuarios.\n**- ItemInfo:** No se mostraba el comando al usarlo.\n**- Buy:** En ocasiones, no dejaba comprar items.\n**- ResetEconomy:** No mostraba el mensaje de confirmación.\n**- Dice:** No funcionaba el comando sin configurarse correctamente.\n**- SloMachine:** No funcionaba el comando en varias ocasiones.",
         "footer": "Estos son los cambios de la versión {{version}} cualquier problema puedes ingresar al servidor de soporte. | Desarrollado por {{dev}}."
     },

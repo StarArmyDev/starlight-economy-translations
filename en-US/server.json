@@ -68,7 +68,7 @@
         "noUso": "You do not have to add parameters",
         "embedHelp": {
             "title": "Help from: {{command}}",
-            "descripcion": "**Descripción:**",
+            "descripcion": "**Description:**",
             "uso": "Use the command as follows:",
             "alias": "Alias",
             "noAlias": "No aliases",

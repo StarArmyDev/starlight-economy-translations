@@ -139,7 +139,7 @@
         "sell": "sale",
         "priceHelp": "Place `{{prefix}}edititem price <buy|sell> <value>`",
         "noTime": "Invalid time. Set the value as: 30s, 60m, 12h, 3d.",
-        "channel": "canal",
+        "channel": "channel",
         "rol": "role",
         "getHelp": "Use `{{prefix}}edititem get <channel|rol> <(text|voz)|@role>`",
         "noCreateChannel": "❌ | I don't have permissions to create channels. Add permission to my role \"Manage Channels\"",

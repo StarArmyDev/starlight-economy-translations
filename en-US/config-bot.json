@@ -95,14 +95,14 @@
         "noUser": "❌ | Invalid user / role / channel.",
         "noList": "❌ | This command is not in the list.",
         "all": "everything",
-        "title": "✅ | Comando quitado a la lista negra en este Servidor",
+        "title": "✅ | Command removed from blacklist on this Server",
         "fieldAll": "Commands:",
         "fieldCat": "Category commands:",
         "for": "For:",
         "fieldCom": "Command:"
     },
     "setlanguage": {
-        "channel": "canal",
+        "channel": "channel",
         "noChannel": "❌ | Canal inválido.",
         "noLanguage": "❌ | Este idioma no existe o es inválido. Usa `{{prefix}}setidioma help` para conocer los idiomas disponibles.",
         "noLang": "❌ | No colocaste el idioma a establecer para el canal",
@@ -113,6 +113,6 @@
     "setprefix": {
         "prefixLength": "❌ | Prefix muy largo. no puede superor los 4 carácteres",
         "title": "✅ | Prefix Personalizado Asignado",
-        "cambio": "Cambiado a:"
+        "cambio": "Switched to:"
     }
 }

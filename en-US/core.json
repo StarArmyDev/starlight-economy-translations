@@ -12,7 +12,7 @@
     },
     "help": {
         "si": "Yes",
-        "no": "No",
+        "no": "Not",
         "titulo": "Command list",
         "version": " | Version",
         "descripcion": "Hello, I'm {{client_name}} and I come to help. This is my list of commands you can use.\n\nPing: `{{ping}}` ms\nTotal categories: `{{categorias}}`\n Total commands: `{{commands}}`",
