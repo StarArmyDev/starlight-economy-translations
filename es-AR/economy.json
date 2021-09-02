@@ -64,7 +64,7 @@
         "error": "❌ Perdón, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "slotmachine": {
-        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
         "ganas": "¡Felicidades! Ganaste",
         "pierdes": "Mala suerte",
         "premio": "¡Premio!",
@@ -83,7 +83,7 @@
     },
     "trade": {
         "title": "💎🏬 Comerciar",
-        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
         "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos",
         "noMensaje": "❌ Parece que la policía te vio y te quitaron {{money}}.",
         "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para hacer trabajos indecentes nuevamente."
@@ -97,29 +97,29 @@
         "mensajeEspera": "Verifica y acepta colocando `{{numero}}` para transferir {{dinero}}. Pon `cancel` o `cancelar` para no transferir dinero.\n*Tiene un 10% de comisión por la transferencia.*",
         "cancel": "✅ Transferencia Cancelada",
         "noValido": "Número de verificación no válido.",
-        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
         "noMoney": "Parece que no tienes dinero para transferir.",
-        "falta": "Usted no tiene monedas suficientes.",
+        "falta": "No tenés monedas suficientes.",
         "noSumar": "Parece ser que {{miembro}} no tiene perfil. **Tiene que hablar para que se cree**\n*Si consideras que esto es un error, puedes reportarlo con* `bugreport`",
         "mensaje": "✅ Transferencia éxitosa. Se dió a {{miembro}} la cantidad de {{cantidad}}.",
         "noTiempo": "⏳ Tiempo Expirado ❌",
-        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
+        "error": "❌ Perdón, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "withdraw": {
         "title": "💸 Retiro",
         "noCantidad": "Cantidad no válida.",
-        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
         "noMoney": "Parece que no tienes nada que retirar.",
-        "falta": "Usted no tiene monedas suficientes.",
+        "falta": "No tenés monedas suficientes.",
         "mensaje": "✅ Retiro con éxito {{cantidad}} en tu bolsillo, Dejando en tu banco `{{banco}}`",
-        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
+        "error": "❌ Perdón, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "work": {
         "title": "👷 ‍Trabajo",
         "mensajeDar": "✅ ¡Acabas de dar {{money}} monedas al usuario {{miembro}}!",
         "mensaje": "✅ ¡Acabas de recibir {{money}} monedas!",
-        "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar.",
+        "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
         "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para trabajar nuevamente.",
-        "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
+        "error": "❌ Perdón, parece que hubo un error. Estamos trabajando en repararlo."
     }
 }
