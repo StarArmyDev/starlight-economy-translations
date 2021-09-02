@@ -25,7 +25,7 @@
             "VIEW_GUILD_INSIGHTS": "Ver información del servidor",
             "CONNECT": "Conectar a Voz",
             "SPEAK": "Hablar en Voz",
-            "MUTE_MEMBERS": "Mutear a Miembros en Voz",
+            "MUTE_MEMBERS": "Mutear a Miembros en Canales de Voz",
             "DEAFEN_MEMBERS": "Ensordecer Miembros",
             "MOVE_MEMBERS": "Mover Miembros de Canal",
             "USE_VAD": "Usar Detección de Voz",
@@ -80,6 +80,6 @@
             "sinPermisos": "Sin permisos requeridos"
         },
         "cooldown": "⚠ | ¡Pare! Espere `{{time}}` para usar nuevamente el comando `{{commandName}}`. Sea paciente.",
-        "error": "`❌|` Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{{prefix}}BugReport`."
+        "error": "`❌|` Hubo un error al intentar ejecutar el comando. Puedes reportarlo con `{{prefix}}bugreport` o escríbele por MD al creador."
     }
 }
