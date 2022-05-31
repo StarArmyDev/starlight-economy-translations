@@ -91,5 +91,8 @@
     "vote": {
         "title": "List of Bots where you can vote",
         "desc": "You can vote every 12 hours, with a double voting weekend at\n- [Top.gg](https://discordbots.org/bot/696723299459268728/vote)\n- \n- [MadKing](https://madking.us/bot/696723299459268728)"
+    },
+    "davichostar": {
+        "title": "Hello! 👋 I'm DavichoStar"
     }
 }

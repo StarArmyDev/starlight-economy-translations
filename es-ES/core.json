@@ -91,5 +91,9 @@
     "vote": {
         "title": "Lista de Bots donde puedes votar",
         "desc": "Puedes votar cada 12 horas, con fin de semana de voto doble en\n- [Top.gg](https://discordbots.org/bot/696723299459268728/vote)\n- [MadKing](https://madking.us/bot/696723299459268728)"
+    },
+    "davichostar": {
+        "description": "Soy el creador de este bot y vengo a presentarme.\n\nSoy un desarrollador mexicano con experiencia en TypeScript (TS) y NodeJS principalmente pero también conozco de Java, Python, C#, C++ con menor habilidad, estoy aprendiendo tecnologías como ReactJS, VueJS y Flutter.\n\nSé de diseño gráfico pero me apasioné por la computación y el conjunto de estas pequeñas habilidades me permitieron crear bots, con sus diseños y baners, sus páginas web y su servidor de soporte.\n\nCorreo Electrónico: *davichostar@protonmail.com*",
+        "title": "¡Hola! 👋 Soy DavichoStar"
     }
 }
