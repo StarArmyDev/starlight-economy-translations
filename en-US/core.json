@@ -17,16 +17,9 @@
         "version": " | Version",
         "descripcion": "Hello, I'm {{client_name}} and I come to help. This is my list of commands you can use.\n\nPing: `{{ping}}` ms\nTotal categories: `{{categorias}}`\n Total commands: `{{commands}}`",
         "core": "🌠 Bot",
-        "config": "⚙ Configuration",
-        "config-bot": "⚙ Bot Configuration",
-        "economia": "💵 Economy",
+        "economy": "💵 Economía",
         "items": "📦 Items",
-        "desarrollador": "👨‍💻 Developer",
         "manager": "⚙ Bot Manager",
-        "masInfo": {
-            "title": "More information?",
-            "desc": "Use: `{{prefix}} <command name> help` or `{{prefix}}help <command name>` to get your individual command information and expected parameters."
-        },
         "links": {
             "title": "Useful links",
             "desc": "[Invite me]({{invite}} \"Invite me to your server \") | [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\") | [Support with your Vote](https://top.gg/bot/517786947171909643 \"Vote on Top.gg every 12 hours.\")"
@@ -91,5 +84,9 @@
     "vote": {
         "title": "List of Bots where you can vote",
         "desc": "You can vote every 12 hours, with a double voting weekend at\n- [Top.gg](https://discordbots.org/bot/696723299459268728/vote)\n- \n- [MadKing](https://madking.us/bot/696723299459268728)"
+    },
+    "davichostar": {
+        "title": "¡Hola! 👋 Soy DavichoStar",
+        "description": "Soy el creador de este bot y vengo a presentarme.\n\nSoy un desarrollador mexicano con experiencia en TypeScript (TS) y NodeJS principalmente pero también conozco de Java, Python, C#, C++ con menor habilidad, estoy aprendiendo tecnologías como ReactJS, VueJS y Flutter.\n\nSé de diseño gráfico pero me apasioné por la computación y el conjunto de estas pequeñas habilidades me permitieron crear bots, con sus diseños y baners, sus páginas web y su servidor de soporte.\n\nCorreo Electrónico: *davichostar@protonmail.com*"
     }
 }
