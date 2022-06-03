@@ -17,16 +17,9 @@
         "version": " | Versión ",
         "descripcion": "Hola, soy {{client_name}} y vengo a ayudar. Esta es mi lista de comandos que podés ocupar.\n\nPing: `{{ping}}` ms\nCategorías en total: `{{categorias}}`\nComandos en total: `{{commands}}`",
         "core": "🌠 Bot",
-        "config": "⚙ Configuración",
-        "config-bot": "⚙ Configuración Bot",
-        "economia": "💵 Economía",
+        "economy": "💵 Economía",
         "items": "📦 Artículos",
-        "desarrollador": "👨‍💻 Desarrollador",
         "manager": "⚙ Administrador del bot",
-        "masInfo": {
-            "title": "¿Más información?",
-            "desc": "Usá: `{{prefix}}<comando> help` o `{{prefix}}help <comando>` para tener la información individual del comando y sus parámetros esperados."
-        },
         "links": {
             "title": "Links útiles",
             "desc": "[Invitame]({{invite}} \"Invitame a tu servidor\") | [Servidor De Soporte](https://discord.gg/MZN8Yf6 \"StarArmy Soporte\") | [Apoyanos con tu Voto](https://top.gg/bot/517786947171909643 \"Votá en Top.gg cada 12 horas.\")"

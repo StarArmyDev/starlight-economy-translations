@@ -17,16 +17,9 @@
         "version": " | Version",
         "descripcion": "Hello, I'm {{client_name}} and I come to help. This is my list of commands you can use.\n\nPing: `{{ping}}` ms\nTotal categories: `{{categorias}}`\n Total commands: `{{commands}}`",
         "core": "🌠 Bot",
-        "config": "⚙ Configuration",
-        "config-bot": "⚙ Bot Configuration",
-        "economia": "💵 Economy",
+        "economy": "💵 Economy",
         "items": "📦 Items",
-        "desarrollador": "👨‍💻 Developer",
         "manager": "⚙ Bot Manager",
-        "masInfo": {
-            "title": "More information?",
-            "desc": "Use: `{{prefix}} <command name> help` or `{{prefix}}help <command name>` to get your individual command information and expected parameters."
-        },
         "links": {
             "title": "Useful links",
             "desc": "[Invite me]({{invite}} \"Invite me to your server \") | [Support Server](https://discord.gg/MZN8Yf6 \"StarArmy Support\") | [Support with your Vote](https://top.gg/bot/517786947171909643 \"Vote on Top.gg every 12 hours.\")"
