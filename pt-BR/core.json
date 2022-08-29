@@ -17,7 +17,7 @@
         "version": " | versão ",
         "descripcion": "Olá, sou {{client_name}} e vim ajudar. Esta é minha lista de comandos que você pode usar.\n\nPing: `{{ping}}`ms\nCategorias no total: `{{categorias}}`\nComandos no total: `{{comandos}}`",
         "core": "🌠 Bot",
-        "economy": "💵 Economia",
+        "economy": "💵 Economía",
         "items": "📦 Artigos",
         "manager": "⚙ Gerente do bot",
         "links": {
