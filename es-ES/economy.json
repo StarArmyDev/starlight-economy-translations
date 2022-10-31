@@ -11,7 +11,7 @@
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
         "crime": "Le has robado al ADMIN {{crime}} .  ¡¡¡ Disimula antes de que te pille !!!",
         "noCrime": "❌ La policía se ha percatado de lo que ibas a hacer y has tenido que pagar una multa de {{money}}.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para cometer nuevamente un crimen.",
+        "cooldown": "🛑 | ¡Para! Debes esperar {{time}} para cometer nuevamente un crimen.",
         "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. Estamos trabajando en repararlo."
     },
     "daily": {
@@ -20,7 +20,7 @@
         "h12": "12 hrs",
         "title": "☀ Dinero Diario",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para obtener nuevamente tu recompensa diaria.",
+        "cooldown": "🛑 | ¡Para! Debes esperar {{time}} para obtener nuevamente tu recompensa diaria.",
         "error": "❌ Lo siento, parece que hubo un error al sumar el dinero. Estamos trabajando en repararlo."
     },
     "deposite": {
@@ -38,7 +38,7 @@
         "sacaste": "Sacaste:",
         "ganas": "¡Adivinaste! Ganas {{money}}",
         "pierdes": "Perdiste... te quitan {{money}}",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para tirar de nuevo el dado."
+        "cooldown": "🛑 | ¡Para! Debes esperar {{time}} para tirar de nuevo el dado."
     },
     "flipcoin": {
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
@@ -47,7 +47,7 @@
         "sacaste": "Sacaste:",
         "ganas": "¡Adivinaste! Ganas {{money}}",
         "pierdes": "Perdiste... te quitan {{money}}",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para tirar de nuevo la moneda.",
+        "cooldown": "🛑 | ¡Para! Debes esperar {{time}} para tirar de nuevo la moneda.",
         "noMoney": "❌ | No cuentas con el dinero suficiente. Te falta `{{quantity}}`"
     },
     "rob": {
@@ -60,7 +60,7 @@
         "noRobMoney": "El usuario no tiene dinero, ¿cómo le quieres robar?",
         "mensaje": "✅ Le has conseguido robar {{robado}} a {{miembro}}. ¡¡¡ Disimula para que no se de cuenta !!!",
         "noMensaje": "❌ La policía te ha visto intentando robar a {{miembro}} y has tenido que pagar una multa de {{money}}, además le dieron la mitad a {{miembro}} por el incidente.",
-        "cooldown": "🛑 | ¡Para! debes esperar `{{time}}` para robarle a alguien mas.",
+        "cooldown": "🛑 | ¡Para! debes esperar {{time}} para robarle a alguien mas.",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "slotmachine": {
@@ -72,7 +72,7 @@
         "mensaje1": "Te llevas {{money}} de ganancia.",
         "mensaje2": "Te llevas {{money}} por sacar dos de tres.",
         "mensaje3": "Te quitan {{money}} por no sacar nada.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para tirar la ruleta de nuevo."
+        "cooldown": "🛑 | ¡Para! Debes esperar {{time}} para tirar la ruleta de nuevo."
     },
     "top": {
         "tu": "Tu Posición:",
@@ -86,7 +86,7 @@
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
         "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos.",
         "noMensaje": "❌ La policía pilló haciendo comercios peligrosos y has tenido que pagar una multa de {{money}}.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para hacer trabajos peligrosos nuevamente."
+        "cooldown": "🛑 | ¡Para! Debes esperar {{time}} para hacer trabajos peligrosos nuevamente."
     },
     "trans": {
         "title": "💱 Transferencia",
@@ -119,7 +119,7 @@
         "mensajeDar": "✅ ¡Acabas de dar {{money}} a {{miembro}} por haber hecho un trabajo!",
         "mensaje": "✅ ¡Recibes {{money}} por trabajar!",
         "bloqueado": "Tienes La Economía Bloqueada. Contacta con el staff del servidor para apelar el bloqueo.",
-        "cooldown": "🛑 | ¡Para! Debes esperar `{{time}}` para trabajar nuevamente.",
+        "cooldown": "🛑 | ¡Para! Debes esperar {{time}} para trabajar nuevamente.",
         "error": "❌ Lo siento, parece que hubo un error. Estamos trabajando en repararlo."
     }
 }

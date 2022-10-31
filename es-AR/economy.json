@@ -11,7 +11,7 @@
         "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
         "crime": "Recibiste {{crime}} por robarle al owner, ¡¡corré!!",
         "noCrime": "❌ Parece que no sabés entrar silenciosamente a los lugares y te quitaron {{money}}.",
-        "cooldown": "🛑 | ¡Pará! Esperá `{{time}}` para cometer nuevamente un crimen.",
+        "cooldown": "🛑 | ¡Pará! Esperá {{time}} para cometer nuevamente un crimen.",
         "error": "❌ Perdón, parece que hubo un error al sumar la plata. Estamos trabajando en repararlo."
     },
     "daily": {
@@ -20,7 +20,7 @@
         "h12": "12 hrs",
         "title": "☀ Plata Diaria",
         "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
-        "cooldown": "🛑 | ¡Pará! Esperá `{{time}}` para reclamar nuevamente tu plata diaria.",
+        "cooldown": "🛑 | ¡Pará! Esperá {{time}} para reclamar nuevamente tu plata diaria.",
         "error": "❌ Perdón, parece que hubo un error al sumar la plata. Estamos trabajando en repararlo."
     },
     "deposite": {
@@ -38,7 +38,7 @@
         "sacaste": "Sacaste:",
         "ganas": "¡Adivinaste! Ganás {{money}}",
         "pierdes": "Perdiste... te sacan {{money}}",
-        "cooldown": "🛑 | ¡Pará! Esperá `{{time}}` para tirar el dado."
+        "cooldown": "🛑 | ¡Pará! Esperá {{time}} para tirar el dado."
     },
     "flipcoin": {
         "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
@@ -47,7 +47,7 @@
         "sacaste": "Sacaste:",
         "ganas": "¡Adivinaste! Ganás {{money}}",
         "pierdes": "Perdiste... te sacan {{money}}",
-        "cooldown": "🛑 | ¡Pará! Esperá `{{time}}` para tirar la moneda al aire.",
+        "cooldown": "🛑 | ¡Pará! Esperá {{time}} para tirar la moneda al aire.",
         "noMoney": "❌ | No tenés la plata suficiente. Te falta `{{quantity}}`"
     },
     "rob": {
@@ -60,7 +60,7 @@
         "noRobMoney": "¿Cómo le querés chorear si no tiene nada?",
         "mensaje": "✅ Robo Exitoso. Le choreaste a {{miembro}} el total de {{robado}}. Ahora escapá mientras puedas.",
         "noMensaje": "❌ La ley te cayó de sorpresa y te sacó {{money}}, además de que le dieron la mitad de eso a {{miembro}} por el incidente.",
-        "cooldown": "🛑 | ¡Pará! Esperá`{{time}}` para chorearle a alguien mas.",
+        "cooldown": "🛑 | ¡Pará! Esperá{{time}} para chorearle a alguien mas.",
         "error": "❌ Perdón, parece que hubo un error. Estamos trabajando en repararlo."
     },
     "slotmachine": {
@@ -72,7 +72,7 @@
         "mensaje1": "Te llevas {{money}} de ganancia.",
         "mensaje2": "Te llevas {{money}} por sacar dos de tres.",
         "mensaje3": "Te quitan {{money}} por no sacar nada.",
-        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para tirar la ruleta."
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para tirar la ruleta."
     },
     "top": {
         "tu": "Tu Posición:",
@@ -86,7 +86,7 @@
         "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
         "mensaje": "✅ Has recibido {{money}} por hacer comercios peligrosos",
         "noMensaje": "❌ Parece que la policía te vio y te quitaron {{money}}.",
-        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para hacer trabajos indecentes nuevamente."
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para hacer trabajos indecentes nuevamente."
     },
     "trans": {
         "title": "💱 Transferencia",
@@ -119,7 +119,7 @@
         "mensajeDar": "✅ ¡Acabas de dar {{money}} monedas al usuario {{miembro}}!",
         "mensaje": "✅ ¡Acabas de recibir {{money}} monedas!",
         "bloqueado": "Tenés La Economía Bloqueada. Contactate con el staff del servidor para apelar.",
-        "cooldown": "🛑 | ¡Alto! Espere `{{time}}` para trabajar nuevamente.",
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para trabajar nuevamente.",
         "error": "❌ Perdón, parece que hubo un error. Estamos trabajando en repararlo."
     }
 }
