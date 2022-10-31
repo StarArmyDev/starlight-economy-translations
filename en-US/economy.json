@@ -11,7 +11,7 @@
         "bloqueado": "You have the Economy Locked. Contact the support server to appeal.",
         "crime": "You have received {{crime}} for stealing from the owner, correeee",
         "noCrime": "❌ It seems you don't know how to quietly enter the places and they took you away {{money}}.",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to commit a crime again.",
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para cometer nuevamente un crimen.",
         "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
     },
     "daily": {
@@ -20,7 +20,7 @@
         "h12": "12 hrs",
         "title": "☀ Daily Money",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to get your daily money again.",
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para obtener nuevamente tu dinero diario.",
         "error": "❌ Sorry, it seems that there was an error adding the money. We are working to repair it."
     },
     "deposite": {
@@ -38,7 +38,7 @@
         "sacaste": "You got:",
         "ganas": "You guessed it! You win {{money}}",
         "pierdes": "You lost ... they take away {{money}}",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to roll the die."
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para tirar el dado."
     },
     "flipcoin": {
         "bloqueado": "You Have The Blocked Economy. Contact the server staff to appeal.",
@@ -47,7 +47,7 @@
         "sacaste": "You got:",
         "ganas": "You guessed it! You win {{money}}",
         "pierdes": "You lost ... they take away {{money}}",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to flip the coin.",
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para tirar la moneda al aire.",
         "noMoney": "❌ | You don't have enough money. You are missing `{{quantity}}`"
     },
     "rob": {
@@ -60,7 +60,7 @@
         "noRobMoney": "How do you want to steal it if it has nothing?",
         "mensaje": "✅ Successful theft You have stolen {{miembro}} the total of {{robado}}. Now run away while you can.",
         "noMensaje": "❌ The law struck you by surprise and took you away {{money}}, besides they gave half of that to {{miembro}} for the incident.",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to steal from someone else.",
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para robarle a alguien mas.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     },
     "slotmachine": {
@@ -72,7 +72,7 @@
         "mensaje1": "You take {{money}} profit.",
         "mensaje2": "You get {{money}} for getting two out of three.",
         "mensaje3": "They take {{money}} from you for not getting anything.",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to spin the wheel."
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para tirar la ruleta."
     },
     "top": {
         "tu": "Your position:",
@@ -86,7 +86,7 @@
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
         "mensaje": "✅ You have received {{money}} for doing dangerous trades",
         "noMensaje": "❌ It looks like the police saw you and took you away {{money}}.",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to do indecent work again."
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para hacer trabajos indecentes nuevamente."
     },
     "trans": {
         "title": "💱 Transfer",
@@ -119,7 +119,7 @@
         "mensajeDar": "✅ You just gave {{money}} user coins {{miembro}}!",
         "mensaje": "✅ You just received {{money}} coins!",
         "bloqueado": "You have the Economy Locked. Contact the support guild to appeal.",
-        "cooldown": "🛑 | Stop! Wait `{{time}}` to work again.",
+        "cooldown": "🛑 | ¡Alto! Espere {{time}} para trabajar nuevamente.",
         "error": "❌ Sorry, it seems there was an error. We are working to repair it."
     }
 }
