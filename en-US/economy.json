@@ -76,10 +76,12 @@
     },
     "top": {
         "tu": "Your position:",
-        "dinero": "Money:",
-        "banco": "Bank:",
-        "title": "MONEY TOP  | **{{database}}**",
-        "paginas": "Page {{count}} from {{countDB}}"
+        "dinero": "Money",
+        "banco": "Bank",
+        "title": "Leaderboard | {{mode}} | {{database}}",
+        "paginas": "Page {{count}} from {{countDB}}",
+        "rank": "The position of {{user}} is:",
+        "total": "Total"
     },
     "trade": {
         "title": "💎🏬 Trade",

@@ -76,10 +76,12 @@
     },
     "top": {
         "tu": "Tu Posición:",
-        "dinero": "Cartera:",
-        "banco": "Banco:",
-        "title": "TOP DINERO | **{{database}}**",
-        "paginas": "Página {{count}} de {{countDB}}"
+        "dinero": "Cartera",
+        "banco": "Banco",
+        "title": "Leaderboard | {{mode}} | **{{database}}",
+        "paginas": "Página {{count}} de {{countDB}}",
+        "rank": "La posición de {{user}} es:",
+        "total": "Total"
     },
     "trade": {
         "title": "💎🏬 Comerciar",
